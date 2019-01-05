@@ -391,7 +391,7 @@ runWirelessTCP_Static(){
 	cross_flow=0;	#For now cross flow is kept at 0 ... all are parallel flows ... 
 
 
-
+	index_counter=1;
 	varyNodes
 	varyFlow
 	varyPacketsPerSec
@@ -402,6 +402,7 @@ runWirelessTCP_Mobile(){
 	staticOrMobile=1;	#Mobile
 	echo "Inside runWirelessTCP_Mobile line 356."
  	
+ 	index_counter=1;
  	varyNodes
  	varyFlow
  	varyPacketsPerSec
