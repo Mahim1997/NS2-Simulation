@@ -179,7 +179,9 @@ printf("Printing residual energy only for nodes which had initial energy\n");
 		#printf("Node %d, Initial Energy %f, Energy Consumption %f\n", i, initial_total_energy[i], energy_consumption[i]);
 		#if(residual_energy[i] > 0){
 		if(initial_total_energy[i] > 0){
-			printf("Node %d , Residual Energy (J) = %f\n", i, residual_energy[i]);
+			printf("Node %d, Initial Energy %f, Energy Consumption %f\n", i, initial_total_energy[i], energy_consumption[i]) >> "Check_Additional.txt";
+			printf("Node %d , Residual Energy (J) = %f\n", i, residual_energy[i]) >> "Check_Additional.txt";
+			printf("%d %f\n", i, residual_energy[i]) >> file_residualEnergy;
 		}
 	}
 
@@ -188,9 +190,16 @@ printf("\nNow printing per node throughput in bits per second (ONLY THOSE WITH N
 		if(start_time_per_node[i] != 100000 && throughput_per_node_bits[i] > 0){
 			#printf("Node %d, StartTime[i] = %f, EndTime[i] = %f\n", i, start_time_per_node[i],
 			#end_time_per_node[i]);
-			#printf("Node %d, del_time = %f\n", i, del_time[i]);
-			#printf("Node %d, received bytes per node = %f\n", i, received_bytes_per_node[i]);
+			printf("Node %d, del_time = %f\n", i, del_time[i]) >> "Check_Additional.txt";
+		printf("Node %d, received bytes per node = %f\n", i, received_bytes_per_node[i]) >> "Check_Additional.txt";
+	printf("Node %d, Per-Node Throughput %f bits/sec\n", i, throughput_per_node_bits[i]) >> "Check_Additional.txt";
+
 			printf("Node %d, Per-Node Throughput %f bits/sec\n", i, throughput_per_node_bits[i]);
+
+			printf("%d %f\n", i, throughput_per_node_bits[i]) >> file_perNodethroughput;
+			 
+		}else{
+			#printf("%d 0\n", i) >> file_perNodethroughput;
 		}
 	}
 
@@ -202,6 +211,5 @@ printf( "Throughput: %15.2f \nAverageDelay: %15.5f \nSent Packets: %15.2f \nRece
 	\nTotal time: %10.5f\n", rThroughput, rAverageDelay, nSentPackets, nReceivedPackets, nDropPackets, rPacketDeliveryRatio, rPacketDropRatio,rTime) ;
 
 	printf("Total_energy: %15.5f \nAvg_enr_per_bit: %15.5f \nAvg_enr_per_byte: %15.5f\
-	\nAvg_enr_per_pckt: %15.5f \nTotal_retransmit: %15.0f\n", total_energy_consumption, avg_energy_per_bit, avg_energy_per_byte, avg_energy_per_packet, total_retransmit);
- 
+	\nAvg_enr_per_pckt: %15.5f \nTotal_retransmit: %15.0f\n", total_energy_consumption, avg_energy_per_bit, avg_energy_per_byte, avg_energy_per_packet, total_retransmit); 
 }
