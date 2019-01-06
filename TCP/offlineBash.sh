@@ -297,13 +297,13 @@ varyNodes(){
 		#nodeNum=${nodes_arr[$i]};
 		rowNum=${rows_arr[$i]};
 		colNum=${cols_arr[$i]};
-		flowNum=${flows_arr[0]};
-		pkts_per_sec=${numberOfPacketsPerSec_arr[$constant_idx]};
+		flowNum=${flows_arr[1]};
+		pkts_per_sec=${numberOfPacketsPerSec_arr[4]};
 		get_cbr_interval "$pkts_per_sec" ;
 		cbr_interval=$cbr_interval_from_function;
-		coverage_coefficient=${coverageMultiplier_arr[$constant_idx]};
+		coverage_coefficient=${coverageMultiplier_arr[3]};
 		
-		speedOfNodesVaried=${speedOfNodes_arr[$constant_idx]};
+		speedOfNodesVaried=${speedOfNodes_arr[3]};
 		if [[ $staticOrMobile -eq 0 ]]; then
 			runOnce $rowNum $colNum $flowNum $cross_flow $cbr_interval $coverage_coefficient $index_counter $pkts_per_sec;			
 		elif [[ $staticOrMobile -eq 1 ]]; then
@@ -323,11 +323,11 @@ varyFlow(){
 		rowNum=${rows_arr[2]};
 		colNum=${cols_arr[2]};
 		flowNum=${flows_arr[$i]};
-		pkts_per_sec=${numberOfPacketsPerSec_arr[$constant_idx]};
+		pkts_per_sec=${numberOfPacketsPerSec_arr[4]};
 		get_cbr_interval "$pkts_per_sec" ;
 		cbr_interval=$cbr_interval_from_function;
-		coverage_coefficient=${coverageMultiplier_arr[$constant_idx]};
-		speedOfNodesVaried=${speedOfNodes_arr[$constant_idx]};
+		coverage_coefficient=${coverageMultiplier_arr[3]};
+		speedOfNodesVaried=${speedOfNodes_arr[3]};
 		if [[ $staticOrMobile -eq 0 ]]; then
 			runOnce $rowNum $colNum $flowNum $cross_flow $cbr_interval $coverage_coefficient $index_counter $pkts_per_sec;			
 		elif [[ $staticOrMobile -eq 1 ]]; then
@@ -344,13 +344,13 @@ varyPacketsPerSec(){
 	
 	for (( i = 0; i < $maxVariations; i++ )); do
 		#nodeNum=${nodes_arr[$i]};
-		rowNum=${rows_arr[$constant_idx]};
-		colNum=${cols_arr[$constant_idx]};
-		flowNum=${flows_arr[$constant_idx]};
+		rowNum=${rows_arr[1]};
+		colNum=${cols_arr[1]};
+		flowNum=${flows_arr[2]};
 		pkts_per_sec=${numberOfPacketsPerSec_arr[$i]};
 		get_cbr_interval "$pkts_per_sec" ;
 		cbr_interval=$cbr_interval_from_function;
-		coverage_coefficient=${coverageMultiplier_arr[$constant_idx]};
+		coverage_coefficient=${coverageMultiplier_arr[3]};
 		
 		speedOfNodesVaried=${speedOfNodes_arr[$constant_idx]};
 		if [[ $staticOrMobile -eq 0 ]]; then
@@ -368,10 +368,10 @@ varyTransmissionRange(){
 	
 	for (( i = 0; i < $maxVariations; i++ )); do
 		#nodeNum=${nodes_arr[$i]};
-		rowNum=${rows_arr[$constant_idx]};
-		colNum=${cols_arr[$constant_idx]};
-		flowNum=${flows_arr[$constant_idx]};
-		pkts_per_sec=${numberOfPacketsPerSec_arr[$constant_idx]};
+		rowNum=${rows_arr[1]};
+		colNum=${cols_arr[1]};
+		flowNum=${flows_arr[2]};
+		pkts_per_sec=${numberOfPacketsPerSec_arr[4]};
 		get_cbr_interval "$pkts_per_sec" ;
 		cbr_interval=$cbr_interval_from_function;
 		coverage_coefficient=${coverageMultiplier_arr[$i]};
@@ -388,10 +388,10 @@ varyNodeSpeed(){
 	
 	for (( i = 0; i < $maxVariations; i++ )); do
 		#nodeNum=${nodes_arr[$i]};
-		rowNum=${rows_arr[$constant_idx]};
-		colNum=${cols_arr[$constant_idx]};
-		flowNum=${flows_arr[$constant_idx]};
-		pkts_per_sec=${numberOfPacketsPerSec_arr[$constant_idx]};
+		rowNum=${rows_arr[1]};
+		colNum=${cols_arr[1]};
+		flowNum=${flows_arr[2]};
+		pkts_per_sec=${numberOfPacketsPerSec_arr[4]};
 		get_cbr_interval "$pkts_per_sec" ;
 		cbr_interval=$cbr_interval_from_function;
 		speedOfNodesVaried=${speedOfNodes_arr[$i]};
@@ -675,11 +675,11 @@ plotGraphStatic(){
  
 
 main(){
-	onlyAwk=0;	#0 for running all, 1 for running only awk files for testing
+	noRemove=0;	#0 for running all, 1 for running only awk files for testing
 
 	makeAllVariationParameters
 	
-	if [[ $onlyAwk -eq 0 ]]; then
+	if [[ $noRemove -eq 0 ]]; then
 		#Remove previous files
 		removeDirectories
 
