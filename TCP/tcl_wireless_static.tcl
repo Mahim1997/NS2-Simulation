@@ -40,12 +40,19 @@
 	set val(initialenergy_11)  			1000            ;# Initial energy in Joules
 	set val(idlepower_11) 				900e-3			;#Stargate (802.11b) 
 	set val(rxpower_11) 				925e-3			;#Stargate (802.11b)
-	set val(txpower_11) 				[expr $coefficientOfTX * 1425e-3]	;#Stargate (802.11b)
+	set val(txpower_11) 				1425e-3			;#Stargate (802.11b)
 	set val(sleeppower_11) 				300e-3			;#Stargate (802.11b)
 	set val(transitionpower_11) 		200e-3			;#Stargate (802.11b)	??????????????????????????????/
 	set val(transitiontime_11) 			3				;#Stargate (802.11b)
 
+	set nowValue [Phy/WirelessPhy set Pt_]              ;#   0.001
+	puts "INSIDE TCL FILE, INITIAL VALUE of Pt_ = $nowValue of Pt_"
+	set newValue_Pt [expr $coefficientOfTX * $coefficientOfTX * $nowValue];	#To change coverage area, multiply with coefficient^2 X Pt_
+	Phy/WirelessPhy set Pt_ 			$newValue_Pt;	
 
+	set nowValue [Phy/WirelessPhy set Pt_]              ;#   0.001
+	puts "INSIDE TCL FILE, AFTER CHANGING nowValue of Pt_ = $nowValue of Pt_"
+	
 
 	#e) Protocols and models for different layers
 
@@ -65,6 +72,7 @@
 	set val(rp) 						DSDV 						;# routing protocol
 
 
+	
 
 ######################################## STEP 1 done ###############################################
 

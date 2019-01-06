@@ -1,5 +1,9 @@
 #!/bin/bash
 ###############For png files
+description_arr_static=('802.11 Wireless Static');
+description_arr_mobile=('802.15.4 Wireless Mobile');
+description_arr_static_index=1;
+description_arr_mobile_index=1;
 staticOrMobile=0;	#0 = static, 1 = mobile
 parameters_arr=('Number of nodes' 'Number of flows' 'Number of packets per second' 'Tx_Range' 'Speed of nodes');
 textFile_arr=('NodeVarying' 'FlowVarying' 'PacketsPerSecVarying' 'Tx_RangeVarying' 'SpeedNodesVarying');
@@ -119,11 +123,11 @@ navigateToCSVFileUsingMode(){
 }
 
 ###############Default values/strings
-nam_pre_string="802.11_nam_";
+nam_pre_string="Nam_";
 nam_post_string=".nm";
-trace_pre_string="802.11_trace_";
+trace_pre_string="Trace_";
 trace_post_string=".tr";
-topo_pre_string="802.11_topo_";
+topo_pre_string="Topo_";
 topo_post_string=".txt";
 
 
@@ -231,14 +235,21 @@ runOnce(){
 	echo "startTime = $startTime, time_gap = $time_gap"
 	echo; echo;
 
+	numNodes=$(($num_row * num_col));
+	#echo -e "Nodes = $numNodes, Flow = $parallel_flow, Packets per second = $packets_per_sec, Coeverage area Multiplier = $coefficientOfTxRange\n\n" >> "Check.txt";
+	descriptionNow="Nodes = $numNodes, Flow = $parallel_flow, Packets per second = $packets_per_sec, Coeverage area Multiplier = $coefficientOfTxRange\n\n";
+	description_arr_static[description_arr_static_index]=$descriptionNow;
+	description_arr_static_index=$(($description_arr_static_index + 1));
+
 	ns "$tclFileName" $num_row $num_col \
 	$parallel_flow $cross_flow \
 	$cbr_interval $coefficientOfTxRange \
 	$namFileName $traceFileName \
 	$topoFileName $x_dim \
 	$y_dim $grid_1_random_0 \
-	$sizeOFNODE \
-	$startTime $time_gap
+	$startTime $time_gap\
+	$sizeOFNODE;
+	#echo; echo;
 }
 runMobileOnce(){
 	nodeNum=$1;
@@ -256,10 +267,14 @@ runMobileOnce(){
 
 	#echo "Inside runMobileOnce () nodeNum = $nodeNum, flowNum = $flowNum, packetsPerSec = $packetsPerSec, nodeSpeed = $nodeSpeed , indexGiven = $indexGiven";
 	#echo "Trace file name: $traceFileName , Nam File Name: $namFileName, Topo: $topoFileName";
+	descriptionNow="Number of Nodes = $nodeNum, Flow = $flowNum, Packets per sec = $packetsPerSec, Node speed = $nodeSpeed\n\n" ;
+	description_arr_mobile[description_arr_mobile_index]="$descriptionNow";
+	description_arr_mobile_index=$(($description_arr_mobile_index + 1));
 
+	echo -e "Number of Nodes = $nodeNum, Flow = $flowNum, Packets per sec = $packetsPerSec, Node speed = $nodeSpeed\n\n" ; #>> "Check.txt";
 	ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName
 	#echo "ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName";
-	echo;
+	#echo; echo;
 }
 
 ##############################################Changing arrays#########################################
@@ -390,6 +405,10 @@ runWirelessTCP_Static(){
 	staticOrMobile=0;	#Static
 	cross_flow=0;	#For now cross flow is kept at 0 ... all are parallel flows ... 
 
+	echo "Running 802.11 Wireless Static now ... ";
+
+	echo -e "Running 802.11 Wireless Static now ... \n\n" >> "Check.txt";
+# echo -e "Hai\nHello\nTesting\n"
 
 	index_counter=1;
 	varyNodes
@@ -400,7 +419,9 @@ runWirelessTCP_Static(){
 }
 runWirelessTCP_Mobile(){
 	staticOrMobile=1;	#Mobile
-	echo "Inside runWirelessTCP_Mobile line 356."
+	
+	echo "Running 802.15.4 Wireless Mobile now ... ";
+	echo -e "Running 802.15.4 Wireless Mobile now ... \n\n" >> "Check.txt";
  	
  	index_counter=1;
  	varyNodes
@@ -456,6 +477,7 @@ runAwk_Mobile(){
 	file5="$5";
 
 	startingIndexToParse="$6";
+
 	whatParameterIsVaried="$7";
 	whatParameterIsVaried=$(($whatParameterIsVaried - 1));
 	idxOfVariation=$(($whatParameterIsVaried*$maxVariations));
@@ -463,13 +485,19 @@ runAwk_Mobile(){
 	for (( i = 0; i < $maxVariations; i++ )); do
 		
 		indexParsing=$(($i + $startingIndexToParse));
+
+		descriptionToPrint=${description_arr_mobile[$(($indexParsing + 0))]};
+
 		get_trace_file $indexParsing
 		fileToParse=$trace_file_from_function; 
 		changed_var=${allVariationParameters[$idxOfVariation]};
 		idxOfVariation=$((idxOfVariation+1));
-		
+
+		echo -e "\n\n============================================================\n\n" >> "Check.txt";		
+		echo -e "$descriptionToPrint" >> "Check.txt";
+
 		awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function;
-	#	echo "awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function"; 
+		#echo "awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function"; 
 		echo; echo;
 	done	
 }
@@ -495,10 +523,14 @@ runAwk_Static(){
 		changed_var=${allVariationParameters[$idxOfVariation]};
 		idxOfVariation=$((idxOfVariation+1));
 		
+		descriptionToPrint=${description_arr_static[$(($indexParsing + 0))]};
+
+
+		echo -e "\n\n-------------------------------------------------\n\n" >> "Check.txt";
+		echo -e "$descriptionToPrint" >> "Check.txt";
 #echo "Going to run (NOT RUNNING) awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function";
 		awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function;
-#awk -v a="$var" -f $file wireless.tr
-#awk -f $awkFileName $trace_file_from_function
+		#echo "awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function;";
 		echo; echo;
 	done
 }
@@ -655,11 +687,13 @@ main(){
 		makeDirectories
 	fi
 
-	
+	echo "" > "Check.txt";
+
 	indexParsing=1;
 #Run for 802.11 static wireless
 	runWirelessTCP_Static
 #Run Awk Files to parse things
+	description_arr_static_index=1;
 	runAwkFiles_TCP_Static;
 #Plot graphs for static mode
 	plotGraphStatic;
@@ -671,13 +705,14 @@ main(){
 #Run for 802.15.4 mobile wireless
 	runWirelessTCP_Mobile;
 #Run Awk Files to parse things
+	description_arr_mobile_index=1;
 	runAwkFiles_TCP_Mobile;
 #Plot graphs for mobile mode
 	plotGraphMobile;
 
 
 	
-	
+	#Rename Check.txt to Report.txt
 
 	 
 

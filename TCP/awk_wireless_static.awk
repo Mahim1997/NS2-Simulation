@@ -25,10 +25,10 @@ BEGIN {
 	for (i=0; i<max_pckt; i++) {
 		retransmit[i] = 0;		
 	}
-	printf("Inside awk file ... file_throughput = %s, file_delay = %s, file_deliveryRatio = %s \
-	file_dropRatio = %s, file_energyConsumption = %s\n", file_throughput,file_delay,file_deliveryRatio,file_dropRatio, file_energyConsumption) >> "Check.txt";;
-	printf("Changed variable = %d\n", valueChanged) >> "Check.txt";
-	printf("\n\n") >> "Check.txt";
+	#printf("Inside awk file ... file_throughput = %s, file_delay = %s, file_deliveryRatio = %s \
+	#file_dropRatio = %s, file_energyConsumption = %s\n", #file_throughput,file_delay,file_deliveryRatio,file_dropRatio, file_energyConsumption) >> "Check.txt";;
+	#printf("Changed variable = %d\n", valueChanged) >> "Check.txt";
+	#printf("\n\n") >> "Check.txt";
 }
 
 {
@@ -136,6 +136,7 @@ printf( "Throughput: %15.2f \nAverageDelay: %15.5f \nSent Packets: %15.2f \nRece
 
 	printf("Total_energy: %15.5f \nAvg_enr_per_bit: %15.5f \nAvg_enr_per_byte: %15.5f\
 	\nAvg_enr_per_pckt: %15.5f \nTotal_retransmit: %15.0f\n", total_energy_consumption, avg_energy_per_bit, avg_energy_per_byte, avg_energy_per_packet, total_retransmit)>> "Check.txt";
+	printf("\n\n") >> "Check.txt";
 
 #This is text format for gnu plot
 	printf("%d %f\n", valueChanged, rThroughput) >> file_throughput;

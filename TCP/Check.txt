@@ -1,213 +1,476 @@
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EnergyConsumption.txt
-Changed variable = 4
+
+Running 802.11 Wireless Static now ... 
 
 
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EnergyConsumption.txt
-Changed variable = 4
 
 
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:           30.00 
-Received Packets:            0.00	
-Dropped Packets:            0.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.00	
-Total time:    9.00000
-Total_energy:         0.20600 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/NodeVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EnergyConsumption.txt
-Changed variable = 20
+-------------------------------------------------
 
 
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:           30.00 
-Received Packets:            0.00	
-Dropped Packets:            0.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.00	
-Total time:    9.00000
-Total_energy:         0.20700 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/NodeVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EnergyConsumption.txt
-Changed variable = 40
+Nodes = 20, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
 
 
-Throughput:         1002.41 
-AverageDelay:         0.05264 
-Sent Packets:          101.00 
-Received Packets:           66.00	
-Dropped Packets:            9.00 
-PacketDeliveryRatio:      65.35 
-PacketDropRatio:       8.91	
-Total time:   19.31350
-Total_energy:         0.45600 
-Avg_enr_per_bit:         0.00002 
-Avg_enr_per_byte:         0.00019	
-Avg_enr_per_pckt:         0.00691 
-Total_retransmit:              66
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/NodeVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EnergyConsumption.txt
-Changed variable = 60
+Throughput:       339469.78 
+AverageDelay:         0.61045 
+Sent Packets:         2508.00 
+Received Packets:         2417.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.37 
+PacketDropRatio:       3.15	
+Total time:   59.99992
+Total_energy:      2899.71600 
+Avg_enr_per_bit:         0.00014 
+Avg_enr_per_byte:         0.00114	
+Avg_enr_per_pckt:         1.19972 
+Total_retransmit:            4942
 
 
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:           30.00 
-Received Packets:            0.00	
-Dropped Packets:            0.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.00	
-Total time:    9.00000
-Total_energy:         0.63300 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/NodeVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EnergyConsumption.txt
-Changed variable = 80
 
 
-Throughput:        28831.15 
-AverageDelay:         0.01094 
-Sent Packets:         2029.00 
-Received Packets:         2001.00	
-Dropped Packets:            4.00 
-PacketDeliveryRatio:      98.62 
-PacketDropRatio:       0.20	
-Total time:   19.99504
-Total_energy:         2.09400 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00003	
-Avg_enr_per_pckt:         0.00105 
-Total_retransmit:            2002
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/NodeVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/NodeVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/NodeVarying_EnergyConsumption.txt
-Changed variable = 100
+-------------------------------------------------
 
 
-Throughput:        26658.39 
-AverageDelay:         0.01044 
-Sent Packets:         1789.00 
-Received Packets:         1739.00	
-Dropped Packets:           29.00 
-PacketDeliveryRatio:      97.21 
-PacketDropRatio:       1.62	
-Total time:   18.79423
-Total_energy:         2.44200 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00004	
-Avg_enr_per_pckt:         0.00140 
-Total_retransmit:            1741
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/FlowVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EnergyConsumption.txt
-Changed variable = 10
+Nodes = 40, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
 
 
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:           30.00 
-Received Packets:            0.00	
-Dropped Packets:            0.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.00	
-Total time:    9.00000
-Total_energy:         0.63400 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/FlowVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EnergyConsumption.txt
-Changed variable = 20
+Throughput:       151704.15 
+AverageDelay:         0.31246 
+Sent Packets:         1231.00 
+Received Packets:         1084.00	
+Dropped Packets:          647.00 
+PacketDeliveryRatio:      88.06 
+PacketDropRatio:      52.56	
+Total time:   59.96092
+Total_energy:      5822.05800 
+Avg_enr_per_bit:         0.00064 
+Avg_enr_per_byte:         0.00512	
+Avg_enr_per_pckt:         5.37090 
+Total_retransmit:            4605
 
 
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:           60.00 
-Received Packets:            0.00	
-Dropped Packets:            0.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.00	
-Total time:    9.00000
-Total_energy:         0.64000 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/FlowVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EnergyConsumption.txt
-Changed variable = 30
 
 
-Throughput:        15861.82 
-AverageDelay:         0.05990 
-Sent Packets:          944.00 
-Received Packets:          802.00	
-Dropped Packets:           70.00 
-PacketDeliveryRatio:      84.96 
-PacketDropRatio:       7.42	
-Total time:   14.59807
-Total_energy:         1.27200 
-Avg_enr_per_bit:         0.00001 
-Avg_enr_per_byte:         0.00004	
-Avg_enr_per_pckt:         0.00159 
-Total_retransmit:             801
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/FlowVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EnergyConsumption.txt
-Changed variable = 40
+-------------------------------------------------
 
 
-Throughput:         4684.53 
-AverageDelay:         0.03888 
-Sent Packets:          430.00 
-Received Packets:          301.00	
-Dropped Packets:           14.00 
-PacketDeliveryRatio:      70.00 
-PacketDropRatio:       3.26	
-Total time:   18.58029
-Total_energy:         0.82300 
-Avg_enr_per_bit:         0.00001 
-Avg_enr_per_byte:         0.00008	
-Avg_enr_per_pckt:         0.00273 
-Total_retransmit:             301
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/FlowVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/FlowVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/FlowVarying_EnergyConsumption.txt
-Changed variable = 50
+Nodes = 60, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
 
 
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:          150.00 
-Received Packets:            0.00	
-Dropped Packets:            1.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.67	
-Total time:    9.00000
-Total_energy:         0.63000 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EnergyConsumption.txt
-Changed variable = 100
+Throughput:       128093.53 
+AverageDelay:         0.23088 
+Sent Packets:         1090.00 
+Received Packets:          923.00	
+Dropped Packets:          451.00 
+PacketDeliveryRatio:      84.68 
+PacketDropRatio:      41.38	
+Total time:   59.97992
+Total_energy:      8716.97300 
+Avg_enr_per_bit:         0.00113 
+Avg_enr_per_byte:         0.00908	
+Avg_enr_per_pckt:         9.44417 
+Total_retransmit:            4831
 
 
-Throughput:        26614.31 
-AverageDelay:         0.01297 
-Sent Packets:         1833.00 
-Received Packets:         1760.00	
+
+
+-------------------------------------------------
+
+
+Nodes = 80, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       130732.26 
+AverageDelay:         0.36117 
+Sent Packets:         1122.00 
+Received Packets:          941.00	
+Dropped Packets:          704.00 
+PacketDeliveryRatio:      83.87 
+PacketDropRatio:      62.75	
+Total time:   59.99804
+Total_energy:     11616.37600 
+Avg_enr_per_bit:         0.00148 
+Avg_enr_per_byte:         0.01185	
+Avg_enr_per_pckt:        12.34471 
+Total_retransmit:            4659
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 100, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       124052.47 
+AverageDelay:         0.23333 
+Sent Packets:         1059.00 
+Received Packets:          890.00	
+Dropped Packets:          349.00 
+PacketDeliveryRatio:      84.04 
+PacketDropRatio:      32.96	
+Total time:   59.93593
+Total_energy:     14524.65700 
+Avg_enr_per_bit:         0.00195 
+Avg_enr_per_byte:         0.01563	
+Avg_enr_per_pckt:        16.31984 
+Total_retransmit:            4828
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       128093.53 
+AverageDelay:         0.23088 
+Sent Packets:         1090.00 
+Received Packets:          923.00	
+Dropped Packets:          451.00 
+PacketDeliveryRatio:      84.68 
+PacketDropRatio:      41.38	
+Total time:   59.97992
+Total_energy:      8716.97300 
+Avg_enr_per_bit:         0.00113 
+Avg_enr_per_byte:         0.00908	
+Avg_enr_per_pckt:         9.44417 
+Total_retransmit:            4831
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 20, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       205878.47 
+AverageDelay:         0.72335 
+Sent Packets:         1606.00 
+Received Packets:         1481.00	
+Dropped Packets:          231.00 
+PacketDeliveryRatio:      92.22 
+PacketDropRatio:      14.38	
+Total time:   59.99112
+Total_energy:      8700.98700 
+Avg_enr_per_bit:         0.00070 
+Avg_enr_per_byte:         0.00564	
+Avg_enr_per_pckt:         5.87508 
+Total_retransmit:            4924
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 30, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       421897.37 
+AverageDelay:         0.61718 
+Sent Packets:         3208.00 
+Received Packets:         3013.00	
+Dropped Packets:          264.00 
+PacketDeliveryRatio:      93.92 
+PacketDropRatio:       8.23	
+Total time:   59.99146
+Total_energy:      8719.92900 
+Avg_enr_per_bit:         0.00034 
+Avg_enr_per_byte:         0.00276	
+Avg_enr_per_pckt:         2.89410 
+Total_retransmit:            4884
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 40, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       443631.29 
+AverageDelay:         0.82966 
+Sent Packets:         3468.00 
+Received Packets:         3195.00	
+Dropped Packets:          413.00 
+PacketDeliveryRatio:      92.13 
+PacketDropRatio:      11.91	
+Total time:   59.99036
+Total_energy:      8723.61400 
+Avg_enr_per_bit:         0.00033 
+Avg_enr_per_byte:         0.00262	
+Avg_enr_per_pckt:         2.73040 
+Total_retransmit:            4887
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 50, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       430148.80 
+AverageDelay:         0.85525 
+Sent Packets:         3431.00 
+Received Packets:         3104.00	
+Dropped Packets:          540.00 
+PacketDeliveryRatio:      90.47 
+PacketDropRatio:      15.74	
+Total time:   59.98371
+Total_energy:      8719.01500 
+Avg_enr_per_bit:         0.00034 
+Avg_enr_per_byte:         0.00270	
+Avg_enr_per_pckt:         2.80896 
+Total_retransmit:            4886
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       339469.78 
+AverageDelay:         0.61045 
+Sent Packets:         2508.00 
+Received Packets:         2417.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.37 
+PacketDropRatio:       3.15	
+Total time:   59.99992
+Total_energy:      2899.71600 
+Avg_enr_per_bit:         0.00014 
+Avg_enr_per_byte:         0.00114	
+Avg_enr_per_pckt:         1.19972 
+Total_retransmit:            4942
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 200, Coeverage area Multiplier = 1
+
+
+Throughput:       339469.78 
+AverageDelay:         0.61045 
+Sent Packets:         2508.00 
+Received Packets:         2417.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.37 
+PacketDropRatio:       3.15	
+Total time:   59.99992
+Total_energy:      2899.71600 
+Avg_enr_per_bit:         0.00014 
+Avg_enr_per_byte:         0.00114	
+Avg_enr_per_pckt:         1.19972 
+Total_retransmit:            4942
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 300, Coeverage area Multiplier = 1
+
+
+Throughput:       339469.78 
+AverageDelay:         0.61045 
+Sent Packets:         2508.00 
+Received Packets:         2417.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.37 
+PacketDropRatio:       3.15	
+Total time:   59.99992
+Total_energy:      2899.71600 
+Avg_enr_per_bit:         0.00014 
+Avg_enr_per_byte:         0.00114	
+Avg_enr_per_pckt:         1.19972 
+Total_retransmit:            4942
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 400, Coeverage area Multiplier = 1
+
+
+Throughput:       339469.78 
+AverageDelay:         0.61045 
+Sent Packets:         2508.00 
+Received Packets:         2417.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.37 
+PacketDropRatio:       3.15	
+Total time:   59.99992
+Total_energy:      2899.71600 
+Avg_enr_per_bit:         0.00014 
+Avg_enr_per_byte:         0.00114	
+Avg_enr_per_pckt:         1.19972 
+Total_retransmit:            4942
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 500, Coeverage area Multiplier = 1
+
+
+Throughput:       339469.78 
+AverageDelay:         0.61045 
+Sent Packets:         2508.00 
+Received Packets:         2417.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.37 
+PacketDropRatio:       3.15	
+Total time:   59.99992
+Total_energy:      2899.71600 
+Avg_enr_per_bit:         0.00014 
+Avg_enr_per_byte:         0.00114	
+Avg_enr_per_pckt:         1.19972 
+Total_retransmit:            4942
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 1
+
+
+Throughput:       339469.78 
+AverageDelay:         0.61045 
+Sent Packets:         2508.00 
+Received Packets:         2417.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.37 
+PacketDropRatio:       3.15	
+Total time:   59.99992
+Total_energy:      2899.71600 
+Avg_enr_per_bit:         0.00014 
+Avg_enr_per_byte:         0.00114	
+Avg_enr_per_pckt:         1.19972 
+Total_retransmit:            4942
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 2
+
+
+Throughput:       325464.49 
+AverageDelay:         0.89423 
+Sent Packets:         2408.00 
+Received Packets:         2313.00	
+Dropped Packets:          128.00 
+PacketDeliveryRatio:      96.05 
+PacketDropRatio:       5.32	
+Total time:   59.99499
+Total_energy:      2908.16100 
+Avg_enr_per_bit:         0.00015 
+Avg_enr_per_byte:         0.00119	
+Avg_enr_per_pckt:         1.25731 
+Total_retransmit:            4909
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 3
+
+
+Throughput:       328412.19 
+AverageDelay:         0.91679 
+Sent Packets:         2423.00 
+Received Packets:         2333.00	
 Dropped Packets:           49.00 
-PacketDeliveryRatio:      96.02 
-PacketDropRatio:       2.67	
-Total time:   19.06583
-Total_energy:         0.94600 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00001	
-Avg_enr_per_pckt:         0.00054 
-Total_retransmit:            1760
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EnergyConsumption.txt
-Changed variable = 200
+PacketDeliveryRatio:      96.29 
+PacketDropRatio:       2.02	
+Total time:   59.99729
+Total_energy:      2932.57800 
+Avg_enr_per_bit:         0.00015 
+Avg_enr_per_byte:         0.00119	
+Avg_enr_per_pckt:         1.25700 
+Total_retransmit:            4884
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 4
+
+
+Throughput:       495178.21 
+AverageDelay:         0.73217 
+Sent Packets:         3652.00 
+Received Packets:         3513.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.19 
+PacketDropRatio:       2.16	
+Total time:   59.99909
+Total_energy:      2932.67500 
+Avg_enr_per_bit:         0.00010 
+Avg_enr_per_byte:         0.00079	
+Avg_enr_per_pckt:         0.83481 
+Total_retransmit:            4692
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 10, Packets per second = 100, Coeverage area Multiplier = 5
+
+
+Throughput:       495178.21 
+AverageDelay:         0.73217 
+Sent Packets:         3652.00 
+Received Packets:         3513.00	
+Dropped Packets:           79.00 
+PacketDeliveryRatio:      96.19 
+PacketDropRatio:       2.16	
+Total time:   59.99909
+Total_energy:      2932.67500 
+Avg_enr_per_bit:         0.00010 
+Avg_enr_per_byte:         0.00079	
+Avg_enr_per_pckt:         0.83481 
+Total_retransmit:            4692
+
+
+Running 802.15.4 Wireless Mobile now ... 
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 100, Node speed = 5
 
 
 Throughput:            0.00 
@@ -218,30 +481,19 @@ Dropped Packets:            1.00
 PacketDeliveryRatio:       0.00 
 PacketDropRatio:       3.33	
 Total time:    9.00000
-Total_energy:         0.20700 
-Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EnergyConsumption.txt
-Changed variable = 300
-
-
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:           30.00 
-Received Packets:            0.00	
-Dropped Packets:            0.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.00	
-Total time:    9.00000
 Total_energy:         0.20800 
 Avg_enr_per_bit:         0.00000 
 Avg_enr_per_byte:         0.00000	
 Avg_enr_per_pckt:         0.00000 
 Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EnergyConsumption.txt
-Changed variable = 400
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 10, Packets per sec = 100, Node speed = 5
 
 
 Throughput:            0.00 
@@ -252,13 +504,19 @@ Dropped Packets:            0.00
 PacketDeliveryRatio:       0.00 
 PacketDropRatio:       0.00	
 Total time:    9.00000
-Total_energy:         0.20300 
+Total_energy:         0.42200 
 Avg_enr_per_bit:         0.00000 
 Avg_enr_per_byte:         0.00000	
 Avg_enr_per_pckt:         0.00000 
 Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/PacketsPerSecVarying_EnergyConsumption.txt
-Changed variable = 500
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 10, Packets per sec = 100, Node speed = 5
 
 
 Throughput:            0.00 
@@ -269,81 +527,180 @@ Dropped Packets:            0.00
 PacketDeliveryRatio:       0.00 
 PacketDropRatio:       0.00	
 Total time:    9.00000
-Total_energy:         0.20600 
+Total_energy:         0.63700 
 Avg_enr_per_bit:         0.00000 
 Avg_enr_per_byte:         0.00000	
 Avg_enr_per_pckt:         0.00000 
 Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EnergyConsumption.txt
-Changed variable = 1
 
 
-Throughput:        14096.86 
-AverageDelay:         0.02463 
-Sent Packets:         1010.00 
-Received Packets:          946.00	
-Dropped Packets:           40.00 
-PacketDeliveryRatio:      93.66 
-PacketDropRatio:       3.96	
-Total time:   19.37679
-Total_energy:         0.58700 
+
+
+============================================================
+
+
+Number of Nodes = 80, Flow = 10, Packets per sec = 100, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.87700 
 Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00002	
-Avg_enr_per_pckt:         0.00062 
-Total_retransmit:             946
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EnergyConsumption.txt
-Changed variable = 2
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
 
 
-Throughput:        11320.34 
-AverageDelay:         0.04153 
-Sent Packets:          822.00 
-Received Packets:          783.00	
-Dropped Packets:           10.00 
-PacketDeliveryRatio:      95.26 
-PacketDropRatio:       1.22	
-Total time:   19.99940
-Total_energy:         0.55200 
+
+
+============================================================
+
+
+Number of Nodes = 100, Flow = 10, Packets per sec = 100, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         1.12200 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 10, Packets per sec = 100, Node speed = 5
+
+
+Throughput:        28831.61 
+AverageDelay:         0.00434 
+Sent Packets:         2028.00 
+Received Packets:         2001.00	
+Dropped Packets:            2.00 
+PacketDeliveryRatio:      98.67 
+PacketDropRatio:       0.10	
+Total time:   19.99472
+Total_energy:         1.40900 
 Avg_enr_per_bit:         0.00000 
 Avg_enr_per_byte:         0.00002	
 Avg_enr_per_pckt:         0.00070 
-Total_retransmit:             783
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EnergyConsumption.txt
-Changed variable = 3
+Total_retransmit:            2002
 
 
-Throughput:         4291.99 
-AverageDelay:         0.00857 
-Sent Packets:          273.00 
-Received Packets:          220.00	
-Dropped Packets:           26.00 
-PacketDeliveryRatio:      80.59 
-PacketDropRatio:       9.52	
-Total time:   14.80711
-Total_energy:         0.29800 
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 20, Packets per sec = 100, Node speed = 5
+
+
+Throughput:        28830.69 
+AverageDelay:         0.01126 
+Sent Packets:         2058.00 
+Received Packets:         2001.00	
+Dropped Packets:            4.00 
+PacketDeliveryRatio:      97.23 
+PacketDropRatio:       0.19	
+Total time:   19.99536
+Total_energy:         1.52200 
 Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00004	
-Avg_enr_per_pckt:         0.00135 
-Total_retransmit:             220
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EnergyConsumption.txt
-Changed variable = 4
+Avg_enr_per_byte:         0.00002	
+Avg_enr_per_pckt:         0.00076 
+Total_retransmit:            2001
 
 
-Throughput:            0.00 
-AverageDelay:         0.00000 
-Sent Packets:           30.00 
-Received Packets:            0.00	
-Dropped Packets:            0.00 
-PacketDeliveryRatio:       0.00 
-PacketDropRatio:       0.00	
-Total time:    9.00000
-Total_energy:         0.20600 
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 30, Packets per sec = 100, Node speed = 5
+
+
+Throughput:        19289.90 
+AverageDelay:         0.05747 
+Sent Packets:         1447.00 
+Received Packets:         1337.00	
+Dropped Packets:           99.00 
+PacketDeliveryRatio:      92.40 
+PacketDropRatio:       6.84	
+Total time:   19.99803
+Total_energy:         1.56900 
 Avg_enr_per_bit:         0.00000 
-Avg_enr_per_byte:         0.00000	
-Avg_enr_per_pckt:         0.00000 
-Total_retransmit:               0
-Inside awk file ... file_throughput = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_NetworkThroughput.txt, file_delay = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EndToEndDelay.txt, file_deliveryRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDeliveryRatio.txt 	file_dropRatio = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_PacketDropRatio.txt, file_energyConsumption = Mobile_Wireless_TCP/For_Graphs/SpeedNodesVarying_EnergyConsumption.txt
-Changed variable = 5
+Avg_enr_per_byte:         0.00003	
+Avg_enr_per_pckt:         0.00117 
+Total_retransmit:            1323
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 40, Packets per sec = 100, Node speed = 5
+
+
+Throughput:        28832.99 
+AverageDelay:         0.00434 
+Sent Packets:         2118.00 
+Received Packets:         2001.00	
+Dropped Packets:            2.00 
+PacketDeliveryRatio:      94.48 
+PacketDropRatio:       0.09	
+Total time:   19.99376
+Total_energy:         1.68000 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00002	
+Avg_enr_per_pckt:         0.00084 
+Total_retransmit:            2001
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 50, Packets per sec = 100, Node speed = 5
+
+
+Throughput:         9309.17 
+AverageDelay:         0.00462 
+Sent Packets:          774.00 
+Received Packets:          601.00	
+Dropped Packets:           30.00 
+PacketDeliveryRatio:      77.65 
+PacketDropRatio:       3.88	
+Total time:   18.61391
+Total_energy:         1.05400 
+Avg_enr_per_bit:         0.00001 
+Avg_enr_per_byte:         0.00005	
+Avg_enr_per_pckt:         0.00175 
+Total_retransmit:             602
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 100, Node speed = 5
 
 
 Throughput:            0.00 
@@ -359,3 +716,212 @@ Avg_enr_per_bit:         0.00000
 Avg_enr_per_byte:         0.00000	
 Avg_enr_per_pckt:         0.00000 
 Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 200, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.20600 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 300, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.21000 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 400, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.20500 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 500, Node speed = 5
+
+
+Throughput:        18271.11 
+AverageDelay:         0.04409 
+Sent Packets:         1256.00 
+Received Packets:         1217.00	
+Dropped Packets:           12.00 
+PacketDeliveryRatio:      96.89 
+PacketDropRatio:       0.96	
+Total time:   19.19358
+Total_energy:         0.73100 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00002	
+Avg_enr_per_pckt:         0.00060 
+Total_retransmit:            1217
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 100, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.20900 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 100, Node speed = 10
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.20600 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 100, Node speed = 15
+
+
+Throughput:        11768.84 
+AverageDelay:         0.03845 
+Sent Packets:          846.00 
+Received Packets:          816.00	
+Dropped Packets:            2.00 
+PacketDeliveryRatio:      96.45 
+PacketDropRatio:       0.24	
+Total time:   19.99858
+Total_energy:         0.55700 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00002	
+Avg_enr_per_pckt:         0.00068 
+Total_retransmit:             816
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 100, Node speed = 20
+
+
+Throughput:         5741.20 
+AverageDelay:         0.03626 
+Sent Packets:          419.00 
+Received Packets:          378.00	
+Dropped Packets:           14.00 
+PacketDeliveryRatio:      90.21 
+PacketDropRatio:       3.34	
+Total time:   19.02321
+Total_energy:         0.43400 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00003	
+Avg_enr_per_pckt:         0.00115 
+Total_retransmit:             378
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 10, Packets per sec = 100, Node speed = 25
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           30.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.20200 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
