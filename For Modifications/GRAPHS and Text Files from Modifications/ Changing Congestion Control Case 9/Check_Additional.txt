@@ -1,0 +1,2801 @@
+
+Node 0, Initial Energy 908.704194, Energy Consumption 145.765000
+Node 0 , Residual Energy (J) = 762.939194
+Node 1, Initial Energy 909.852665, Energy Consumption 144.602000
+Node 1 , Residual Energy (J) = 765.250665
+Node 2, Initial Energy 909.710353, Energy Consumption 146.559000
+Node 2 , Residual Energy (J) = 763.151353
+Node 3, Initial Energy 909.864548, Energy Consumption 146.244000
+Node 3 , Residual Energy (J) = 763.620548
+Node 4, Initial Energy 904.613829, Energy Consumption 144.840000
+Node 4 , Residual Energy (J) = 759.773829
+Node 5, Initial Energy 909.851852, Energy Consumption 145.962000
+Node 5 , Residual Energy (J) = 763.889852
+Node 6, Initial Energy 906.731824, Energy Consumption 146.759000
+Node 6 , Residual Energy (J) = 759.972824
+Node 7, Initial Energy 909.967419, Energy Consumption 149.217000
+Node 7 , Residual Energy (J) = 760.750419
+Node 8, Initial Energy 905.342970, Energy Consumption 148.096000
+Node 8 , Residual Energy (J) = 757.246970
+Node 9, Initial Energy 909.832796, Energy Consumption 146.455000
+Node 9 , Residual Energy (J) = 763.377796
+Node 10, Initial Energy 909.849218, Energy Consumption 146.250000
+Node 10 , Residual Energy (J) = 763.599218
+Node 11, Initial Energy 909.711181, Energy Consumption 146.954000
+Node 11 , Residual Energy (J) = 762.757181
+Node 12, Initial Energy 909.962663, Energy Consumption 149.056000
+Node 12 , Residual Energy (J) = 760.906663
+Node 13, Initial Energy 909.945995, Energy Consumption 149.195000
+Node 13 , Residual Energy (J) = 760.750995
+Node 14, Initial Energy 909.871725, Energy Consumption 146.282000
+Node 14 , Residual Energy (J) = 763.589725
+Node 15, Initial Energy 909.931721, Energy Consumption 145.515000
+Node 15 , Residual Energy (J) = 764.416721
+Node 16, Initial Energy 909.907803, Energy Consumption 146.439000
+Node 16 , Residual Energy (J) = 763.468803
+Node 17, Initial Energy 909.748547, Energy Consumption 146.086000
+Node 17 , Residual Energy (J) = 763.662547
+Node 18, Initial Energy 909.865488, Energy Consumption 145.478000
+Node 18 , Residual Energy (J) = 764.387488
+Node 19, Initial Energy 909.870196, Energy Consumption 145.637000
+Node 19 , Residual Energy (J) = 764.233196
+Node 0, del_time = 59.754702
+Node 0, received bytes per node = 79560.000000
+Node 0, Per-Node Throughput 10651.546695 bits/sec
+Node 1, del_time = 49.613235
+Node 1, received bytes per node = 41400.000000
+Node 1, Per-Node Throughput 6675.638086 bits/sec
+Node 2, del_time = 57.840284
+Node 2, received bytes per node = 83800.000000
+Node 2, Per-Node Throughput 11590.537920 bits/sec
+Node 3, del_time = 59.943263
+Node 3, received bytes per node = 186620.000000
+Node 3, Per-Node Throughput 24906.218556 bits/sec
+Node 4, del_time = 58.654371
+Node 4, received bytes per node = 56240.000000
+Node 4, Per-Node Throughput 7670.698584 bits/sec
+Node 5, del_time = 59.899072
+Node 5, received bytes per node = 107120.000000
+Node 5, Per-Node Throughput 14306.732481 bits/sec
+Node 6, del_time = 58.034125
+Node 6, received bytes per node = 355160.000000
+Node 6, Per-Node Throughput 48958.780313 bits/sec
+Node 7, del_time = 59.970489
+Node 7, received bytes per node = 410280.000000
+Node 7, Per-Node Throughput 54730.919827 bits/sec
+Node 8, del_time = 59.842540
+Node 8, received bytes per node = 158000.000000
+Node 8, Per-Node Throughput 21122.098083 bits/sec
+Node 9, del_time = 59.997522
+Node 9, received bytes per node = 130440.000000
+Node 9, Per-Node Throughput 17392.718431 bits/sec
+Node 10, del_time = 59.874917
+Node 10, received bytes per node = 158000.000000
+Node 10, Per-Node Throughput 21110.676426 bits/sec
+Node 11, del_time = 59.000320
+Node 11, received bytes per node = 473880.000000
+Node 11, Per-Node Throughput 64254.566624 bits/sec
+Node 12, del_time = 59.968342
+Node 12, received bytes per node = 185560.000000
+Node 12, Per-Node Throughput 24754.394459 bits/sec
+Node 13, del_time = 57.269047
+Node 13, received bytes per node = 286260.000000
+Node 13, Per-Node Throughput 39988.093524 bits/sec
+Node 14, del_time = 59.913396
+Node 14, received bytes per node = 66840.000000
+Node 14, Per-Node Throughput 8924.882113 bits/sec
+Node 15, del_time = 56.819162
+Node 15, received bytes per node = 45640.000000
+Node 15, Per-Node Throughput 6426.001191 bits/sec
+Node 16, del_time = 59.600376
+Node 16, received bytes per node = 88040.000000
+Node 16, Per-Node Throughput 11817.375016 bits/sec
+Node 17, del_time = 56.028507
+Node 17, received bytes per node = 80620.000000
+Node 17, Per-Node Throughput 11511.282921 bits/sec
+Node 18, del_time = 48.920079
+Node 18, received bytes per node = 66840.000000
+Node 18, Per-Node Throughput 10930.481109 bits/sec
+Node 19, del_time = 59.687196
+Node 19, received bytes per node = 76380.000000
+Node 19, Per-Node Throughput 10237.371598 bits/sec
+
+
+
+Node 20, Initial Energy 909.884798, Energy Consumption 147.044000
+Node 20 , Residual Energy (J) = 762.840798
+Node 21, Initial Energy 909.255254, Energy Consumption 146.424000
+Node 21 , Residual Energy (J) = 762.831254
+Node 22, Initial Energy 909.450638, Energy Consumption 145.439000
+Node 22 , Residual Energy (J) = 764.011638
+Node 23, Initial Energy 909.736964, Energy Consumption 145.509000
+Node 23 , Residual Energy (J) = 764.227964
+Node 24, Initial Energy 909.566872, Energy Consumption 144.485000
+Node 24 , Residual Energy (J) = 765.081872
+Node 25, Initial Energy 909.534779, Energy Consumption 144.538000
+Node 25 , Residual Energy (J) = 764.996779
+Node 26, Initial Energy 901.319628, Energy Consumption 146.129000
+Node 26 , Residual Energy (J) = 755.190628
+Node 27, Initial Energy 909.892794, Energy Consumption 146.286000
+Node 27 , Residual Energy (J) = 763.606794
+Node 28, Initial Energy 907.122157, Energy Consumption 145.694000
+Node 28 , Residual Energy (J) = 761.428157
+Node 29, Initial Energy 909.869663, Energy Consumption 145.996000
+Node 29 , Residual Energy (J) = 763.873663
+Node 30, Initial Energy 909.538501, Energy Consumption 145.572000
+Node 30 , Residual Energy (J) = 763.966501
+Node 31, Initial Energy 901.311899, Energy Consumption 144.933000
+Node 31 , Residual Energy (J) = 756.378899
+Node 32, Initial Energy 901.103850, Energy Consumption 144.373000
+Node 32 , Residual Energy (J) = 756.730850
+Node 33, Initial Energy 909.897933, Energy Consumption 144.493000
+Node 33 , Residual Energy (J) = 765.404933
+Node 34, Initial Energy 904.897275, Energy Consumption 145.532000
+Node 34 , Residual Energy (J) = 759.365275
+Node 35, Initial Energy 902.881708, Energy Consumption 145.512000
+Node 35 , Residual Energy (J) = 757.369708
+Node 36, Initial Energy 902.829444, Energy Consumption 144.858000
+Node 36 , Residual Energy (J) = 757.971444
+Node 37, Initial Energy 909.733402, Energy Consumption 144.900000
+Node 37 , Residual Energy (J) = 764.833402
+Node 38, Initial Energy 909.633004, Energy Consumption 145.125000
+Node 38 , Residual Energy (J) = 764.508004
+Node 39, Initial Energy 909.251741, Energy Consumption 145.479000
+Node 39 , Residual Energy (J) = 763.772741
+Node 20, del_time = 58.845077
+Node 20, received bytes per node = 504620.000000
+Node 20, Per-Node Throughput 68603.189814 bits/sec
+Node 21, del_time = 59.198681
+Node 21, received bytes per node = 675280.000000
+Node 21, Per-Node Throughput 91256.087620 bits/sec
+Node 22, del_time = 52.796289
+Node 22, received bytes per node = 50940.000000
+Node 22, Per-Node Throughput 7718.724264 bits/sec
+Node 23, del_time = 49.762578
+Node 23, received bytes per node = 66840.000000
+Node 23, Per-Node Throughput 10745.424080 bits/sec
+Node 24, del_time = 48.130505
+Node 24, received bytes per node = 29740.000000
+Node 24, Per-Node Throughput 4943.226791 bits/sec
+Node 25, del_time = 55.984834
+Node 25, received bytes per node = 70140.000000
+Node 25, Per-Node Throughput 10022.714335 bits/sec
+Node 26, del_time = 39.855854
+Node 26, received bytes per node = 83860.000000
+Node 26, Per-Node Throughput 16832.659084 bits/sec
+Node 27, del_time = 59.073444
+Node 27, received bytes per node = 510980.000000
+Node 27, Per-Node Throughput 69199.283050 bits/sec
+Node 28, del_time = 55.047203
+Node 28, received bytes per node = 540660.000000
+Node 28, Per-Node Throughput 78574.019766 bits/sec
+Node 29, del_time = 57.921595
+Node 29, received bytes per node = 139980.000000
+Node 29, Per-Node Throughput 19333.721580 bits/sec
+Node 30, del_time = 59.525630
+Node 30, received bytes per node = 98640.000000
+Node 30, Per-Node Throughput 13256.810494 bits/sec
+Node 31, del_time = 33.998307
+Node 31, received bytes per node = 10720.000000
+Node 31, Per-Node Throughput 2522.478515 bits/sec
+Node 32, del_time = 30.343421
+Node 32, received bytes per node = 6420.000000
+Node 32, Per-Node Throughput 1692.623921 bits/sec
+Node 33, del_time = 46.876535
+Node 33, received bytes per node = 48820.000000
+Node 33, Per-Node Throughput 8331.673888 bits/sec
+Node 34, del_time = 53.114442
+Node 34, received bytes per node = 93400.000000
+Node 34, Per-Node Throughput 14067.737098 bits/sec
+Node 35, del_time = 52.141570
+Node 35, received bytes per node = 103940.000000
+Node 35, Per-Node Throughput 15947.352502 bits/sec
+Node 36, del_time = 50.069616
+Node 36, received bytes per node = 48820.000000
+Node 36, Per-Node Throughput 7800.339395 bits/sec
+Node 37, del_time = 57.362946
+Node 37, received bytes per node = 114540.000000
+Node 37, Per-Node Throughput 15974.075021 bits/sec
+Node 38, del_time = 59.167359
+Node 38, received bytes per node = 85920.000000
+Node 38, Per-Node Throughput 11617.216263 bits/sec
+Node 39, del_time = 59.230186
+Node 39, received bytes per node = 32920.000000
+Node 39, Per-Node Throughput 4446.381427 bits/sec
+
+
+
+Node 40, Initial Energy 907.039043, Energy Consumption 145.240000
+Node 40 , Residual Energy (J) = 761.799043
+Node 41, Initial Energy 909.744465, Energy Consumption 145.638000
+Node 41 , Residual Energy (J) = 764.106465
+Node 42, Initial Energy 906.998101, Energy Consumption 145.554000
+Node 42 , Residual Energy (J) = 761.444101
+Node 43, Initial Energy 908.100469, Energy Consumption 145.338000
+Node 43 , Residual Energy (J) = 762.762469
+Node 44, Initial Energy 909.924329, Energy Consumption 145.947000
+Node 44 , Residual Energy (J) = 763.977329
+Node 45, Initial Energy 909.727428, Energy Consumption 146.305000
+Node 45 , Residual Energy (J) = 763.422428
+Node 46, Initial Energy 909.710514, Energy Consumption 145.532000
+Node 46 , Residual Energy (J) = 764.178514
+Node 47, Initial Energy 909.729715, Energy Consumption 145.425000
+Node 47 , Residual Energy (J) = 764.304715
+Node 48, Initial Energy 906.759490, Energy Consumption 145.409000
+Node 48 , Residual Energy (J) = 761.350490
+Node 49, Initial Energy 905.824455, Energy Consumption 145.317000
+Node 49 , Residual Energy (J) = 760.507455
+Node 50, Initial Energy 900.833195, Energy Consumption 145.176000
+Node 50 , Residual Energy (J) = 755.657195
+Node 51, Initial Energy 909.407339, Energy Consumption 145.639000
+Node 51 , Residual Energy (J) = 763.768339
+Node 52, Initial Energy 909.712755, Energy Consumption 145.356000
+Node 52 , Residual Energy (J) = 764.356755
+Node 53, Initial Energy 909.705240, Energy Consumption 145.464000
+Node 53 , Residual Energy (J) = 764.241240
+Node 54, Initial Energy 909.778263, Energy Consumption 145.494000
+Node 54 , Residual Energy (J) = 764.284263
+Node 55, Initial Energy 909.706479, Energy Consumption 145.482000
+Node 55 , Residual Energy (J) = 764.224479
+Node 56, Initial Energy 908.118297, Energy Consumption 145.506000
+Node 56 , Residual Energy (J) = 762.612297
+Node 57, Initial Energy 909.720283, Energy Consumption 145.404000
+Node 57 , Residual Energy (J) = 764.316283
+Node 58, Initial Energy 909.793753, Energy Consumption 145.338000
+Node 58 , Residual Energy (J) = 764.455753
+Node 59, Initial Energy 909.796906, Energy Consumption 145.298000
+Node 59 , Residual Energy (J) = 764.498906
+Node 40, del_time = 49.988581
+Node 40, received bytes per node = 69020.000000
+Node 40, Per-Node Throughput 11045.722572 bits/sec
+Node 41, del_time = 59.372430
+Node 41, received bytes per node = 141040.000000
+Node 41, Per-Node Throughput 19004.106876 bits/sec
+Node 42, del_time = 56.628129
+Node 42, received bytes per node = 163300.000000
+Node 42, Per-Node Throughput 23069.806684 bits/sec
+Node 43, del_time = 57.212754
+Node 43, received bytes per node = 76440.000000
+Node 43, Per-Node Throughput 10688.525813 bits/sec
+Node 44, del_time = 59.903052
+Node 44, received bytes per node = 508860.000000
+Node 44, Per-Node Throughput 67957.806381 bits/sec
+Node 45, del_time = 59.766906
+Node 45, received bytes per node = 487660.000000
+Node 45, Per-Node Throughput 65274.919365 bits/sec
+Node 46, del_time = 57.956313
+Node 46, received bytes per node = 108240.000000
+Node 46, Per-Node Throughput 14940.908920 bits/sec
+Node 47, del_time = 59.349316
+Node 47, received bytes per node = 124080.000000
+Node 47, Per-Node Throughput 16725.382382 bits/sec
+Node 48, del_time = 53.048179
+Node 48, received bytes per node = 56300.000000
+Node 48, Per-Node Throughput 8490.395047 bits/sec
+Node 49, del_time = 49.685379
+Node 49, received bytes per node = 33040.000000
+Node 49, Per-Node Throughput 5319.874847 bits/sec
+Node 50, del_time = 35.492956
+Node 50, received bytes per node = 6420.000000
+Node 50, Per-Node Throughput 1447.047696 bits/sec
+Node 51, del_time = 59.411763
+Node 51, received bytes per node = 67900.000000
+Node 51, Per-Node Throughput 9142.970483 bits/sec
+Node 52, del_time = 56.984465
+Node 52, received bytes per node = 133620.000000
+Node 52, Per-Node Throughput 18758.796791 bits/sec
+Node 53, del_time = 49.489710
+Node 53, received bytes per node = 126260.000000
+Node 53, Per-Node Throughput 20409.899335 bits/sec
+Node 54, del_time = 49.752374
+Node 54, received bytes per node = 103940.000000
+Node 54, Per-Node Throughput 16713.172457 bits/sec
+Node 55, del_time = 58.608135
+Node 55, received bytes per node = 112480.000000
+Node 55, Per-Node Throughput 15353.499920 bits/sec
+Node 56, del_time = 56.676867
+Node 56, received bytes per node = 144220.000000
+Node 56, Per-Node Throughput 20356.806384 bits/sec
+Node 57, del_time = 57.986776
+Node 57, received bytes per node = 101820.000000
+Node 57, Per-Node Throughput 14047.340666 bits/sec
+Node 58, del_time = 57.761341
+Node 58, received bytes per node = 47820.000000
+Node 58, Per-Node Throughput 6623.114971 bits/sec
+Node 59, del_time = 48.430532
+Node 59, received bytes per node = 31860.000000
+Node 59, Per-Node Throughput 5262.795743 bits/sec
+
+
+
+Node 60, Initial Energy 876.354368, Energy Consumption 145.197000
+Node 60 , Residual Energy (J) = 731.157368
+Node 61, Initial Energy 909.866269, Energy Consumption 145.427000
+Node 61 , Residual Energy (J) = 764.439269
+Node 62, Initial Energy 909.484419, Energy Consumption 145.426000
+Node 62 , Residual Energy (J) = 764.058419
+Node 63, Initial Energy 909.753575, Energy Consumption 145.791000
+Node 63 , Residual Energy (J) = 763.962575
+Node 64, Initial Energy 902.764732, Energy Consumption 145.504000
+Node 64 , Residual Energy (J) = 757.260732
+Node 65, Initial Energy 909.774821, Energy Consumption 145.818000
+Node 65 , Residual Energy (J) = 763.956821
+Node 66, Initial Energy 909.800235, Energy Consumption 145.816000
+Node 66 , Residual Energy (J) = 763.984235
+Node 67, Initial Energy 906.820619, Energy Consumption 145.705000
+Node 67 , Residual Energy (J) = 761.115619
+Node 68, Initial Energy 909.716086, Energy Consumption 144.989000
+Node 68 , Residual Energy (J) = 764.727086
+Node 69, Initial Energy 909.728094, Energy Consumption 144.915000
+Node 69 , Residual Energy (J) = 764.813094
+Node 70, Initial Energy 909.738203, Energy Consumption 145.164000
+Node 70 , Residual Energy (J) = 764.574203
+Node 71, Initial Energy 906.107030, Energy Consumption 145.196000
+Node 71 , Residual Energy (J) = 760.911030
+Node 72, Initial Energy 906.870609, Energy Consumption 145.423000
+Node 72 , Residual Energy (J) = 761.447609
+Node 73, Initial Energy 901.506496, Energy Consumption 145.659000
+Node 73 , Residual Energy (J) = 755.847496
+Node 74, Initial Energy 909.767030, Energy Consumption 145.762000
+Node 74 , Residual Energy (J) = 764.005030
+Node 75, Initial Energy 906.933374, Energy Consumption 145.730000
+Node 75 , Residual Energy (J) = 761.203374
+Node 76, Initial Energy 906.855587, Energy Consumption 145.413000
+Node 76 , Residual Energy (J) = 761.442587
+Node 77, Initial Energy 901.388997, Energy Consumption 145.269000
+Node 77 , Residual Energy (J) = 756.119997
+Node 78, Initial Energy 909.769426, Energy Consumption 144.922000
+Node 78 , Residual Energy (J) = 764.847426
+Node 79, Initial Energy 906.640081, Energy Consumption 145.454000
+Node 79 , Residual Energy (J) = 761.186081
+Node 60, del_time = 23.193901
+Node 60, received bytes per node = 9600.000000
+Node 60, Per-Node Throughput 3311.215330 bits/sec
+Node 61, del_time = 49.350944
+Node 61, received bytes per node = 101820.000000
+Node 61, Per-Node Throughput 16505.459386 bits/sec
+Node 62, del_time = 58.088410
+Node 62, received bytes per node = 126260.000000
+Node 62, Per-Node Throughput 17388.666560 bits/sec
+Node 63, del_time = 59.773465
+Node 63, received bytes per node = 247040.000000
+Node 63, Per-Node Throughput 33063.500764 bits/sec
+Node 64, del_time = 52.060490
+Node 64, received bytes per node = 25560.000000
+Node 64, Per-Node Throughput 3927.738647 bits/sec
+Node 65, del_time = 59.849921
+Node 65, received bytes per node = 212060.000000
+Node 65, Per-Node Throughput 28345.568105 bits/sec
+Node 66, del_time = 59.863878
+Node 66, received bytes per node = 198340.000000
+Node 66, Per-Node Throughput 26505.466215 bits/sec
+Node 67, del_time = 56.012270
+Node 67, received bytes per node = 215240.000000
+Node 67, Per-Node Throughput 30741.835879 bits/sec
+Node 68, del_time = 58.896819
+Node 68, received bytes per node = 128320.000000
+Node 68, Per-Node Throughput 17429.803841 bits/sec
+Node 69, del_time = 54.399951
+Node 69, received bytes per node = 67900.000000
+Node 69, Per-Node Throughput 9985.303190 bits/sec
+Node 70, del_time = 27.154344
+Node 70, received bytes per node = 10720.000000
+Node 70, Per-Node Throughput 3158.242384 bits/sec
+Node 71, del_time = 41.146551
+Node 71, received bytes per node = 17080.000000
+Node 71, Per-Node Throughput 3320.812931 bits/sec
+Node 72, del_time = 50.911504
+Node 72, received bytes per node = 107120.000000
+Node 72, Per-Node Throughput 16832.345084 bits/sec
+Node 73, del_time = 49.737917
+Node 73, received bytes per node = 158000.000000
+Node 73, Per-Node Throughput 25413.207616 bits/sec
+Node 74, del_time = 59.814703
+Node 74, received bytes per node = 161180.000000
+Node 74, Per-Node Throughput 21557.241439 bits/sec
+Node 75, del_time = 42.929982
+Node 75, received bytes per node = 96520.000000
+Node 75, Per-Node Throughput 17986.497375 bits/sec
+Node 76, del_time = 54.441833
+Node 76, received bytes per node = 101820.000000
+Node 76, Per-Node Throughput 14962.023703 bits/sec
+Node 77, del_time = 47.851351
+Node 77, received bytes per node = 26560.000000
+Node 77, Per-Node Throughput 4440.417984 bits/sec
+Node 78, del_time = 54.325122
+Node 78, received bytes per node = 74260.000000
+Node 78, Per-Node Throughput 10935.640500 bits/sec
+Node 79, del_time = 55.830295
+Node 79, received bytes per node = 27620.000000
+Node 79, Per-Node Throughput 3957.707894 bits/sec
+
+
+
+Node 80, Initial Energy 909.024733, Energy Consumption 145.503000
+Node 80 , Residual Energy (J) = 763.521733
+Node 81, Initial Energy 889.832083, Energy Consumption 145.519000
+Node 81 , Residual Energy (J) = 744.313083
+Node 82, Initial Energy 909.678880, Energy Consumption 145.651000
+Node 82 , Residual Energy (J) = 764.027880
+Node 83, Initial Energy 909.529961, Energy Consumption 145.623000
+Node 83 , Residual Energy (J) = 763.906961
+Node 84, Initial Energy 906.431251, Energy Consumption 145.661000
+Node 84 , Residual Energy (J) = 760.770251
+Node 85, Initial Energy 909.786443, Energy Consumption 145.521000
+Node 85 , Residual Energy (J) = 764.265443
+Node 86, Initial Energy 909.736971, Energy Consumption 145.387000
+Node 86 , Residual Energy (J) = 764.349971
+Node 87, Initial Energy 909.750539, Energy Consumption 145.397000
+Node 87 , Residual Energy (J) = 764.353539
+Node 88, Initial Energy 909.606394, Energy Consumption 145.591000
+Node 88 , Residual Energy (J) = 764.015394
+Node 89, Initial Energy 909.691452, Energy Consumption 145.612000
+Node 89 , Residual Energy (J) = 764.079452
+Node 90, Initial Energy 905.887536, Energy Consumption 145.413000
+Node 90 , Residual Energy (J) = 760.474536
+Node 91, Initial Energy 909.367815, Energy Consumption 145.484000
+Node 91 , Residual Energy (J) = 763.883815
+Node 92, Initial Energy 909.766578, Energy Consumption 145.544000
+Node 92 , Residual Energy (J) = 764.222578
+Node 93, Initial Energy 909.762598, Energy Consumption 145.591000
+Node 93 , Residual Energy (J) = 764.171598
+Node 94, Initial Energy 909.456127, Energy Consumption 145.505000
+Node 94 , Residual Energy (J) = 763.951127
+Node 95, Initial Energy 900.405562, Energy Consumption 145.676000
+Node 95 , Residual Energy (J) = 754.729562
+Node 96, Initial Energy 909.612963, Energy Consumption 145.537000
+Node 96 , Residual Energy (J) = 764.075963
+Node 97, Initial Energy 886.323535, Energy Consumption 145.703000
+Node 97 , Residual Energy (J) = 740.620535
+Node 98, Initial Energy 909.674703, Energy Consumption 145.330000
+Node 98 , Residual Energy (J) = 764.344703
+Node 99, Initial Energy 909.591812, Energy Consumption 145.224000
+Node 99 , Residual Energy (J) = 764.367812
+Node 80, del_time = 47.882425
+Node 80, received bytes per node = 42460.000000
+Node 80, Per-Node Throughput 7094.043408 bits/sec
+Node 81, del_time = 37.320238
+Node 81, received bytes per node = 72200.000000
+Node 81, Per-Node Throughput 15476.857545 bits/sec
+Node 82, del_time = 54.062575
+Node 82, received bytes per node = 212060.000000
+Node 82, Per-Node Throughput 31379.933381 bits/sec
+Node 83, del_time = 59.497068
+Node 83, received bytes per node = 179200.000000
+Node 83, Per-Node Throughput 24095.305132 bits/sec
+Node 84, del_time = 55.821980
+Node 84, received bytes per node = 181320.000000
+Node 84, Per-Node Throughput 25985.463147 bits/sec
+Node 85, del_time = 58.113325
+Node 85, received bytes per node = 92280.000000
+Node 85, Per-Node Throughput 12703.454858 bits/sec
+Node 86, del_time = 57.693698
+Node 86, received bytes per node = 71200.000000
+Node 86, Per-Node Throughput 9872.828805 bits/sec
+Node 87, del_time = 57.001688
+Node 87, received bytes per node = 78500.000000
+Node 87, Per-Node Throughput 11017.217600 bits/sec
+Node 88, del_time = 59.531216
+Node 88, received bytes per node = 166480.000000
+Node 88, Per-Node Throughput 22372.128269 bits/sec
+Node 89, del_time = 59.260199
+Node 89, received bytes per node = 70020.000000
+Node 89, Per-Node Throughput 9452.550115 bits/sec
+Node 90, del_time = 1.916308
+Node 90, received bytes per node = 1120.000000
+Node 90, Per-Node Throughput 4675.657130 bits/sec
+Node 91, del_time = 58.932785
+Node 91, received bytes per node = 49940.000000
+Node 91, Per-Node Throughput 6779.248611 bits/sec
+Node 92, del_time = 57.511514
+Node 92, received bytes per node = 101880.000000
+Node 92, Per-Node Throughput 14171.770980 bits/sec
+Node 93, del_time = 50.547736
+Node 93, received bytes per node = 155880.000000
+Node 93, Per-Node Throughput 24670.540935 bits/sec
+Node 94, del_time = 58.069314
+Node 94, received bytes per node = 107120.000000
+Node 94, Per-Node Throughput 14757.536119 bits/sec
+Node 95, del_time = 49.444485
+Node 95, received bytes per node = 150580.000000
+Node 95, Per-Node Throughput 24363.485725 bits/sec
+Node 96, del_time = 56.775032
+Node 96, received bytes per node = 65900.000000
+Node 96, Per-Node Throughput 9285.771944 bits/sec
+Node 97, del_time = 34.471437
+Node 97, received bytes per node = 78500.000000
+Node 97, Per-Node Throughput 18217.981612 bits/sec
+Node 98, del_time = 55.319896
+Node 98, received bytes per node = 63660.000000
+Node 98, Per-Node Throughput 9206.091075 bits/sec
+Node 99, del_time = 54.935117
+Node 99, received bytes per node = 6480.000000
+Node 99, Per-Node Throughput 943.658689 bits/sec
+
+
+
+Node 50, Initial Energy 909.863474, Energy Consumption 145.402000
+Node 50 , Residual Energy (J) = 764.461474
+Node 51, Initial Energy 909.281535, Energy Consumption 145.552000
+Node 51 , Residual Energy (J) = 763.729535
+Node 52, Initial Energy 909.851275, Energy Consumption 146.057000
+Node 52 , Residual Energy (J) = 763.794275
+Node 53, Initial Energy 909.465773, Energy Consumption 146.273000
+Node 53 , Residual Energy (J) = 763.192773
+Node 54, Initial Energy 909.875519, Energy Consumption 145.771000
+Node 54 , Residual Energy (J) = 764.104519
+Node 55, Initial Energy 909.877992, Energy Consumption 145.721000
+Node 55 , Residual Energy (J) = 764.156992
+Node 56, Initial Energy 909.849891, Energy Consumption 145.646000
+Node 56 , Residual Energy (J) = 764.203891
+Node 57, Initial Energy 906.887444, Energy Consumption 145.390000
+Node 57 , Residual Energy (J) = 761.497444
+Node 58, Initial Energy 909.882529, Energy Consumption 145.283000
+Node 58 , Residual Energy (J) = 764.599529
+Node 59, Initial Energy 909.811973, Energy Consumption 145.220000
+Node 59 , Residual Energy (J) = 764.591973
+Node 50, del_time = 51.421755
+Node 50, received bytes per node = 56240.000000
+Node 50, Per-Node Throughput 8749.604083 bits/sec
+Node 51, del_time = 57.083539
+Node 51, received bytes per node = 200400.000000
+Node 51, Per-Node Throughput 28085.154269 bits/sec
+Node 52, del_time = 59.258569
+Node 52, received bytes per node = 302160.000000
+Node 52, Per-Node Throughput 40792.075491 bits/sec
+Node 53, del_time = 59.118329
+Node 53, received bytes per node = 476000.000000
+Node 53, Per-Node Throughput 64413.187464 bits/sec
+Node 54, del_time = 59.518586
+Node 54, received bytes per node = 200400.000000
+Node 54, Per-Node Throughput 26936.123625 bits/sec
+Node 55, del_time = 59.562390
+Node 55, received bytes per node = 247040.000000
+Node 55, Per-Node Throughput 33180.670026 bits/sec
+Node 56, del_time = 59.469241
+Node 56, received bytes per node = 221600.000000
+Node 56, Per-Node Throughput 29810.368807 bits/sec
+Node 57, del_time = 55.234925
+Node 57, received bytes per node = 235380.000000
+Node 57, Per-Node Throughput 34091.473532 bits/sec
+Node 58, del_time = 48.906486
+Node 58, received bytes per node = 110300.000000
+Node 58, Per-Node Throughput 18042.596747 bits/sec
+Node 59, del_time = 54.697574
+Node 59, received bytes per node = 49880.000000
+Node 59, Per-Node Throughput 7295.387608 bits/sec
+
+
+
+Node 40, Initial Energy 907.039043, Energy Consumption 145.240000
+Node 40 , Residual Energy (J) = 761.799043
+Node 41, Initial Energy 909.744465, Energy Consumption 145.638000
+Node 41 , Residual Energy (J) = 764.106465
+Node 42, Initial Energy 906.998101, Energy Consumption 145.554000
+Node 42 , Residual Energy (J) = 761.444101
+Node 43, Initial Energy 908.100469, Energy Consumption 145.338000
+Node 43 , Residual Energy (J) = 762.762469
+Node 44, Initial Energy 909.924329, Energy Consumption 145.947000
+Node 44 , Residual Energy (J) = 763.977329
+Node 45, Initial Energy 909.727428, Energy Consumption 146.305000
+Node 45 , Residual Energy (J) = 763.422428
+Node 46, Initial Energy 909.710514, Energy Consumption 145.532000
+Node 46 , Residual Energy (J) = 764.178514
+Node 47, Initial Energy 909.729715, Energy Consumption 145.425000
+Node 47 , Residual Energy (J) = 764.304715
+Node 48, Initial Energy 906.759490, Energy Consumption 145.409000
+Node 48 , Residual Energy (J) = 761.350490
+Node 49, Initial Energy 905.824455, Energy Consumption 145.317000
+Node 49 , Residual Energy (J) = 760.507455
+Node 50, Initial Energy 900.833195, Energy Consumption 145.176000
+Node 50 , Residual Energy (J) = 755.657195
+Node 51, Initial Energy 909.407339, Energy Consumption 145.639000
+Node 51 , Residual Energy (J) = 763.768339
+Node 52, Initial Energy 909.712755, Energy Consumption 145.356000
+Node 52 , Residual Energy (J) = 764.356755
+Node 53, Initial Energy 909.705240, Energy Consumption 145.464000
+Node 53 , Residual Energy (J) = 764.241240
+Node 54, Initial Energy 909.778263, Energy Consumption 145.494000
+Node 54 , Residual Energy (J) = 764.284263
+Node 55, Initial Energy 909.706479, Energy Consumption 145.482000
+Node 55 , Residual Energy (J) = 764.224479
+Node 56, Initial Energy 908.118297, Energy Consumption 145.506000
+Node 56 , Residual Energy (J) = 762.612297
+Node 57, Initial Energy 909.720283, Energy Consumption 145.404000
+Node 57 , Residual Energy (J) = 764.316283
+Node 58, Initial Energy 909.793753, Energy Consumption 145.338000
+Node 58 , Residual Energy (J) = 764.455753
+Node 59, Initial Energy 909.796906, Energy Consumption 145.298000
+Node 59 , Residual Energy (J) = 764.498906
+Node 40, del_time = 49.988581
+Node 40, received bytes per node = 69020.000000
+Node 40, Per-Node Throughput 11045.722572 bits/sec
+Node 41, del_time = 59.372430
+Node 41, received bytes per node = 141040.000000
+Node 41, Per-Node Throughput 19004.106876 bits/sec
+Node 42, del_time = 56.628129
+Node 42, received bytes per node = 163300.000000
+Node 42, Per-Node Throughput 23069.806684 bits/sec
+Node 43, del_time = 57.212754
+Node 43, received bytes per node = 76440.000000
+Node 43, Per-Node Throughput 10688.525813 bits/sec
+Node 44, del_time = 59.903052
+Node 44, received bytes per node = 508860.000000
+Node 44, Per-Node Throughput 67957.806381 bits/sec
+Node 45, del_time = 59.766906
+Node 45, received bytes per node = 487660.000000
+Node 45, Per-Node Throughput 65274.919365 bits/sec
+Node 46, del_time = 57.956313
+Node 46, received bytes per node = 108240.000000
+Node 46, Per-Node Throughput 14940.908920 bits/sec
+Node 47, del_time = 59.349316
+Node 47, received bytes per node = 124080.000000
+Node 47, Per-Node Throughput 16725.382382 bits/sec
+Node 48, del_time = 53.048179
+Node 48, received bytes per node = 56300.000000
+Node 48, Per-Node Throughput 8490.395047 bits/sec
+Node 49, del_time = 49.685379
+Node 49, received bytes per node = 33040.000000
+Node 49, Per-Node Throughput 5319.874847 bits/sec
+Node 50, del_time = 35.492956
+Node 50, received bytes per node = 6420.000000
+Node 50, Per-Node Throughput 1447.047696 bits/sec
+Node 51, del_time = 59.411763
+Node 51, received bytes per node = 67900.000000
+Node 51, Per-Node Throughput 9142.970483 bits/sec
+Node 52, del_time = 56.984465
+Node 52, received bytes per node = 133620.000000
+Node 52, Per-Node Throughput 18758.796791 bits/sec
+Node 53, del_time = 49.489710
+Node 53, received bytes per node = 126260.000000
+Node 53, Per-Node Throughput 20409.899335 bits/sec
+Node 54, del_time = 49.752374
+Node 54, received bytes per node = 103940.000000
+Node 54, Per-Node Throughput 16713.172457 bits/sec
+Node 55, del_time = 58.608135
+Node 55, received bytes per node = 112480.000000
+Node 55, Per-Node Throughput 15353.499920 bits/sec
+Node 56, del_time = 56.676867
+Node 56, received bytes per node = 144220.000000
+Node 56, Per-Node Throughput 20356.806384 bits/sec
+Node 57, del_time = 57.986776
+Node 57, received bytes per node = 101820.000000
+Node 57, Per-Node Throughput 14047.340666 bits/sec
+Node 58, del_time = 57.761341
+Node 58, received bytes per node = 47820.000000
+Node 58, Per-Node Throughput 6623.114971 bits/sec
+Node 59, del_time = 48.430532
+Node 59, received bytes per node = 31860.000000
+Node 59, Per-Node Throughput 5262.795743 bits/sec
+
+
+
+Node 30, Initial Energy 909.863723, Energy Consumption 145.416000
+Node 30 , Residual Energy (J) = 764.447723
+Node 31, Initial Energy 909.515844, Energy Consumption 145.403000
+Node 31 , Residual Energy (J) = 764.112844
+Node 32, Initial Energy 909.658846, Energy Consumption 145.837000
+Node 32 , Residual Energy (J) = 763.821846
+Node 33, Initial Energy 909.844585, Energy Consumption 146.032000
+Node 33 , Residual Energy (J) = 763.812585
+Node 34, Initial Energy 909.837389, Energy Consumption 146.365000
+Node 34 , Residual Energy (J) = 763.472389
+Node 35, Initial Energy 909.874225, Energy Consumption 146.109000
+Node 35 , Residual Energy (J) = 763.765225
+Node 36, Initial Energy 909.644538, Energy Consumption 146.665000
+Node 36 , Residual Energy (J) = 762.979538
+Node 37, Initial Energy 906.295005, Energy Consumption 145.869000
+Node 37 , Residual Energy (J) = 760.426005
+Node 38, Initial Energy 909.149360, Energy Consumption 145.337000
+Node 38 , Residual Energy (J) = 763.812360
+Node 39, Initial Energy 909.147791, Energy Consumption 145.282000
+Node 39 , Residual Energy (J) = 763.865791
+Node 40, Initial Energy 883.098779, Energy Consumption 145.344000
+Node 40 , Residual Energy (J) = 737.754779
+Node 41, Initial Energy 907.571758, Energy Consumption 145.475000
+Node 41 , Residual Energy (J) = 762.096758
+Node 42, Initial Energy 909.662548, Energy Consumption 145.817000
+Node 42 , Residual Energy (J) = 763.845548
+Node 43, Initial Energy 909.560661, Energy Consumption 145.597000
+Node 43 , Residual Energy (J) = 763.963661
+Node 44, Initial Energy 909.826942, Energy Consumption 145.926000
+Node 44 , Residual Energy (J) = 763.900942
+Node 45, Initial Energy 901.284241, Energy Consumption 145.706000
+Node 45 , Residual Energy (J) = 755.578241
+Node 46, Initial Energy 909.838036, Energy Consumption 145.649000
+Node 46 , Residual Energy (J) = 764.189036
+Node 47, Initial Energy 909.845367, Energy Consumption 145.389000
+Node 47 , Residual Energy (J) = 764.456367
+Node 48, Initial Energy 890.237390, Energy Consumption 145.231000
+Node 48 , Residual Energy (J) = 745.006390
+Node 49, Initial Energy 902.431922, Energy Consumption 145.271000
+Node 49 , Residual Energy (J) = 757.160922
+Node 50, Initial Energy 904.860673, Energy Consumption 145.343000
+Node 50 , Residual Energy (J) = 759.517673
+Node 51, Initial Energy 900.374834, Energy Consumption 145.341000
+Node 51 , Residual Energy (J) = 755.033834
+Node 52, Initial Energy 909.598212, Energy Consumption 145.373000
+Node 52 , Residual Energy (J) = 764.225212
+Node 53, Initial Energy 909.752270, Energy Consumption 145.470000
+Node 53 , Residual Energy (J) = 764.282270
+Node 54, Initial Energy 903.059571, Energy Consumption 145.376000
+Node 54 , Residual Energy (J) = 757.683571
+Node 55, Initial Energy 909.533162, Energy Consumption 145.626000
+Node 55 , Residual Energy (J) = 763.907162
+Node 56, Initial Energy 906.660098, Energy Consumption 145.291000
+Node 56 , Residual Energy (J) = 761.369098
+Node 57, Initial Energy 909.837406, Energy Consumption 145.507000
+Node 57 , Residual Energy (J) = 764.330406
+Node 58, Initial Energy 907.333424, Energy Consumption 145.246000
+Node 58 , Residual Energy (J) = 762.087424
+Node 59, Initial Energy 888.166068, Energy Consumption 145.234000
+Node 59 , Residual Energy (J) = 742.932068
+Node 30, del_time = 45.518060
+Node 30, received bytes per node = 59420.000000
+Node 30, Per-Node Throughput 10443.327233 bits/sec
+Node 31, del_time = 58.245537
+Node 31, received bytes per node = 55180.000000
+Node 31, Per-Node Throughput 7578.949749 bits/sec
+Node 32, del_time = 49.106294
+Node 32, received bytes per node = 84920.000000
+Node 32, Per-Node Throughput 13834.479091 bits/sec
+Node 33, del_time = 59.898930
+Node 33, received bytes per node = 430420.000000
+Node 33, Per-Node Throughput 57486.169137 bits/sec
+Node 34, del_time = 59.884785
+Node 34, received bytes per node = 433600.000000
+Node 34, Per-Node Throughput 57924.563130 bits/sec
+Node 35, del_time = 59.903848
+Node 35, received bytes per node = 303220.000000
+Node 35, Per-Node Throughput 40494.226406 bits/sec
+Node 36, del_time = 59.429604
+Node 36, received bytes per node = 268240.000000
+Node 36, Per-Node Throughput 36108.603667 bits/sec
+Node 37, del_time = 53.806130
+Node 37, received bytes per node = 105060.000000
+Node 37, Per-Node Throughput 15620.525041 bits/sec
+Node 38, del_time = 58.228628
+Node 38, received bytes per node = 92280.000000
+Node 38, Per-Node Throughput 12678.299683 bits/sec
+Node 39, del_time = 57.363962
+Node 39, received bytes per node = 23440.000000
+Node 39, Per-Node Throughput 3268.951343 bits/sec
+Node 40, del_time = 0.000000
+Node 40, received bytes per node = 60.000000
+Node 40, Per-Node Throughput inf bits/sec
+Node 41, del_time = 56.442333
+Node 41, received bytes per node = 25560.000000
+Node 41, Per-Node Throughput 3622.812681 bits/sec
+Node 42, del_time = 47.692754
+Node 42, received bytes per node = 24560.000000
+Node 42, Per-Node Throughput 4119.703404 bits/sec
+Node 43, del_time = 56.699812
+Node 43, received bytes per node = 84860.000000
+Node 43, Per-Node Throughput 11973.231911 bits/sec
+Node 44, del_time = 49.680522
+Node 44, received bytes per node = 310640.000000
+Node 44, Per-Node Throughput 50022.018260 bits/sec
+Node 45, del_time = 50.349844
+Node 45, received bytes per node = 259760.000000
+Node 45, Per-Node Throughput 41272.819243 bits/sec
+Node 46, del_time = 57.984037
+Node 46, received bytes per node = 134680.000000
+Node 46, Per-Node Throughput 18581.665979 bits/sec
+Node 47, del_time = 59.740982
+Node 47, received bytes per node = 80620.000000
+Node 47, Per-Node Throughput 10795.939125 bits/sec
+Node 48, del_time = 31.029435
+Node 48, received bytes per node = 1120.000000
+Node 48, Per-Node Throughput 288.758078 bits/sec
+Node 49, del_time = 41.872147
+Node 49, received bytes per node = 29800.000000
+Node 49, Per-Node Throughput 5693.522247 bits/sec
+Node 50, del_time = 35.152908
+Node 50, received bytes per node = 1300.000000
+Node 50, Per-Node Throughput 295.850349 bits/sec
+Node 51, del_time = 18.684411
+Node 51, received bytes per node = 2180.000000
+Node 51, Per-Node Throughput 933.398432 bits/sec
+Node 52, del_time = 56.542915
+Node 52, received bytes per node = 25620.000000
+Node 52, Per-Node Throughput 3624.857337 bits/sec
+Node 53, del_time = 47.243568
+Node 53, received bytes per node = 107120.000000
+Node 53, Per-Node Throughput 18139.188938 bits/sec
+Node 54, del_time = 42.551030
+Node 54, received bytes per node = 30800.000000
+Node 54, Per-Node Throughput 5790.694132 bits/sec
+Node 55, del_time = 58.913910
+Node 55, received bytes per node = 80800.000000
+Node 55, Per-Node Throughput 10971.942029 bits/sec
+Node 56, del_time = 45.789910
+Node 56, received bytes per node = 17080.000000
+Node 56, Per-Node Throughput 2984.063545 bits/sec
+Node 57, del_time = 59.483687
+Node 57, received bytes per node = 58360.000000
+Node 57, Per-Node Throughput 7848.874604 bits/sec
+Node 58, del_time = 56.253303
+Node 58, received bytes per node = 16020.000000
+Node 58, Per-Node Throughput 2278.266227 bits/sec
+Node 59, del_time = 22.173774
+Node 59, received bytes per node = 120.000000
+Node 59, Per-Node Throughput 43.294389 bits/sec
+
+
+
+Node 20, Initial Energy 907.361433, Energy Consumption 145.340000
+Node 20 , Residual Energy (J) = 762.021433
+Node 21, Initial Energy 907.707692, Energy Consumption 145.492000
+Node 21 , Residual Energy (J) = 762.215692
+Node 22, Initial Energy 909.809884, Energy Consumption 146.176000
+Node 22 , Residual Energy (J) = 763.633884
+Node 23, Initial Energy 906.648167, Energy Consumption 146.546000
+Node 23 , Residual Energy (J) = 760.102167
+Node 24, Initial Energy 905.708127, Energy Consumption 147.883000
+Node 24 , Residual Energy (J) = 757.825127
+Node 25, Initial Energy 906.911810, Energy Consumption 147.492000
+Node 25 , Residual Energy (J) = 759.419810
+Node 26, Initial Energy 907.036540, Energy Consumption 146.629000
+Node 26 , Residual Energy (J) = 760.407540
+Node 27, Initial Energy 909.682205, Energy Consumption 145.659000
+Node 27 , Residual Energy (J) = 764.023205
+Node 28, Initial Energy 905.358657, Energy Consumption 145.602000
+Node 28 , Residual Energy (J) = 759.756657
+Node 29, Initial Energy 906.983089, Energy Consumption 145.578000
+Node 29 , Residual Energy (J) = 761.405089
+Node 30, Initial Energy 908.973783, Energy Consumption 145.543000
+Node 30 , Residual Energy (J) = 763.430783
+Node 31, Initial Energy 909.903613, Energy Consumption 145.551000
+Node 31 , Residual Energy (J) = 764.352613
+Node 32, Initial Energy 909.705314, Energy Consumption 145.728000
+Node 32 , Residual Energy (J) = 763.977314
+Node 33, Initial Energy 907.099436, Energy Consumption 146.529000
+Node 33 , Residual Energy (J) = 760.570436
+Node 34, Initial Energy 909.891245, Energy Consumption 146.346000
+Node 34 , Residual Energy (J) = 763.545245
+Node 35, Initial Energy 909.879460, Energy Consumption 146.632000
+Node 35 , Residual Energy (J) = 763.247460
+Node 36, Initial Energy 901.301715, Energy Consumption 146.721000
+Node 36 , Residual Energy (J) = 754.580715
+Node 37, Initial Energy 900.838817, Energy Consumption 145.497000
+Node 37 , Residual Energy (J) = 755.341817
+Node 38, Initial Energy 907.515634, Energy Consumption 145.459000
+Node 38 , Residual Energy (J) = 762.056634
+Node 39, Initial Energy 888.314218, Energy Consumption 145.258000
+Node 39 , Residual Energy (J) = 743.056218
+Node 40, Initial Energy 909.734385, Energy Consumption 144.635000
+Node 40 , Residual Energy (J) = 765.099385
+Node 41, Initial Energy 909.757066, Energy Consumption 145.172000
+Node 41 , Residual Energy (J) = 764.585066
+Node 42, Initial Energy 909.866596, Energy Consumption 146.274000
+Node 42 , Residual Energy (J) = 763.592596
+Node 43, Initial Energy 909.720523, Energy Consumption 145.305000
+Node 43 , Residual Energy (J) = 764.415523
+Node 44, Initial Energy 909.856786, Energy Consumption 145.478000
+Node 44 , Residual Energy (J) = 764.378786
+Node 45, Initial Energy 906.893210, Energy Consumption 145.797000
+Node 45 , Residual Energy (J) = 761.096210
+Node 46, Initial Energy 901.310757, Energy Consumption 145.761000
+Node 46 , Residual Energy (J) = 755.549757
+Node 47, Initial Energy 909.727734, Energy Consumption 145.467000
+Node 47 , Residual Energy (J) = 764.260734
+Node 48, Initial Energy 907.315713, Energy Consumption 145.221000
+Node 48 , Residual Energy (J) = 762.094713
+Node 49, Initial Energy 906.305996, Energy Consumption 145.210000
+Node 49 , Residual Energy (J) = 761.095996
+Node 50, Initial Energy 902.186964, Energy Consumption 144.865000
+Node 50 , Residual Energy (J) = 757.321964
+Node 51, Initial Energy 901.406399, Energy Consumption 145.345000
+Node 51 , Residual Energy (J) = 756.061399
+Node 52, Initial Energy 909.715623, Energy Consumption 145.118000
+Node 52 , Residual Energy (J) = 764.597623
+Node 53, Initial Energy 909.677846, Energy Consumption 145.413000
+Node 53 , Residual Energy (J) = 764.264846
+Node 54, Initial Energy 909.686940, Energy Consumption 145.175000
+Node 54 , Residual Energy (J) = 764.511940
+Node 55, Initial Energy 909.733243, Energy Consumption 145.088000
+Node 55 , Residual Energy (J) = 764.645243
+Node 56, Initial Energy 895.844595, Energy Consumption 145.060000
+Node 56 , Residual Energy (J) = 750.784595
+Node 57, Initial Energy 905.448418, Energy Consumption 145.075000
+Node 57 , Residual Energy (J) = 760.373418
+Node 58, Initial Energy 906.956098, Energy Consumption 145.059000
+Node 58 , Residual Energy (J) = 761.897098
+Node 59, Initial Energy 908.905900, Energy Consumption 145.055000
+Node 59 , Residual Energy (J) = 763.850900
+Node 20, del_time = 45.000000
+Node 20, received bytes per node = 6540.000000
+Node 20, Per-Node Throughput 1162.666667 bits/sec
+Node 21, del_time = 56.787761
+Node 21, received bytes per node = 36100.000000
+Node 21, Per-Node Throughput 5085.602887 bits/sec
+Node 22, del_time = 53.276596
+Node 22, received bytes per node = 37160.000000
+Node 22, Per-Node Throughput 5579.936063 bits/sec
+Node 23, del_time = 59.349842
+Node 23, received bytes per node = 224780.000000
+Node 23, Per-Node Throughput 30298.985613 bits/sec
+Node 24, del_time = 59.976853
+Node 24, received bytes per node = 109240.000000
+Node 24, Per-Node Throughput 14570.954522 bits/sec
+Node 25, del_time = 57.604146
+Node 25, received bytes per node = 54120.000000
+Node 25, Per-Node Throughput 7516.125628 bits/sec
+Node 26, del_time = 59.854721
+Node 26, received bytes per node = 121960.000000
+Node 26, Per-Node Throughput 16300.802864 bits/sec
+Node 27, del_time = 59.403646
+Node 27, received bytes per node = 48820.000000
+Node 27, Per-Node Throughput 6574.680595 bits/sec
+Node 28, del_time = 56.586297
+Node 28, received bytes per node = 9600.000000
+Node 28, Per-Node Throughput 1357.219056 bits/sec
+Node 29, del_time = 59.665262
+Node 29, received bytes per node = 18080.000000
+Node 29, Per-Node Throughput 2424.191149 bits/sec
+Node 30, del_time = 59.454381
+Node 30, received bytes per node = 67900.000000
+Node 30, Per-Node Throughput 9136.416677 bits/sec
+Node 31, del_time = 59.896019
+Node 31, received bytes per node = 77440.000000
+Node 31, Per-Node Throughput 10343.258419 bits/sec
+Node 32, del_time = 59.239005
+Node 32, received bytes per node = 64720.000000
+Node 32, Per-Node Throughput 8740.187330 bits/sec
+Node 33, del_time = 57.834100
+Node 33, received bytes per node = 171780.000000
+Node 33, Per-Node Throughput 23761.760003 bits/sec
+Node 34, del_time = 59.487017
+Node 34, received bytes per node = 103940.000000
+Node 34, Per-Node Throughput 13978.176116 bits/sec
+Node 35, del_time = 59.988869
+Node 35, received bytes per node = 280960.000000
+Node 35, Per-Node Throughput 37468.284475 bits/sec
+Node 36, del_time = 59.333703
+Node 36, received bytes per node = 137860.000000
+Node 36, Per-Node Throughput 18587.749253 bits/sec
+Node 37, del_time = 53.339063
+Node 37, received bytes per node = 53060.000000
+Node 37, Per-Node Throughput 7958.145043 bits/sec
+Node 38, del_time = 56.923485
+Node 38, received bytes per node = 18140.000000
+Node 38, Per-Node Throughput 2549.387149 bits/sec
+Node 39, del_time = 47.107942
+Node 39, received bytes per node = 60.000000
+Node 39, Per-Node Throughput 10.189365 bits/sec
+Node 40, del_time = 49.094927
+Node 40, received bytes per node = 25500.000000
+Node 40, Per-Node Throughput 4155.215508 bits/sec
+Node 41, del_time = 58.821557
+Node 41, received bytes per node = 43580.000000
+Node 41, Per-Node Throughput 5927.078781 bits/sec
+Node 42, del_time = 59.907070
+Node 42, received bytes per node = 91280.000000
+Node 42, Per-Node Throughput 12189.546217 bits/sec
+Node 43, del_time = 59.313297
+Node 43, received bytes per node = 52000.000000
+Node 43, Per-Node Throughput 7013.604337 bits/sec
+Node 44, del_time = 53.391478
+Node 44, received bytes per node = 258700.000000
+Node 44, Per-Node Throughput 38762.740268 bits/sec
+Node 45, del_time = 56.668528
+Node 45, received bytes per node = 343500.000000
+Node 45, Per-Node Throughput 48492.524417 bits/sec
+Node 46, del_time = 48.165534
+Node 46, received bytes per node = 25500.000000
+Node 46, Per-Node Throughput 4235.393725 bits/sec
+Node 47, del_time = 58.684340
+Node 47, received bytes per node = 169660.000000
+Node 47, Per-Node Throughput 23128.487065 bits/sec
+Node 48, del_time = 42.904238
+Node 48, received bytes per node = 13900.000000
+Node 48, Per-Node Throughput 2591.818529 bits/sec
+Node 49, del_time = 46.066801
+Node 49, received bytes per node = 300.000000
+Node 49, Per-Node Throughput 52.098256 bits/sec
+Node 50, del_time = 50.921842
+Node 50, received bytes per node = 6480.000000
+Node 50, Per-Node Throughput 1018.030737 bits/sec
+Node 51, del_time = 33.085670
+Node 51, received bytes per node = 21260.000000
+Node 51, Per-Node Throughput 5140.594166 bits/sec
+Node 52, del_time = 59.259178
+Node 52, received bytes per node = 71080.000000
+Node 52, Per-Node Throughput 9595.813110 bits/sec
+Node 53, del_time = 59.421895
+Node 53, received bytes per node = 121960.000000
+Node 53, Per-Node Throughput 16419.537054 bits/sec
+Node 54, del_time = 49.728234
+Node 54, received bytes per node = 60480.000000
+Node 54, Per-Node Throughput 9729.683898 bits/sec
+Node 55, del_time = 58.713337
+Node 55, received bytes per node = 22320.000000
+Node 55, Per-Node Throughput 3041.217013 bits/sec
+Node 56, del_time = 32.179676
+Node 56, received bytes per node = 5360.000000
+Node 56, Per-Node Throughput 1332.518094 bits/sec
+Node 57, del_time = 52.831726
+Node 57, received bytes per node = 21320.000000
+Node 57, Per-Node Throughput 3228.363188 bits/sec
+Node 58, del_time = 23.308973
+Node 58, received bytes per node = 4300.000000
+Node 58, Per-Node Throughput 1475.826478 bits/sec
+Node 59, del_time = 46.011524
+Node 59, received bytes per node = 9600.000000
+Node 59, Per-Node Throughput 1669.147056 bits/sec
+
+
+
+Node 10, Initial Energy 901.389004, Energy Consumption 145.225000
+Node 10 , Residual Energy (J) = 756.164004
+Node 11, Initial Energy 909.628037, Energy Consumption 145.234000
+Node 11 , Residual Energy (J) = 764.394037
+Node 12, Initial Energy 906.525917, Energy Consumption 145.962000
+Node 12 , Residual Energy (J) = 760.563917
+Node 13, Initial Energy 909.538009, Energy Consumption 145.313000
+Node 13 , Residual Energy (J) = 764.225009
+Node 14, Initial Energy 909.877382, Energy Consumption 146.610000
+Node 14 , Residual Energy (J) = 763.267382
+Node 15, Initial Energy 907.106727, Energy Consumption 146.489000
+Node 15 , Residual Energy (J) = 760.617727
+Node 16, Initial Energy 908.851048, Energy Consumption 145.427000
+Node 16 , Residual Energy (J) = 763.424048
+Node 17, Initial Energy 909.717880, Energy Consumption 145.427000
+Node 17 , Residual Energy (J) = 764.290880
+Node 18, Initial Energy 909.650966, Energy Consumption 145.143000
+Node 18 , Residual Energy (J) = 764.507966
+Node 19, Initial Energy 909.217612, Energy Consumption 145.177000
+Node 19 , Residual Energy (J) = 764.040612
+Node 20, Initial Energy 909.542826, Energy Consumption 145.538000
+Node 20 , Residual Energy (J) = 764.004826
+Node 21, Initial Energy 907.121499, Energy Consumption 145.561000
+Node 21 , Residual Energy (J) = 761.560499
+Node 22, Initial Energy 909.242238, Energy Consumption 145.936000
+Node 22 , Residual Energy (J) = 763.306238
+Node 23, Initial Energy 901.582940, Energy Consumption 146.344000
+Node 23 , Residual Energy (J) = 755.238940
+Node 24, Initial Energy 909.791490, Energy Consumption 146.959000
+Node 24 , Residual Energy (J) = 762.832490
+Node 25, Initial Energy 909.822279, Energy Consumption 147.012000
+Node 25 , Residual Energy (J) = 762.810279
+Node 26, Initial Energy 909.573284, Energy Consumption 146.051000
+Node 26 , Residual Energy (J) = 763.522284
+Node 27, Initial Energy 909.830104, Energy Consumption 145.844000
+Node 27 , Residual Energy (J) = 763.986104
+Node 28, Initial Energy 909.509265, Energy Consumption 145.535000
+Node 28 , Residual Energy (J) = 763.974265
+Node 29, Initial Energy 909.478207, Energy Consumption 145.204000
+Node 29 , Residual Energy (J) = 764.274207
+Node 30, Initial Energy 890.277265, Energy Consumption 145.117000
+Node 30 , Residual Energy (J) = 745.160265
+Node 31, Initial Energy 905.109501, Energy Consumption 145.376000
+Node 31 , Residual Energy (J) = 759.733501
+Node 32, Initial Energy 905.126847, Energy Consumption 146.262000
+Node 32 , Residual Energy (J) = 758.864847
+Node 33, Initial Energy 906.907681, Energy Consumption 146.148000
+Node 33 , Residual Energy (J) = 760.759681
+Node 34, Initial Energy 905.208542, Energy Consumption 147.325000
+Node 34 , Residual Energy (J) = 757.883542
+Node 35, Initial Energy 909.840467, Energy Consumption 146.569000
+Node 35 , Residual Energy (J) = 763.271467
+Node 36, Initial Energy 909.479614, Energy Consumption 146.480000
+Node 36 , Residual Energy (J) = 762.999614
+Node 37, Initial Energy 909.487998, Energy Consumption 145.641000
+Node 37 , Residual Energy (J) = 763.846998
+Node 38, Initial Energy 890.379058, Energy Consumption 145.212000
+Node 38 , Residual Energy (J) = 745.167058
+Node 39, Initial Energy 903.391320, Energy Consumption 145.605000
+Node 39 , Residual Energy (J) = 757.786320
+Node 40, Initial Energy 909.383838, Energy Consumption 145.321000
+Node 40 , Residual Energy (J) = 764.062838
+Node 41, Initial Energy 909.492295, Energy Consumption 145.208000
+Node 41 , Residual Energy (J) = 764.284295
+Node 42, Initial Energy 905.190009, Energy Consumption 145.787000
+Node 42 , Residual Energy (J) = 759.403009
+Node 43, Initial Energy 909.510746, Energy Consumption 145.687000
+Node 43 , Residual Energy (J) = 763.823746
+Node 44, Initial Energy 907.070076, Energy Consumption 146.379000
+Node 44 , Residual Energy (J) = 760.691076
+Node 45, Initial Energy 905.529243, Energy Consumption 146.661000
+Node 45 , Residual Energy (J) = 758.868243
+Node 46, Initial Energy 901.549774, Energy Consumption 145.311000
+Node 46 , Residual Energy (J) = 756.238774
+Node 47, Initial Energy 909.737145, Energy Consumption 145.388000
+Node 47 , Residual Energy (J) = 764.349145
+Node 48, Initial Energy 909.159313, Energy Consumption 145.159000
+Node 48 , Residual Energy (J) = 764.000313
+Node 49, Initial Energy 906.108871, Energy Consumption 144.839000
+Node 49 , Residual Energy (J) = 761.269871
+Node 50, Initial Energy 908.938955, Energy Consumption 145.431000
+Node 50 , Residual Energy (J) = 763.507955
+Node 51, Initial Energy 904.186646, Energy Consumption 144.717000
+Node 51 , Residual Energy (J) = 759.469646
+Node 52, Initial Energy 909.652261, Energy Consumption 145.089000
+Node 52 , Residual Energy (J) = 764.563261
+Node 53, Initial Energy 909.627670, Energy Consumption 145.169000
+Node 53 , Residual Energy (J) = 764.458670
+Node 54, Initial Energy 903.186952, Energy Consumption 145.066000
+Node 54 , Residual Energy (J) = 758.120952
+Node 55, Initial Energy 904.711387, Energy Consumption 145.589000
+Node 55 , Residual Energy (J) = 759.122387
+Node 56, Initial Energy 909.313324, Energy Consumption 145.130000
+Node 56 , Residual Energy (J) = 764.183324
+Node 57, Initial Energy 909.352052, Energy Consumption 144.733000
+Node 57 , Residual Energy (J) = 764.619052
+Node 58, Initial Energy 905.577893, Energy Consumption 144.559000
+Node 58 , Residual Energy (J) = 761.018893
+Node 59, Initial Energy 909.031504, Energy Consumption 144.577000
+Node 59 , Residual Energy (J) = 764.454504
+Node 10, del_time = 51.500143
+Node 10, received bytes per node = 10660.000000
+Node 10, Per-Node Throughput 1655.917735 bits/sec
+Node 11, del_time = 47.186823
+Node 11, received bytes per node = 12780.000000
+Node 11, Per-Node Throughput 2166.706583 bits/sec
+Node 12, del_time = 56.163361
+Node 12, received bytes per node = 32920.000000
+Node 12, Per-Node Throughput 4689.178066 bits/sec
+Node 13, del_time = 58.698372
+Node 13, received bytes per node = 6540.000000
+Node 13, Per-Node Throughput 891.336482 bits/sec
+Node 14, del_time = 59.804372
+Node 14, received bytes per node = 211000.000000
+Node 14, Per-Node Throughput 28225.361060 bits/sec
+Node 15, del_time = 59.925210
+Node 15, received bytes per node = 152700.000000
+Node 15, Per-Node Throughput 20385.410581 bits/sec
+Node 16, del_time = 59.269598
+Node 16, received bytes per node = 9660.000000
+Node 16, Per-Node Throughput 1303.872515 bits/sec
+Node 17, del_time = 59.658311
+Node 17, received bytes per node = 38220.000000
+Node 17, Per-Node Throughput 5125.186991 bits/sec
+Node 18, del_time = 50.000000
+Node 18, received bytes per node = 27620.000000
+Node 18, Per-Node Throughput 4419.200000 bits/sec
+Node 19, del_time = 56.536333
+Node 19, received bytes per node = 40340.000000
+Node 19, Per-Node Throughput 5708.187675 bits/sec
+Node 20, del_time = 54.122585
+Node 20, received bytes per node = 18140.000000
+Node 20, Per-Node Throughput 2681.320573 bits/sec
+Node 21, del_time = 58.931052
+Node 21, received bytes per node = 9660.000000
+Node 21, Per-Node Throughput 1311.362987 bits/sec
+Node 22, del_time = 59.981707
+Node 22, received bytes per node = 26560.000000
+Node 22, Per-Node Throughput 3542.413376 bits/sec
+Node 23, del_time = 58.804588
+Node 23, received bytes per node = 150580.000000
+Node 23, Per-Node Throughput 20485.476399 bits/sec
+Node 24, del_time = 58.433187
+Node 24, received bytes per node = 169660.000000
+Node 24, Per-Node Throughput 23227.896292 bits/sec
+Node 25, del_time = 59.985761
+Node 25, received bytes per node = 339260.000000
+Node 25, Per-Node Throughput 45245.403821 bits/sec
+Node 26, del_time = 50.000000
+Node 26, received bytes per node = 115600.000000
+Node 26, Per-Node Throughput 18496.000000 bits/sec
+Node 27, del_time = 56.725908
+Node 27, received bytes per node = 32920.000000
+Node 27, Per-Node Throughput 4642.675830 bits/sec
+Node 28, del_time = 56.731951
+Node 28, received bytes per node = 22380.000000
+Node 28, Per-Node Throughput 3155.893606 bits/sec
+Node 29, del_time = 52.516807
+Node 29, received bytes per node = 4360.000000
+Node 29, Per-Node Throughput 664.168328 bits/sec
+Node 30, del_time = 54.860312
+Node 30, received bytes per node = 12780.000000
+Node 30, Per-Node Throughput 1863.642345 bits/sec
+Node 31, del_time = 59.446365
+Node 31, received bytes per node = 31860.000000
+Node 31, Per-Node Throughput 4287.562426 bits/sec
+Node 32, del_time = 56.595558
+Node 32, received bytes per node = 10660.000000
+Node 32, Per-Node Throughput 1506.832037 bits/sec
+Node 33, del_time = 48.429106
+Node 33, received bytes per node = 102880.000000
+Node 33, Per-Node Throughput 16994.738524 bits/sec
+Node 34, del_time = 59.891429
+Node 34, received bytes per node = 149520.000000
+Node 34, Per-Node Throughput 19972.139859 bits/sec
+Node 35, del_time = 59.963055
+Node 35, received bytes per node = 151640.000000
+Node 35, Per-Node Throughput 20231.124010 bits/sec
+Node 36, del_time = 56.689653
+Node 36, received bytes per node = 103000.000000
+Node 36, Per-Node Throughput 14535.280243 bits/sec
+Node 37, del_time = 59.950176
+Node 37, received bytes per node = 57300.000000
+Node 37, Per-Node Throughput 7646.349587 bits/sec
+Node 38, del_time = 59.035361
+Node 38, received bytes per node = 20200.000000
+Node 38, Per-Node Throughput 2737.342472 bits/sec
+Node 39, del_time = 59.877689
+Node 39, received bytes per node = 11720.000000
+Node 39, Per-Node Throughput 1565.858699 bits/sec
+Node 40, del_time = 56.348464
+Node 40, received bytes per node = 11720.000000
+Node 40, Per-Node Throughput 1663.931792 bits/sec
+Node 41, del_time = 47.665018
+Node 41, received bytes per node = 4300.000000
+Node 41, Per-Node Throughput 721.703288 bits/sec
+Node 42, del_time = 59.654254
+Node 42, received bytes per node = 11720.000000
+Node 42, Per-Node Throughput 1571.723627 bits/sec
+Node 43, del_time = 59.677523
+Node 43, received bytes per node = 72140.000000
+Node 43, Per-Node Throughput 9670.642609 bits/sec
+Node 44, del_time = 59.885016
+Node 44, received bytes per node = 186620.000000
+Node 44, Per-Node Throughput 24930.443313 bits/sec
+Node 45, del_time = 59.589245
+Node 45, received bytes per node = 65780.000000
+Node 45, Per-Node Throughput 8831.123847 bits/sec
+Node 46, del_time = 58.922098
+Node 46, received bytes per node = 49880.000000
+Node 46, Per-Node Throughput 6772.331788 bits/sec
+Node 47, del_time = 57.918621
+Node 47, received bytes per node = 63660.000000
+Node 47, Per-Node Throughput 8793.026996 bits/sec
+Node 48, del_time = 48.291626
+Node 48, received bytes per node = 19140.000000
+Node 48, Per-Node Throughput 3170.736050 bits/sec
+Node 49, del_time = 56.806156
+Node 49, received bytes per node = 29800.000000
+Node 49, Per-Node Throughput 4196.728244 bits/sec
+Node 50, del_time = 58.904305
+Node 50, received bytes per node = 10780.000000
+Node 50, Per-Node Throughput 1464.069555 bits/sec
+Node 51, del_time = 50.696639
+Node 51, received bytes per node = 40340.000000
+Node 51, Per-Node Throughput 6365.708024 bits/sec
+Node 52, del_time = 47.696238
+Node 52, received bytes per node = 52000.000000
+Node 52, Per-Node Throughput 8721.861892 bits/sec
+Node 53, del_time = 58.857071
+Node 53, received bytes per node = 28740.000000
+Node 53, Per-Node Throughput 3906.412556 bits/sec
+Node 54, del_time = 40.681051
+Node 54, received bytes per node = 180.000000
+Node 54, Per-Node Throughput 35.397315 bits/sec
+Node 55, del_time = 55.757478
+Node 55, received bytes per node = 65780.000000
+Node 55, Per-Node Throughput 9438.016590 bits/sec
+Node 56, del_time = 48.557402
+Node 56, received bytes per node = 64720.000000
+Node 56, Per-Node Throughput 10662.843907 bits/sec
+Node 57, del_time = 58.539774
+Node 57, received bytes per node = 46700.000000
+Node 57, Per-Node Throughput 6381.985683 bits/sec
+Node 58, del_time = 50.944436
+Node 58, received bytes per node = 18080.000000
+Node 58, Per-Node Throughput 2839.171674 bits/sec
+Node 59, del_time = 42.831727
+Node 59, received bytes per node = 38280.000000
+Node 59, Per-Node Throughput 7149.840063 bits/sec
+
+
+
+Node 10, Initial Energy 909.831505, Energy Consumption 146.716000
+Node 10 , Residual Energy (J) = 763.115505
+Node 11, Initial Energy 906.289274, Energy Consumption 148.188000
+Node 11 , Residual Energy (J) = 758.101274
+Node 12, Initial Energy 907.088714, Energy Consumption 147.945000
+Node 12 , Residual Energy (J) = 759.143714
+Node 13, Initial Energy 909.813278, Energy Consumption 146.769000
+Node 13 , Residual Energy (J) = 763.044278
+Node 14, Initial Energy 909.862772, Energy Consumption 145.969000
+Node 14 , Residual Energy (J) = 763.893772
+Node 15, Initial Energy 909.474184, Energy Consumption 144.947000
+Node 15 , Residual Energy (J) = 764.527184
+Node 16, Initial Energy 909.812097, Energy Consumption 145.748000
+Node 16 , Residual Energy (J) = 764.064097
+Node 17, Initial Energy 904.609410, Energy Consumption 145.781000
+Node 17 , Residual Energy (J) = 758.828410
+Node 18, Initial Energy 909.936155, Energy Consumption 146.599000
+Node 18 , Residual Energy (J) = 763.337155
+Node 19, Initial Energy 909.882861, Energy Consumption 148.923000
+Node 19 , Residual Energy (J) = 760.959861
+Node 20, Initial Energy 909.849734, Energy Consumption 147.490000
+Node 20 , Residual Energy (J) = 762.359734
+Node 21, Initial Energy 906.896032, Energy Consumption 146.913000
+Node 21 , Residual Energy (J) = 759.983032
+Node 22, Initial Energy 909.183797, Energy Consumption 145.887000
+Node 22 , Residual Energy (J) = 763.296797
+Node 23, Initial Energy 909.848602, Energy Consumption 145.741000
+Node 23 , Residual Energy (J) = 764.107602
+Node 24, Initial Energy 904.886355, Energy Consumption 145.692000
+Node 24 , Residual Energy (J) = 759.194355
+Node 25, Initial Energy 909.813810, Energy Consumption 145.985000
+Node 25 , Residual Energy (J) = 763.828810
+Node 26, Initial Energy 909.859007, Energy Consumption 145.891000
+Node 26 , Residual Energy (J) = 763.968007
+Node 27, Initial Energy 909.888262, Energy Consumption 146.800000
+Node 27 , Residual Energy (J) = 763.088262
+Node 28, Initial Energy 909.782902, Energy Consumption 146.786000
+Node 28 , Residual Energy (J) = 762.996902
+Node 29, Initial Energy 909.797962, Energy Consumption 146.027000
+Node 29 , Residual Energy (J) = 763.770962
+Node 30, Initial Energy 909.578354, Energy Consumption 145.515000
+Node 30 , Residual Energy (J) = 764.063354
+Node 31, Initial Energy 909.411104, Energy Consumption 144.981000
+Node 31 , Residual Energy (J) = 764.430104
+Node 32, Initial Energy 902.006651, Energy Consumption 145.248000
+Node 32 , Residual Energy (J) = 756.758651
+Node 33, Initial Energy 909.104191, Energy Consumption 145.327000
+Node 33 , Residual Energy (J) = 763.777191
+Node 34, Initial Energy 906.138118, Energy Consumption 145.371000
+Node 34 , Residual Energy (J) = 760.767118
+Node 35, Initial Energy 904.071431, Energy Consumption 145.280000
+Node 35 , Residual Energy (J) = 758.791431
+Node 36, Initial Energy 896.719539, Energy Consumption 144.938000
+Node 36 , Residual Energy (J) = 751.781539
+Node 37, Initial Energy 903.537577, Energy Consumption 145.180000
+Node 37 , Residual Energy (J) = 758.357577
+Node 38, Initial Energy 909.133042, Energy Consumption 144.921000
+Node 38 , Residual Energy (J) = 764.212042
+Node 39, Initial Energy 909.083101, Energy Consumption 144.933000
+Node 39 , Residual Energy (J) = 764.150101
+Node 10, del_time = 59.974640
+Node 10, received bytes per node = 64720.000000
+Node 10, Per-Node Throughput 8632.982218 bits/sec
+Node 11, del_time = 59.889824
+Node 11, received bytes per node = 126200.000000
+Node 11, Per-Node Throughput 16857.621872 bits/sec
+Node 12, del_time = 59.992836
+Node 12, received bytes per node = 162240.000000
+Node 12, Per-Node Throughput 21634.583026 bits/sec
+Node 13, del_time = 59.618753
+Node 13, received bytes per node = 73200.000000
+Node 13, Per-Node Throughput 9822.412745 bits/sec
+Node 14, del_time = 59.901882
+Node 14, received bytes per node = 70020.000000
+Node 14, Per-Node Throughput 9351.292101 bits/sec
+Node 15, del_time = 58.007605
+Node 15, received bytes per node = 52000.000000
+Node 15, Per-Node Throughput 7171.473489 bits/sec
+Node 16, del_time = 59.504026
+Node 16, received bytes per node = 45640.000000
+Node 16, Per-Node Throughput 6136.055380 bits/sec
+Node 17, del_time = 59.447787
+Node 17, received bytes per node = 21260.000000
+Node 17, Per-Node Throughput 2860.997984 bits/sec
+Node 18, del_time = 59.189489
+Node 18, received bytes per node = 161180.000000
+Node 18, Per-Node Throughput 21784.949033 bits/sec
+Node 19, del_time = 59.956224
+Node 19, received bytes per node = 201460.000000
+Node 19, Per-Node Throughput 26880.945732 bits/sec
+Node 20, del_time = 59.986794
+Node 20, received bytes per node = 413460.000000
+Node 20, Per-Node Throughput 55140.136334 bits/sec
+Node 21, del_time = 59.718048
+Node 21, received bytes per node = 204640.000000
+Node 21, Per-Node Throughput 27414.157715 bits/sec
+Node 22, del_time = 59.642957
+Node 22, received bytes per node = 52060.000000
+Node 22, Per-Node Throughput 6982.886523 bits/sec
+Node 23, del_time = 59.972572
+Node 23, received bytes per node = 24440.000000
+Node 23, Per-Node Throughput 3260.157015 bits/sec
+Node 24, del_time = 59.506094
+Node 24, received bytes per node = 3300.000000
+Node 24, Per-Node Throughput 443.652039 bits/sec
+Node 25, del_time = 59.262862
+Node 25, received bytes per node = 75320.000000
+Node 25, Per-Node Throughput 10167.581888 bits/sec
+Node 26, del_time = 58.674155
+Node 26, received bytes per node = 49880.000000
+Node 26, Per-Node Throughput 6800.950137 bits/sec
+Node 27, del_time = 59.384765
+Node 27, received bytes per node = 429360.000000
+Node 27, Per-Node Throughput 57841.098241 bits/sec
+Node 28, del_time = 59.854885
+Node 28, received bytes per node = 413460.000000
+Node 28, Per-Node Throughput 55261.654578 bits/sec
+Node 29, del_time = 59.652985
+Node 29, received bytes per node = 106060.000000
+Node 29, Per-Node Throughput 14223.596632 bits/sec
+Node 30, del_time = 57.366996
+Node 30, received bytes per node = 146340.000000
+Node 30, Per-Node Throughput 20407.552645 bits/sec
+Node 31, del_time = 56.107512
+Node 31, received bytes per node = 64720.000000
+Node 31, Per-Node Throughput 9227.997913 bits/sec
+Node 32, del_time = 38.587846
+Node 32, received bytes per node = 8600.000000
+Node 32, Per-Node Throughput 1782.944798 bits/sec
+Node 33, del_time = 57.881427
+Node 33, received bytes per node = 53060.000000
+Node 33, Per-Node Throughput 7333.613264 bits/sec
+Node 34, del_time = 54.899267
+Node 34, received bytes per node = 80620.000000
+Node 34, Per-Node Throughput 11748.062164 bits/sec
+Node 35, del_time = 40.844139
+Node 35, received bytes per node = 35040.000000
+Node 35, Per-Node Throughput 6863.163405 bits/sec
+Node 36, del_time = 34.410373
+Node 36, received bytes per node = 23380.000000
+Node 36, Per-Node Throughput 5435.570268 bits/sec
+Node 37, del_time = 52.538713
+Node 37, received bytes per node = 30860.000000
+Node 37, Per-Node Throughput 4699.011176 bits/sec
+Node 38, del_time = 14.089565
+Node 38, received bytes per node = 2240.000000
+Node 38, Per-Node Throughput 1271.863228 bits/sec
+Node 39, del_time = 42.999198
+Node 39, received bytes per node = 6480.000000
+Node 39, Per-Node Throughput 1205.603879 bits/sec
+
+
+
+Node 10, Initial Energy 909.831505, Energy Consumption 146.716000
+Node 10 , Residual Energy (J) = 763.115505
+Node 11, Initial Energy 906.289274, Energy Consumption 148.188000
+Node 11 , Residual Energy (J) = 758.101274
+Node 12, Initial Energy 907.088714, Energy Consumption 147.945000
+Node 12 , Residual Energy (J) = 759.143714
+Node 13, Initial Energy 909.813278, Energy Consumption 146.769000
+Node 13 , Residual Energy (J) = 763.044278
+Node 14, Initial Energy 909.862772, Energy Consumption 145.969000
+Node 14 , Residual Energy (J) = 763.893772
+Node 15, Initial Energy 909.474184, Energy Consumption 144.947000
+Node 15 , Residual Energy (J) = 764.527184
+Node 16, Initial Energy 909.812097, Energy Consumption 145.748000
+Node 16 , Residual Energy (J) = 764.064097
+Node 17, Initial Energy 904.609410, Energy Consumption 145.781000
+Node 17 , Residual Energy (J) = 758.828410
+Node 18, Initial Energy 909.936155, Energy Consumption 146.599000
+Node 18 , Residual Energy (J) = 763.337155
+Node 19, Initial Energy 909.882861, Energy Consumption 148.923000
+Node 19 , Residual Energy (J) = 760.959861
+Node 20, Initial Energy 909.849734, Energy Consumption 147.490000
+Node 20 , Residual Energy (J) = 762.359734
+Node 21, Initial Energy 906.896032, Energy Consumption 146.913000
+Node 21 , Residual Energy (J) = 759.983032
+Node 22, Initial Energy 909.183797, Energy Consumption 145.887000
+Node 22 , Residual Energy (J) = 763.296797
+Node 23, Initial Energy 909.848602, Energy Consumption 145.741000
+Node 23 , Residual Energy (J) = 764.107602
+Node 24, Initial Energy 904.886355, Energy Consumption 145.692000
+Node 24 , Residual Energy (J) = 759.194355
+Node 25, Initial Energy 909.813810, Energy Consumption 145.985000
+Node 25 , Residual Energy (J) = 763.828810
+Node 26, Initial Energy 909.859007, Energy Consumption 145.891000
+Node 26 , Residual Energy (J) = 763.968007
+Node 27, Initial Energy 909.888262, Energy Consumption 146.800000
+Node 27 , Residual Energy (J) = 763.088262
+Node 28, Initial Energy 909.782902, Energy Consumption 146.786000
+Node 28 , Residual Energy (J) = 762.996902
+Node 29, Initial Energy 909.797962, Energy Consumption 146.027000
+Node 29 , Residual Energy (J) = 763.770962
+Node 30, Initial Energy 909.578354, Energy Consumption 145.515000
+Node 30 , Residual Energy (J) = 764.063354
+Node 31, Initial Energy 909.411104, Energy Consumption 144.981000
+Node 31 , Residual Energy (J) = 764.430104
+Node 32, Initial Energy 902.006651, Energy Consumption 145.248000
+Node 32 , Residual Energy (J) = 756.758651
+Node 33, Initial Energy 909.104191, Energy Consumption 145.327000
+Node 33 , Residual Energy (J) = 763.777191
+Node 34, Initial Energy 906.138118, Energy Consumption 145.371000
+Node 34 , Residual Energy (J) = 760.767118
+Node 35, Initial Energy 904.071431, Energy Consumption 145.280000
+Node 35 , Residual Energy (J) = 758.791431
+Node 36, Initial Energy 896.719539, Energy Consumption 144.938000
+Node 36 , Residual Energy (J) = 751.781539
+Node 37, Initial Energy 903.537577, Energy Consumption 145.180000
+Node 37 , Residual Energy (J) = 758.357577
+Node 38, Initial Energy 909.133042, Energy Consumption 144.921000
+Node 38 , Residual Energy (J) = 764.212042
+Node 39, Initial Energy 909.083101, Energy Consumption 144.933000
+Node 39 , Residual Energy (J) = 764.150101
+Node 10, del_time = 59.974640
+Node 10, received bytes per node = 64720.000000
+Node 10, Per-Node Throughput 8632.982218 bits/sec
+Node 11, del_time = 59.889824
+Node 11, received bytes per node = 126200.000000
+Node 11, Per-Node Throughput 16857.621872 bits/sec
+Node 12, del_time = 59.992836
+Node 12, received bytes per node = 162240.000000
+Node 12, Per-Node Throughput 21634.583026 bits/sec
+Node 13, del_time = 59.618753
+Node 13, received bytes per node = 73200.000000
+Node 13, Per-Node Throughput 9822.412745 bits/sec
+Node 14, del_time = 59.901882
+Node 14, received bytes per node = 70020.000000
+Node 14, Per-Node Throughput 9351.292101 bits/sec
+Node 15, del_time = 58.007605
+Node 15, received bytes per node = 52000.000000
+Node 15, Per-Node Throughput 7171.473489 bits/sec
+Node 16, del_time = 59.504026
+Node 16, received bytes per node = 45640.000000
+Node 16, Per-Node Throughput 6136.055380 bits/sec
+Node 17, del_time = 59.447787
+Node 17, received bytes per node = 21260.000000
+Node 17, Per-Node Throughput 2860.997984 bits/sec
+Node 18, del_time = 59.189489
+Node 18, received bytes per node = 161180.000000
+Node 18, Per-Node Throughput 21784.949033 bits/sec
+Node 19, del_time = 59.956224
+Node 19, received bytes per node = 201460.000000
+Node 19, Per-Node Throughput 26880.945732 bits/sec
+Node 20, del_time = 59.986794
+Node 20, received bytes per node = 413460.000000
+Node 20, Per-Node Throughput 55140.136334 bits/sec
+Node 21, del_time = 59.718048
+Node 21, received bytes per node = 204640.000000
+Node 21, Per-Node Throughput 27414.157715 bits/sec
+Node 22, del_time = 59.642957
+Node 22, received bytes per node = 52060.000000
+Node 22, Per-Node Throughput 6982.886523 bits/sec
+Node 23, del_time = 59.972572
+Node 23, received bytes per node = 24440.000000
+Node 23, Per-Node Throughput 3260.157015 bits/sec
+Node 24, del_time = 59.506094
+Node 24, received bytes per node = 3300.000000
+Node 24, Per-Node Throughput 443.652039 bits/sec
+Node 25, del_time = 59.262862
+Node 25, received bytes per node = 75320.000000
+Node 25, Per-Node Throughput 10167.581888 bits/sec
+Node 26, del_time = 58.674155
+Node 26, received bytes per node = 49880.000000
+Node 26, Per-Node Throughput 6800.950137 bits/sec
+Node 27, del_time = 59.384765
+Node 27, received bytes per node = 429360.000000
+Node 27, Per-Node Throughput 57841.098241 bits/sec
+Node 28, del_time = 59.854885
+Node 28, received bytes per node = 413460.000000
+Node 28, Per-Node Throughput 55261.654578 bits/sec
+Node 29, del_time = 59.652985
+Node 29, received bytes per node = 106060.000000
+Node 29, Per-Node Throughput 14223.596632 bits/sec
+Node 30, del_time = 57.366996
+Node 30, received bytes per node = 146340.000000
+Node 30, Per-Node Throughput 20407.552645 bits/sec
+Node 31, del_time = 56.107512
+Node 31, received bytes per node = 64720.000000
+Node 31, Per-Node Throughput 9227.997913 bits/sec
+Node 32, del_time = 38.587846
+Node 32, received bytes per node = 8600.000000
+Node 32, Per-Node Throughput 1782.944798 bits/sec
+Node 33, del_time = 57.881427
+Node 33, received bytes per node = 53060.000000
+Node 33, Per-Node Throughput 7333.613264 bits/sec
+Node 34, del_time = 54.899267
+Node 34, received bytes per node = 80620.000000
+Node 34, Per-Node Throughput 11748.062164 bits/sec
+Node 35, del_time = 40.844139
+Node 35, received bytes per node = 35040.000000
+Node 35, Per-Node Throughput 6863.163405 bits/sec
+Node 36, del_time = 34.410373
+Node 36, received bytes per node = 23380.000000
+Node 36, Per-Node Throughput 5435.570268 bits/sec
+Node 37, del_time = 52.538713
+Node 37, received bytes per node = 30860.000000
+Node 37, Per-Node Throughput 4699.011176 bits/sec
+Node 38, del_time = 14.089565
+Node 38, received bytes per node = 2240.000000
+Node 38, Per-Node Throughput 1271.863228 bits/sec
+Node 39, del_time = 42.999198
+Node 39, received bytes per node = 6480.000000
+Node 39, Per-Node Throughput 1205.603879 bits/sec
+
+
+
+Node 10, Initial Energy 909.831505, Energy Consumption 146.716000
+Node 10 , Residual Energy (J) = 763.115505
+Node 11, Initial Energy 906.289274, Energy Consumption 148.188000
+Node 11 , Residual Energy (J) = 758.101274
+Node 12, Initial Energy 907.088714, Energy Consumption 147.945000
+Node 12 , Residual Energy (J) = 759.143714
+Node 13, Initial Energy 909.813278, Energy Consumption 146.769000
+Node 13 , Residual Energy (J) = 763.044278
+Node 14, Initial Energy 909.862772, Energy Consumption 145.969000
+Node 14 , Residual Energy (J) = 763.893772
+Node 15, Initial Energy 909.474184, Energy Consumption 144.947000
+Node 15 , Residual Energy (J) = 764.527184
+Node 16, Initial Energy 909.812097, Energy Consumption 145.748000
+Node 16 , Residual Energy (J) = 764.064097
+Node 17, Initial Energy 904.609410, Energy Consumption 145.781000
+Node 17 , Residual Energy (J) = 758.828410
+Node 18, Initial Energy 909.936155, Energy Consumption 146.599000
+Node 18 , Residual Energy (J) = 763.337155
+Node 19, Initial Energy 909.882861, Energy Consumption 148.923000
+Node 19 , Residual Energy (J) = 760.959861
+Node 20, Initial Energy 909.849734, Energy Consumption 147.490000
+Node 20 , Residual Energy (J) = 762.359734
+Node 21, Initial Energy 906.896032, Energy Consumption 146.913000
+Node 21 , Residual Energy (J) = 759.983032
+Node 22, Initial Energy 909.183797, Energy Consumption 145.887000
+Node 22 , Residual Energy (J) = 763.296797
+Node 23, Initial Energy 909.848602, Energy Consumption 145.741000
+Node 23 , Residual Energy (J) = 764.107602
+Node 24, Initial Energy 904.886355, Energy Consumption 145.692000
+Node 24 , Residual Energy (J) = 759.194355
+Node 25, Initial Energy 909.813810, Energy Consumption 145.985000
+Node 25 , Residual Energy (J) = 763.828810
+Node 26, Initial Energy 909.859007, Energy Consumption 145.891000
+Node 26 , Residual Energy (J) = 763.968007
+Node 27, Initial Energy 909.888262, Energy Consumption 146.800000
+Node 27 , Residual Energy (J) = 763.088262
+Node 28, Initial Energy 909.782902, Energy Consumption 146.786000
+Node 28 , Residual Energy (J) = 762.996902
+Node 29, Initial Energy 909.797962, Energy Consumption 146.027000
+Node 29 , Residual Energy (J) = 763.770962
+Node 30, Initial Energy 909.578354, Energy Consumption 145.515000
+Node 30 , Residual Energy (J) = 764.063354
+Node 31, Initial Energy 909.411104, Energy Consumption 144.981000
+Node 31 , Residual Energy (J) = 764.430104
+Node 32, Initial Energy 902.006651, Energy Consumption 145.248000
+Node 32 , Residual Energy (J) = 756.758651
+Node 33, Initial Energy 909.104191, Energy Consumption 145.327000
+Node 33 , Residual Energy (J) = 763.777191
+Node 34, Initial Energy 906.138118, Energy Consumption 145.371000
+Node 34 , Residual Energy (J) = 760.767118
+Node 35, Initial Energy 904.071431, Energy Consumption 145.280000
+Node 35 , Residual Energy (J) = 758.791431
+Node 36, Initial Energy 896.719539, Energy Consumption 144.938000
+Node 36 , Residual Energy (J) = 751.781539
+Node 37, Initial Energy 903.537577, Energy Consumption 145.180000
+Node 37 , Residual Energy (J) = 758.357577
+Node 38, Initial Energy 909.133042, Energy Consumption 144.921000
+Node 38 , Residual Energy (J) = 764.212042
+Node 39, Initial Energy 909.083101, Energy Consumption 144.933000
+Node 39 , Residual Energy (J) = 764.150101
+Node 10, del_time = 59.974640
+Node 10, received bytes per node = 64720.000000
+Node 10, Per-Node Throughput 8632.982218 bits/sec
+Node 11, del_time = 59.889824
+Node 11, received bytes per node = 126200.000000
+Node 11, Per-Node Throughput 16857.621872 bits/sec
+Node 12, del_time = 59.992836
+Node 12, received bytes per node = 162240.000000
+Node 12, Per-Node Throughput 21634.583026 bits/sec
+Node 13, del_time = 59.618753
+Node 13, received bytes per node = 73200.000000
+Node 13, Per-Node Throughput 9822.412745 bits/sec
+Node 14, del_time = 59.901882
+Node 14, received bytes per node = 70020.000000
+Node 14, Per-Node Throughput 9351.292101 bits/sec
+Node 15, del_time = 58.007605
+Node 15, received bytes per node = 52000.000000
+Node 15, Per-Node Throughput 7171.473489 bits/sec
+Node 16, del_time = 59.504026
+Node 16, received bytes per node = 45640.000000
+Node 16, Per-Node Throughput 6136.055380 bits/sec
+Node 17, del_time = 59.447787
+Node 17, received bytes per node = 21260.000000
+Node 17, Per-Node Throughput 2860.997984 bits/sec
+Node 18, del_time = 59.189489
+Node 18, received bytes per node = 161180.000000
+Node 18, Per-Node Throughput 21784.949033 bits/sec
+Node 19, del_time = 59.956224
+Node 19, received bytes per node = 201460.000000
+Node 19, Per-Node Throughput 26880.945732 bits/sec
+Node 20, del_time = 59.986794
+Node 20, received bytes per node = 413460.000000
+Node 20, Per-Node Throughput 55140.136334 bits/sec
+Node 21, del_time = 59.718048
+Node 21, received bytes per node = 204640.000000
+Node 21, Per-Node Throughput 27414.157715 bits/sec
+Node 22, del_time = 59.642957
+Node 22, received bytes per node = 52060.000000
+Node 22, Per-Node Throughput 6982.886523 bits/sec
+Node 23, del_time = 59.972572
+Node 23, received bytes per node = 24440.000000
+Node 23, Per-Node Throughput 3260.157015 bits/sec
+Node 24, del_time = 59.506094
+Node 24, received bytes per node = 3300.000000
+Node 24, Per-Node Throughput 443.652039 bits/sec
+Node 25, del_time = 59.262862
+Node 25, received bytes per node = 75320.000000
+Node 25, Per-Node Throughput 10167.581888 bits/sec
+Node 26, del_time = 58.674155
+Node 26, received bytes per node = 49880.000000
+Node 26, Per-Node Throughput 6800.950137 bits/sec
+Node 27, del_time = 59.384765
+Node 27, received bytes per node = 429360.000000
+Node 27, Per-Node Throughput 57841.098241 bits/sec
+Node 28, del_time = 59.854885
+Node 28, received bytes per node = 413460.000000
+Node 28, Per-Node Throughput 55261.654578 bits/sec
+Node 29, del_time = 59.652985
+Node 29, received bytes per node = 106060.000000
+Node 29, Per-Node Throughput 14223.596632 bits/sec
+Node 30, del_time = 57.366996
+Node 30, received bytes per node = 146340.000000
+Node 30, Per-Node Throughput 20407.552645 bits/sec
+Node 31, del_time = 56.107512
+Node 31, received bytes per node = 64720.000000
+Node 31, Per-Node Throughput 9227.997913 bits/sec
+Node 32, del_time = 38.587846
+Node 32, received bytes per node = 8600.000000
+Node 32, Per-Node Throughput 1782.944798 bits/sec
+Node 33, del_time = 57.881427
+Node 33, received bytes per node = 53060.000000
+Node 33, Per-Node Throughput 7333.613264 bits/sec
+Node 34, del_time = 54.899267
+Node 34, received bytes per node = 80620.000000
+Node 34, Per-Node Throughput 11748.062164 bits/sec
+Node 35, del_time = 40.844139
+Node 35, received bytes per node = 35040.000000
+Node 35, Per-Node Throughput 6863.163405 bits/sec
+Node 36, del_time = 34.410373
+Node 36, received bytes per node = 23380.000000
+Node 36, Per-Node Throughput 5435.570268 bits/sec
+Node 37, del_time = 52.538713
+Node 37, received bytes per node = 30860.000000
+Node 37, Per-Node Throughput 4699.011176 bits/sec
+Node 38, del_time = 14.089565
+Node 38, received bytes per node = 2240.000000
+Node 38, Per-Node Throughput 1271.863228 bits/sec
+Node 39, del_time = 42.999198
+Node 39, received bytes per node = 6480.000000
+Node 39, Per-Node Throughput 1205.603879 bits/sec
+
+
+
+Node 10, Initial Energy 909.831505, Energy Consumption 146.716000
+Node 10 , Residual Energy (J) = 763.115505
+Node 11, Initial Energy 906.289274, Energy Consumption 148.188000
+Node 11 , Residual Energy (J) = 758.101274
+Node 12, Initial Energy 907.088714, Energy Consumption 147.945000
+Node 12 , Residual Energy (J) = 759.143714
+Node 13, Initial Energy 909.813278, Energy Consumption 146.769000
+Node 13 , Residual Energy (J) = 763.044278
+Node 14, Initial Energy 909.862772, Energy Consumption 145.969000
+Node 14 , Residual Energy (J) = 763.893772
+Node 15, Initial Energy 909.474184, Energy Consumption 144.947000
+Node 15 , Residual Energy (J) = 764.527184
+Node 16, Initial Energy 909.812097, Energy Consumption 145.748000
+Node 16 , Residual Energy (J) = 764.064097
+Node 17, Initial Energy 904.609410, Energy Consumption 145.781000
+Node 17 , Residual Energy (J) = 758.828410
+Node 18, Initial Energy 909.936155, Energy Consumption 146.599000
+Node 18 , Residual Energy (J) = 763.337155
+Node 19, Initial Energy 909.882861, Energy Consumption 148.923000
+Node 19 , Residual Energy (J) = 760.959861
+Node 20, Initial Energy 909.849734, Energy Consumption 147.490000
+Node 20 , Residual Energy (J) = 762.359734
+Node 21, Initial Energy 906.896032, Energy Consumption 146.913000
+Node 21 , Residual Energy (J) = 759.983032
+Node 22, Initial Energy 909.183797, Energy Consumption 145.887000
+Node 22 , Residual Energy (J) = 763.296797
+Node 23, Initial Energy 909.848602, Energy Consumption 145.741000
+Node 23 , Residual Energy (J) = 764.107602
+Node 24, Initial Energy 904.886355, Energy Consumption 145.692000
+Node 24 , Residual Energy (J) = 759.194355
+Node 25, Initial Energy 909.813810, Energy Consumption 145.985000
+Node 25 , Residual Energy (J) = 763.828810
+Node 26, Initial Energy 909.859007, Energy Consumption 145.891000
+Node 26 , Residual Energy (J) = 763.968007
+Node 27, Initial Energy 909.888262, Energy Consumption 146.800000
+Node 27 , Residual Energy (J) = 763.088262
+Node 28, Initial Energy 909.782902, Energy Consumption 146.786000
+Node 28 , Residual Energy (J) = 762.996902
+Node 29, Initial Energy 909.797962, Energy Consumption 146.027000
+Node 29 , Residual Energy (J) = 763.770962
+Node 30, Initial Energy 909.578354, Energy Consumption 145.515000
+Node 30 , Residual Energy (J) = 764.063354
+Node 31, Initial Energy 909.411104, Energy Consumption 144.981000
+Node 31 , Residual Energy (J) = 764.430104
+Node 32, Initial Energy 902.006651, Energy Consumption 145.248000
+Node 32 , Residual Energy (J) = 756.758651
+Node 33, Initial Energy 909.104191, Energy Consumption 145.327000
+Node 33 , Residual Energy (J) = 763.777191
+Node 34, Initial Energy 906.138118, Energy Consumption 145.371000
+Node 34 , Residual Energy (J) = 760.767118
+Node 35, Initial Energy 904.071431, Energy Consumption 145.280000
+Node 35 , Residual Energy (J) = 758.791431
+Node 36, Initial Energy 896.719539, Energy Consumption 144.938000
+Node 36 , Residual Energy (J) = 751.781539
+Node 37, Initial Energy 903.537577, Energy Consumption 145.180000
+Node 37 , Residual Energy (J) = 758.357577
+Node 38, Initial Energy 909.133042, Energy Consumption 144.921000
+Node 38 , Residual Energy (J) = 764.212042
+Node 39, Initial Energy 909.083101, Energy Consumption 144.933000
+Node 39 , Residual Energy (J) = 764.150101
+Node 10, del_time = 59.974640
+Node 10, received bytes per node = 64720.000000
+Node 10, Per-Node Throughput 8632.982218 bits/sec
+Node 11, del_time = 59.889824
+Node 11, received bytes per node = 126200.000000
+Node 11, Per-Node Throughput 16857.621872 bits/sec
+Node 12, del_time = 59.992836
+Node 12, received bytes per node = 162240.000000
+Node 12, Per-Node Throughput 21634.583026 bits/sec
+Node 13, del_time = 59.618753
+Node 13, received bytes per node = 73200.000000
+Node 13, Per-Node Throughput 9822.412745 bits/sec
+Node 14, del_time = 59.901882
+Node 14, received bytes per node = 70020.000000
+Node 14, Per-Node Throughput 9351.292101 bits/sec
+Node 15, del_time = 58.007605
+Node 15, received bytes per node = 52000.000000
+Node 15, Per-Node Throughput 7171.473489 bits/sec
+Node 16, del_time = 59.504026
+Node 16, received bytes per node = 45640.000000
+Node 16, Per-Node Throughput 6136.055380 bits/sec
+Node 17, del_time = 59.447787
+Node 17, received bytes per node = 21260.000000
+Node 17, Per-Node Throughput 2860.997984 bits/sec
+Node 18, del_time = 59.189489
+Node 18, received bytes per node = 161180.000000
+Node 18, Per-Node Throughput 21784.949033 bits/sec
+Node 19, del_time = 59.956224
+Node 19, received bytes per node = 201460.000000
+Node 19, Per-Node Throughput 26880.945732 bits/sec
+Node 20, del_time = 59.986794
+Node 20, received bytes per node = 413460.000000
+Node 20, Per-Node Throughput 55140.136334 bits/sec
+Node 21, del_time = 59.718048
+Node 21, received bytes per node = 204640.000000
+Node 21, Per-Node Throughput 27414.157715 bits/sec
+Node 22, del_time = 59.642957
+Node 22, received bytes per node = 52060.000000
+Node 22, Per-Node Throughput 6982.886523 bits/sec
+Node 23, del_time = 59.972572
+Node 23, received bytes per node = 24440.000000
+Node 23, Per-Node Throughput 3260.157015 bits/sec
+Node 24, del_time = 59.506094
+Node 24, received bytes per node = 3300.000000
+Node 24, Per-Node Throughput 443.652039 bits/sec
+Node 25, del_time = 59.262862
+Node 25, received bytes per node = 75320.000000
+Node 25, Per-Node Throughput 10167.581888 bits/sec
+Node 26, del_time = 58.674155
+Node 26, received bytes per node = 49880.000000
+Node 26, Per-Node Throughput 6800.950137 bits/sec
+Node 27, del_time = 59.384765
+Node 27, received bytes per node = 429360.000000
+Node 27, Per-Node Throughput 57841.098241 bits/sec
+Node 28, del_time = 59.854885
+Node 28, received bytes per node = 413460.000000
+Node 28, Per-Node Throughput 55261.654578 bits/sec
+Node 29, del_time = 59.652985
+Node 29, received bytes per node = 106060.000000
+Node 29, Per-Node Throughput 14223.596632 bits/sec
+Node 30, del_time = 57.366996
+Node 30, received bytes per node = 146340.000000
+Node 30, Per-Node Throughput 20407.552645 bits/sec
+Node 31, del_time = 56.107512
+Node 31, received bytes per node = 64720.000000
+Node 31, Per-Node Throughput 9227.997913 bits/sec
+Node 32, del_time = 38.587846
+Node 32, received bytes per node = 8600.000000
+Node 32, Per-Node Throughput 1782.944798 bits/sec
+Node 33, del_time = 57.881427
+Node 33, received bytes per node = 53060.000000
+Node 33, Per-Node Throughput 7333.613264 bits/sec
+Node 34, del_time = 54.899267
+Node 34, received bytes per node = 80620.000000
+Node 34, Per-Node Throughput 11748.062164 bits/sec
+Node 35, del_time = 40.844139
+Node 35, received bytes per node = 35040.000000
+Node 35, Per-Node Throughput 6863.163405 bits/sec
+Node 36, del_time = 34.410373
+Node 36, received bytes per node = 23380.000000
+Node 36, Per-Node Throughput 5435.570268 bits/sec
+Node 37, del_time = 52.538713
+Node 37, received bytes per node = 30860.000000
+Node 37, Per-Node Throughput 4699.011176 bits/sec
+Node 38, del_time = 14.089565
+Node 38, received bytes per node = 2240.000000
+Node 38, Per-Node Throughput 1271.863228 bits/sec
+Node 39, del_time = 42.999198
+Node 39, received bytes per node = 6480.000000
+Node 39, Per-Node Throughput 1205.603879 bits/sec
+
+
+
+Node 10, Initial Energy 909.831505, Energy Consumption 146.716000
+Node 10 , Residual Energy (J) = 763.115505
+Node 11, Initial Energy 906.289274, Energy Consumption 148.188000
+Node 11 , Residual Energy (J) = 758.101274
+Node 12, Initial Energy 907.088714, Energy Consumption 147.945000
+Node 12 , Residual Energy (J) = 759.143714
+Node 13, Initial Energy 909.813278, Energy Consumption 146.769000
+Node 13 , Residual Energy (J) = 763.044278
+Node 14, Initial Energy 909.862772, Energy Consumption 145.969000
+Node 14 , Residual Energy (J) = 763.893772
+Node 15, Initial Energy 909.474184, Energy Consumption 144.947000
+Node 15 , Residual Energy (J) = 764.527184
+Node 16, Initial Energy 909.812097, Energy Consumption 145.748000
+Node 16 , Residual Energy (J) = 764.064097
+Node 17, Initial Energy 904.609410, Energy Consumption 145.781000
+Node 17 , Residual Energy (J) = 758.828410
+Node 18, Initial Energy 909.936155, Energy Consumption 146.599000
+Node 18 , Residual Energy (J) = 763.337155
+Node 19, Initial Energy 909.882861, Energy Consumption 148.923000
+Node 19 , Residual Energy (J) = 760.959861
+Node 20, Initial Energy 909.849734, Energy Consumption 147.490000
+Node 20 , Residual Energy (J) = 762.359734
+Node 21, Initial Energy 906.896032, Energy Consumption 146.913000
+Node 21 , Residual Energy (J) = 759.983032
+Node 22, Initial Energy 909.183797, Energy Consumption 145.887000
+Node 22 , Residual Energy (J) = 763.296797
+Node 23, Initial Energy 909.848602, Energy Consumption 145.741000
+Node 23 , Residual Energy (J) = 764.107602
+Node 24, Initial Energy 904.886355, Energy Consumption 145.692000
+Node 24 , Residual Energy (J) = 759.194355
+Node 25, Initial Energy 909.813810, Energy Consumption 145.985000
+Node 25 , Residual Energy (J) = 763.828810
+Node 26, Initial Energy 909.859007, Energy Consumption 145.891000
+Node 26 , Residual Energy (J) = 763.968007
+Node 27, Initial Energy 909.888262, Energy Consumption 146.800000
+Node 27 , Residual Energy (J) = 763.088262
+Node 28, Initial Energy 909.782902, Energy Consumption 146.786000
+Node 28 , Residual Energy (J) = 762.996902
+Node 29, Initial Energy 909.797962, Energy Consumption 146.027000
+Node 29 , Residual Energy (J) = 763.770962
+Node 30, Initial Energy 909.578354, Energy Consumption 145.515000
+Node 30 , Residual Energy (J) = 764.063354
+Node 31, Initial Energy 909.411104, Energy Consumption 144.981000
+Node 31 , Residual Energy (J) = 764.430104
+Node 32, Initial Energy 902.006651, Energy Consumption 145.248000
+Node 32 , Residual Energy (J) = 756.758651
+Node 33, Initial Energy 909.104191, Energy Consumption 145.327000
+Node 33 , Residual Energy (J) = 763.777191
+Node 34, Initial Energy 906.138118, Energy Consumption 145.371000
+Node 34 , Residual Energy (J) = 760.767118
+Node 35, Initial Energy 904.071431, Energy Consumption 145.280000
+Node 35 , Residual Energy (J) = 758.791431
+Node 36, Initial Energy 896.719539, Energy Consumption 144.938000
+Node 36 , Residual Energy (J) = 751.781539
+Node 37, Initial Energy 903.537577, Energy Consumption 145.180000
+Node 37 , Residual Energy (J) = 758.357577
+Node 38, Initial Energy 909.133042, Energy Consumption 144.921000
+Node 38 , Residual Energy (J) = 764.212042
+Node 39, Initial Energy 909.083101, Energy Consumption 144.933000
+Node 39 , Residual Energy (J) = 764.150101
+Node 10, del_time = 59.974640
+Node 10, received bytes per node = 64720.000000
+Node 10, Per-Node Throughput 8632.982218 bits/sec
+Node 11, del_time = 59.889824
+Node 11, received bytes per node = 126200.000000
+Node 11, Per-Node Throughput 16857.621872 bits/sec
+Node 12, del_time = 59.992836
+Node 12, received bytes per node = 162240.000000
+Node 12, Per-Node Throughput 21634.583026 bits/sec
+Node 13, del_time = 59.618753
+Node 13, received bytes per node = 73200.000000
+Node 13, Per-Node Throughput 9822.412745 bits/sec
+Node 14, del_time = 59.901882
+Node 14, received bytes per node = 70020.000000
+Node 14, Per-Node Throughput 9351.292101 bits/sec
+Node 15, del_time = 58.007605
+Node 15, received bytes per node = 52000.000000
+Node 15, Per-Node Throughput 7171.473489 bits/sec
+Node 16, del_time = 59.504026
+Node 16, received bytes per node = 45640.000000
+Node 16, Per-Node Throughput 6136.055380 bits/sec
+Node 17, del_time = 59.447787
+Node 17, received bytes per node = 21260.000000
+Node 17, Per-Node Throughput 2860.997984 bits/sec
+Node 18, del_time = 59.189489
+Node 18, received bytes per node = 161180.000000
+Node 18, Per-Node Throughput 21784.949033 bits/sec
+Node 19, del_time = 59.956224
+Node 19, received bytes per node = 201460.000000
+Node 19, Per-Node Throughput 26880.945732 bits/sec
+Node 20, del_time = 59.986794
+Node 20, received bytes per node = 413460.000000
+Node 20, Per-Node Throughput 55140.136334 bits/sec
+Node 21, del_time = 59.718048
+Node 21, received bytes per node = 204640.000000
+Node 21, Per-Node Throughput 27414.157715 bits/sec
+Node 22, del_time = 59.642957
+Node 22, received bytes per node = 52060.000000
+Node 22, Per-Node Throughput 6982.886523 bits/sec
+Node 23, del_time = 59.972572
+Node 23, received bytes per node = 24440.000000
+Node 23, Per-Node Throughput 3260.157015 bits/sec
+Node 24, del_time = 59.506094
+Node 24, received bytes per node = 3300.000000
+Node 24, Per-Node Throughput 443.652039 bits/sec
+Node 25, del_time = 59.262862
+Node 25, received bytes per node = 75320.000000
+Node 25, Per-Node Throughput 10167.581888 bits/sec
+Node 26, del_time = 58.674155
+Node 26, received bytes per node = 49880.000000
+Node 26, Per-Node Throughput 6800.950137 bits/sec
+Node 27, del_time = 59.384765
+Node 27, received bytes per node = 429360.000000
+Node 27, Per-Node Throughput 57841.098241 bits/sec
+Node 28, del_time = 59.854885
+Node 28, received bytes per node = 413460.000000
+Node 28, Per-Node Throughput 55261.654578 bits/sec
+Node 29, del_time = 59.652985
+Node 29, received bytes per node = 106060.000000
+Node 29, Per-Node Throughput 14223.596632 bits/sec
+Node 30, del_time = 57.366996
+Node 30, received bytes per node = 146340.000000
+Node 30, Per-Node Throughput 20407.552645 bits/sec
+Node 31, del_time = 56.107512
+Node 31, received bytes per node = 64720.000000
+Node 31, Per-Node Throughput 9227.997913 bits/sec
+Node 32, del_time = 38.587846
+Node 32, received bytes per node = 8600.000000
+Node 32, Per-Node Throughput 1782.944798 bits/sec
+Node 33, del_time = 57.881427
+Node 33, received bytes per node = 53060.000000
+Node 33, Per-Node Throughput 7333.613264 bits/sec
+Node 34, del_time = 54.899267
+Node 34, received bytes per node = 80620.000000
+Node 34, Per-Node Throughput 11748.062164 bits/sec
+Node 35, del_time = 40.844139
+Node 35, received bytes per node = 35040.000000
+Node 35, Per-Node Throughput 6863.163405 bits/sec
+Node 36, del_time = 34.410373
+Node 36, received bytes per node = 23380.000000
+Node 36, Per-Node Throughput 5435.570268 bits/sec
+Node 37, del_time = 52.538713
+Node 37, received bytes per node = 30860.000000
+Node 37, Per-Node Throughput 4699.011176 bits/sec
+Node 38, del_time = 14.089565
+Node 38, received bytes per node = 2240.000000
+Node 38, Per-Node Throughput 1271.863228 bits/sec
+Node 39, del_time = 42.999198
+Node 39, received bytes per node = 6480.000000
+Node 39, Per-Node Throughput 1205.603879 bits/sec
+
+
+
+Node 10, Initial Energy 905.549037, Energy Consumption 146.059000
+Node 10 , Residual Energy (J) = 759.490037
+Node 11, Initial Energy 909.767745, Energy Consumption 147.392000
+Node 11 , Residual Energy (J) = 762.375745
+Node 12, Initial Energy 909.657771, Energy Consumption 148.064000
+Node 12 , Residual Energy (J) = 761.593771
+Node 13, Initial Energy 908.832852, Energy Consumption 145.963000
+Node 13 , Residual Energy (J) = 762.869852
+Node 14, Initial Energy 905.843975, Energy Consumption 145.512000
+Node 14 , Residual Energy (J) = 760.331975
+Node 15, Initial Energy 905.437469, Energy Consumption 144.053000
+Node 15 , Residual Energy (J) = 761.384469
+Node 16, Initial Energy 905.083695, Energy Consumption 142.591000
+Node 16 , Residual Energy (J) = 762.492695
+Node 17, Initial Energy 909.475337, Energy Consumption 146.184000
+Node 17 , Residual Energy (J) = 763.291337
+Node 18, Initial Energy 908.856176, Energy Consumption 146.890000
+Node 18 , Residual Energy (J) = 761.966176
+Node 19, Initial Energy 909.896247, Energy Consumption 151.577000
+Node 19 , Residual Energy (J) = 758.319247
+Node 20, Initial Energy 909.872073, Energy Consumption 152.119000
+Node 20 , Residual Energy (J) = 757.753073
+Node 21, Initial Energy 906.103365, Energy Consumption 147.772000
+Node 21 , Residual Energy (J) = 758.331365
+Node 22, Initial Energy 904.930059, Energy Consumption 145.763000
+Node 22 , Residual Energy (J) = 759.167059
+Node 23, Initial Energy 909.399658, Energy Consumption 144.127000
+Node 23 , Residual Energy (J) = 765.272658
+Node 24, Initial Energy 909.089523, Energy Consumption 142.246000
+Node 24 , Residual Energy (J) = 766.843523
+Node 25, Initial Energy 908.836054, Energy Consumption 143.651000
+Node 25 , Residual Energy (J) = 765.185054
+Node 26, Initial Energy 909.390404, Energy Consumption 145.882000
+Node 26 , Residual Energy (J) = 763.508404
+Node 27, Initial Energy 909.679587, Energy Consumption 147.169000
+Node 27 , Residual Energy (J) = 762.510587
+Node 28, Initial Energy 909.711399, Energy Consumption 146.246000
+Node 28 , Residual Energy (J) = 763.465399
+Node 29, Initial Energy 909.314652, Energy Consumption 146.126000
+Node 29 , Residual Energy (J) = 763.188652
+Node 30, Initial Energy 907.004696, Energy Consumption 145.179000
+Node 30 , Residual Energy (J) = 761.825696
+Node 31, Initial Energy 905.236073, Energy Consumption 144.920000
+Node 31 , Residual Energy (J) = 760.316073
+Node 32, Initial Energy 900.297679, Energy Consumption 142.839000
+Node 32 , Residual Energy (J) = 757.458679
+Node 33, Initial Energy 909.083189, Energy Consumption 143.217000
+Node 33 , Residual Energy (J) = 765.866189
+Node 34, Initial Energy 909.508232, Energy Consumption 143.399000
+Node 34 , Residual Energy (J) = 766.109232
+Node 35, Initial Energy 909.323021, Energy Consumption 144.676000
+Node 35 , Residual Energy (J) = 764.647021
+Node 36, Initial Energy 905.605646, Energy Consumption 145.058000
+Node 36 , Residual Energy (J) = 760.547646
+Node 38, Initial Energy 868.505602, Energy Consumption 144.782000
+Node 38 , Residual Energy (J) = 723.723602
+Node 39, Initial Energy 905.512843, Energy Consumption 143.518000
+Node 39 , Residual Energy (J) = 761.994843
+Node 10, del_time = 59.839189
+Node 10, received bytes per node = 151640.000000
+Node 10, Per-Node Throughput 20273.002072 bits/sec
+Node 11, del_time = 59.713363
+Node 11, received bytes per node = 86980.000000
+Node 11, Per-Node Throughput 11653.003056 bits/sec
+Node 12, del_time = 59.123017
+Node 12, received bytes per node = 167540.000000
+Node 12, Per-Node Throughput 22670.020256 bits/sec
+Node 13, del_time = 59.637144
+Node 13, received bytes per node = 56240.000000
+Node 13, Per-Node Throughput 7544.291502 bits/sec
+Node 14, del_time = 59.587101
+Node 14, received bytes per node = 180.000000
+Node 14, Per-Node Throughput 24.166304 bits/sec
+Node 15, del_time = 47.503128
+Node 15, received bytes per node = 1240.000000
+Node 15, Per-Node Throughput 208.828354 bits/sec
+Node 16, del_time = 47.402824
+Node 16, received bytes per node = 2180.000000
+Node 16, Per-Node Throughput 367.910567 bits/sec
+Node 17, del_time = 50.000000
+Node 17, received bytes per node = 54180.000000
+Node 17, Per-Node Throughput 8668.800000 bits/sec
+Node 18, del_time = 59.883870
+Node 18, received bytes per node = 344560.000000
+Node 18, Per-Node Throughput 46030.425331 bits/sec
+Node 19, del_time = 59.956815
+Node 19, received bytes per node = 329720.000000
+Node 19, Per-Node Throughput 43994.331678 bits/sec
+Node 20, del_time = 59.979064
+Node 20, received bytes per node = 378480.000000
+Node 20, Per-Node Throughput 50481.614498 bits/sec
+Node 21, del_time = 58.472849
+Node 21, received bytes per node = 73200.000000
+Node 21, Per-Node Throughput 10014.904607 bits/sec
+Node 22, del_time = 59.311883
+Node 22, received bytes per node = 2180.000000
+Node 22, Per-Node Throughput 294.038884 bits/sec
+Node 23, del_time = 49.554296
+Node 23, received bytes per node = 60.000000
+Node 23, Per-Node Throughput 9.686345 bits/sec
+Node 24, del_time = 46.931914
+Node 24, received bytes per node = 60.000000
+Node 24, Per-Node Throughput 10.227582 bits/sec
+Node 25, del_time = 53.291826
+Node 25, received bytes per node = 27620.000000
+Node 25, Per-Node Throughput 4146.226838 bits/sec
+Node 26, del_time = 59.952502
+Node 26, received bytes per node = 41400.000000
+Node 26, Per-Node Throughput 5524.373261 bits/sec
+Node 27, del_time = 59.808881
+Node 27, received bytes per node = 320180.000000
+Node 27, Per-Node Throughput 42827.084806 bits/sec
+Node 28, del_time = 59.778781
+Node 28, received bytes per node = 233260.000000
+Node 28, Per-Node Throughput 31216.428015 bits/sec
+Node 29, del_time = 59.571363
+Node 29, received bytes per node = 51000.000000
+Node 29, Per-Node Throughput 6848.928439 bits/sec
+Node 30, del_time = 53.460935
+Node 30, received bytes per node = 4300.000000
+Node 30, Per-Node Throughput 643.460500 bits/sec
+Node 31, del_time = 23.014515
+Node 31, received bytes per node = 1180.000000
+Node 31, Per-Node Throughput 410.175933 bits/sec
+Node 32, del_time = 0.000000
+Node 32, received bytes per node = 60.000000
+Node 32, Per-Node Throughput inf bits/sec
+Node 33, del_time = 6.131363
+Node 33, received bytes per node = 2240.000000
+Node 33, Per-Node Throughput 2922.677978 bits/sec
+Node 34, del_time = 45.170891
+Node 34, received bytes per node = 240.000000
+Node 34, Per-Node Throughput 42.505250 bits/sec
+Node 35, del_time = 51.239815
+Node 35, received bytes per node = 4300.000000
+Node 35, Per-Node Throughput 671.352931 bits/sec
+Node 36, del_time = 38.743326
+Node 36, received bytes per node = 18140.000000
+Node 36, Per-Node Throughput 3745.677352 bits/sec
+Node 38, del_time = 40.068989
+Node 38, received bytes per node = 60.000000
+Node 38, Per-Node Throughput 11.979339 bits/sec
+Node 39, del_time = 41.570271
+Node 39, received bytes per node = 4360.000000
+Node 39, Per-Node Throughput 839.061171 bits/sec
+
+
+
+Node 10, Initial Energy 909.794774, Energy Consumption 146.081000
+Node 10 , Residual Energy (J) = 763.713774
+Node 11, Initial Energy 909.647867, Energy Consumption 146.954000
+Node 11 , Residual Energy (J) = 762.693867
+Node 12, Initial Energy 909.629013, Energy Consumption 147.096000
+Node 12 , Residual Energy (J) = 762.533013
+Node 13, Initial Energy 909.823086, Energy Consumption 145.877000
+Node 13 , Residual Energy (J) = 763.946086
+Node 14, Initial Energy 909.720969, Energy Consumption 145.868000
+Node 14 , Residual Energy (J) = 763.852969
+Node 15, Initial Energy 900.609050, Energy Consumption 145.256000
+Node 15 , Residual Energy (J) = 755.353050
+Node 16, Initial Energy 907.662651, Energy Consumption 145.203000
+Node 16 , Residual Energy (J) = 762.459651
+Node 17, Initial Energy 902.816307, Energy Consumption 146.485000
+Node 17 , Residual Energy (J) = 756.331307
+Node 18, Initial Energy 909.729859, Energy Consumption 147.723000
+Node 18 , Residual Energy (J) = 762.006859
+Node 19, Initial Energy 909.920844, Energy Consumption 149.321000
+Node 19 , Residual Energy (J) = 760.599844
+Node 20, Initial Energy 906.779848, Energy Consumption 150.006000
+Node 20 , Residual Energy (J) = 756.773848
+Node 21, Initial Energy 909.817032, Energy Consumption 147.217000
+Node 21 , Residual Energy (J) = 762.600032
+Node 22, Initial Energy 909.480583, Energy Consumption 146.028000
+Node 22 , Residual Energy (J) = 763.452583
+Node 23, Initial Energy 906.646140, Energy Consumption 144.607000
+Node 23 , Residual Energy (J) = 762.039140
+Node 24, Initial Energy 898.738410, Energy Consumption 145.342000
+Node 24 , Residual Energy (J) = 753.396410
+Node 25, Initial Energy 909.451800, Energy Consumption 145.776000
+Node 25 , Residual Energy (J) = 763.675800
+Node 26, Initial Energy 906.268947, Energy Consumption 147.070000
+Node 26 , Residual Energy (J) = 759.198947
+Node 27, Initial Energy 909.636239, Energy Consumption 147.119000
+Node 27 , Residual Energy (J) = 762.517239
+Node 28, Initial Energy 909.454738, Energy Consumption 147.393000
+Node 28 , Residual Energy (J) = 762.061738
+Node 29, Initial Energy 906.695132, Energy Consumption 146.550000
+Node 29 , Residual Energy (J) = 760.145132
+Node 30, Initial Energy 909.754420, Energy Consumption 144.579000
+Node 30 , Residual Energy (J) = 765.175420
+Node 31, Initial Energy 897.027357, Energy Consumption 144.483000
+Node 31 , Residual Energy (J) = 752.544357
+Node 33, Initial Energy 909.608325, Energy Consumption 145.020000
+Node 33 , Residual Energy (J) = 764.588325
+Node 34, Initial Energy 909.253400, Energy Consumption 145.035000
+Node 34 , Residual Energy (J) = 764.218400
+Node 35, Initial Energy 909.670880, Energy Consumption 145.112000
+Node 35 , Residual Energy (J) = 764.558880
+Node 36, Initial Energy 900.327222, Energy Consumption 145.098000
+Node 36 , Residual Energy (J) = 755.229222
+Node 37, Initial Energy 901.835227, Energy Consumption 143.105000
+Node 37 , Residual Energy (J) = 758.730227
+Node 38, Initial Energy 909.298119, Energy Consumption 143.079000
+Node 38 , Residual Energy (J) = 766.219119
+Node 39, Initial Energy 909.776432, Energy Consumption 141.408000
+Node 39 , Residual Energy (J) = 768.368432
+Node 10, del_time = 59.483008
+Node 10, received bytes per node = 180260.000000
+Node 10, Per-Node Throughput 24243.562231 bits/sec
+Node 11, del_time = 59.629177
+Node 11, received bytes per node = 142100.000000
+Node 11, Per-Node Throughput 19064.492531 bits/sec
+Node 12, del_time = 58.711983
+Node 12, received bytes per node = 83800.000000
+Node 12, Per-Node Throughput 11418.452737 bits/sec
+Node 13, del_time = 59.716345
+Node 13, received bytes per node = 59420.000000
+Node 13, Per-Node Throughput 7960.299686 bits/sec
+Node 14, del_time = 55.617272
+Node 14, received bytes per node = 112420.000000
+Node 14, Per-Node Throughput 16170.516121 bits/sec
+Node 15, del_time = 59.645376
+Node 15, received bytes per node = 1120.000000
+Node 15, Per-Node Throughput 150.221201 bits/sec
+Node 16, del_time = 48.450215
+Node 16, received bytes per node = 10840.000000
+Node 16, Per-Node Throughput 1789.878548 bits/sec
+Node 17, del_time = 59.594448
+Node 17, received bytes per node = 111420.000000
+Node 17, Per-Node Throughput 14957.098060 bits/sec
+Node 18, del_time = 59.977467
+Node 18, received bytes per node = 147400.000000
+Node 18, Per-Node Throughput 19660.716761 bits/sec
+Node 19, del_time = 59.609083
+Node 19, received bytes per node = 612740.000000
+Node 19, Per-Node Throughput 82234.447395 bits/sec
+Node 20, del_time = 59.578220
+Node 20, received bytes per node = 150580.000000
+Node 20, Per-Node Throughput 20219.469365 bits/sec
+Node 21, del_time = 59.305007
+Node 21, received bytes per node = 101820.000000
+Node 21, Per-Node Throughput 13735.096685 bits/sec
+Node 22, del_time = 59.803023
+Node 22, received bytes per node = 124140.000000
+Node 22, Per-Node Throughput 16606.518481 bits/sec
+Node 23, del_time = 49.323153
+Node 23, received bytes per node = 24440.000000
+Node 23, Per-Node Throughput 3964.061264 bits/sec
+Node 24, del_time = 56.389312
+Node 24, received bytes per node = 11780.000000
+Node 24, Per-Node Throughput 1671.238684 bits/sec
+Node 25, del_time = 54.802246
+Node 25, received bytes per node = 65780.000000
+Node 25, Per-Node Throughput 9602.526130 bits/sec
+Node 26, del_time = 59.860032
+Node 26, received bytes per node = 20200.000000
+Node 26, Per-Node Throughput 2699.631037 bits/sec
+Node 27, del_time = 59.790407
+Node 27, received bytes per node = 93340.000000
+Node 27, Per-Node Throughput 12488.959978 bits/sec
+Node 28, del_time = 59.838114
+Node 28, received bytes per node = 90160.000000
+Node 28, Per-Node Throughput 12053.855790 bits/sec
+Node 29, del_time = 59.987535
+Node 29, received bytes per node = 45640.000000
+Node 29, Per-Node Throughput 6086.597827 bits/sec
+Node 30, del_time = 58.150092
+Node 30, received bytes per node = 35100.000000
+Node 30, Per-Node Throughput 4828.883140 bits/sec
+Node 31, del_time = 0.000000
+Node 31, received bytes per node = 60.000000
+Node 31, Per-Node Throughput inf bits/sec
+Node 33, del_time = 57.181519
+Node 33, received bytes per node = 6540.000000
+Node 33, Per-Node Throughput 914.980942 bits/sec
+Node 34, del_time = 32.220840
+Node 34, received bytes per node = 7540.000000
+Node 34, Per-Node Throughput 1872.080301 bits/sec
+Node 35, del_time = 58.613820
+Node 35, received bytes per node = 48820.000000
+Node 35, Per-Node Throughput 6663.275014 bits/sec
+Node 36, del_time = 44.777816
+Node 36, received bytes per node = 7600.000000
+Node 36, Per-Node Throughput 1357.815215 bits/sec
+Node 37, del_time = 46.887785
+Node 37, received bytes per node = 7540.000000
+Node 37, Per-Node Throughput 1286.475786 bits/sec
+Node 38, del_time = 47.024100
+Node 38, received bytes per node = 10720.000000
+Node 38, Per-Node Throughput 1823.745681 bits/sec
+Node 39, del_time = 51.107888
+Node 39, received bytes per node = 3240.000000
+Node 39, Per-Node Throughput 507.162413 bits/sec
+
+
+
+Node 10, Initial Energy 909.743148, Energy Consumption 146.252000
+Node 10 , Residual Energy (J) = 763.491148
+Node 11, Initial Energy 909.744839, Energy Consumption 147.802000
+Node 11 , Residual Energy (J) = 761.942839
+Node 12, Initial Energy 909.905290, Energy Consumption 147.529000
+Node 12 , Residual Energy (J) = 762.376290
+Node 13, Initial Energy 909.502322, Energy Consumption 145.919000
+Node 13 , Residual Energy (J) = 763.583322
+Node 14, Initial Energy 909.500078, Energy Consumption 145.940000
+Node 14 , Residual Energy (J) = 763.560078
+Node 15, Initial Energy 909.605859, Energy Consumption 142.450000
+Node 15 , Residual Energy (J) = 767.155859
+Node 16, Initial Energy 909.125024, Energy Consumption 145.708000
+Node 16 , Residual Energy (J) = 763.417024
+Node 17, Initial Energy 907.580413, Energy Consumption 145.784000
+Node 17 , Residual Energy (J) = 761.796413
+Node 18, Initial Energy 909.905535, Energy Consumption 148.254000
+Node 18 , Residual Energy (J) = 761.651535
+Node 19, Initial Energy 909.825010, Energy Consumption 148.828000
+Node 19 , Residual Energy (J) = 760.997010
+Node 20, Initial Energy 909.629721, Energy Consumption 147.966000
+Node 20 , Residual Energy (J) = 761.663721
+Node 21, Initial Energy 909.913247, Energy Consumption 147.112000
+Node 21 , Residual Energy (J) = 762.801247
+Node 22, Initial Energy 907.550465, Energy Consumption 145.925000
+Node 22 , Residual Energy (J) = 761.625465
+Node 23, Initial Energy 905.441420, Energy Consumption 145.586000
+Node 23 , Residual Energy (J) = 759.855420
+Node 24, Initial Energy 905.150630, Energy Consumption 145.349000
+Node 24 , Residual Energy (J) = 759.801630
+Node 25, Initial Energy 908.650469, Energy Consumption 145.704000
+Node 25 , Residual Energy (J) = 762.946469
+Node 26, Initial Energy 909.554288, Energy Consumption 145.876000
+Node 26 , Residual Energy (J) = 763.678288
+Node 27, Initial Energy 909.899659, Energy Consumption 147.878000
+Node 27 , Residual Energy (J) = 762.021659
+Node 28, Initial Energy 909.929866, Energy Consumption 146.850000
+Node 28 , Residual Energy (J) = 763.079866
+Node 29, Initial Energy 909.756293, Energy Consumption 146.725000
+Node 29 , Residual Energy (J) = 763.031293
+Node 30, Initial Energy 909.696853, Energy Consumption 145.636000
+Node 30 , Residual Energy (J) = 764.060853
+Node 31, Initial Energy 907.547533, Energy Consumption 145.135000
+Node 31 , Residual Energy (J) = 762.412533
+Node 32, Initial Energy 908.179504, Energy Consumption 143.869000
+Node 32 , Residual Energy (J) = 764.310504
+Node 33, Initial Energy 909.663860, Energy Consumption 143.880000
+Node 33 , Residual Energy (J) = 765.783860
+Node 34, Initial Energy 904.159964, Energy Consumption 145.368000
+Node 34 , Residual Energy (J) = 758.791964
+Node 35, Initial Energy 907.398346, Energy Consumption 145.283000
+Node 35 , Residual Energy (J) = 762.115346
+Node 36, Initial Energy 899.471496, Energy Consumption 145.324000
+Node 36 , Residual Energy (J) = 754.147496
+Node 37, Initial Energy 905.317933, Energy Consumption 145.141000
+Node 37 , Residual Energy (J) = 760.176933
+Node 38, Initial Energy 909.859295, Energy Consumption 145.344000
+Node 38 , Residual Energy (J) = 764.515295
+Node 39, Initial Energy 907.409030, Energy Consumption 145.069000
+Node 39 , Residual Energy (J) = 762.340030
+Node 10, del_time = 59.994082
+Node 10, received bytes per node = 64720.000000
+Node 10, Per-Node Throughput 8630.184575 bits/sec
+Node 11, del_time = 59.754476
+Node 11, received bytes per node = 70020.000000
+Node 11, Per-Node Throughput 9374.360453 bits/sec
+Node 12, del_time = 59.788718
+Node 12, received bytes per node = 230080.000000
+Node 12, Per-Node Throughput 30785.741458 bits/sec
+Node 13, del_time = 59.462536
+Node 13, received bytes per node = 110300.000000
+Node 13, Per-Node Throughput 14839.595887 bits/sec
+Node 14, del_time = 59.836903
+Node 14, received bytes per node = 66900.000000
+Node 14, Per-Node Throughput 8944.313220 bits/sec
+Node 15, del_time = 42.563914
+Node 15, received bytes per node = 11840.000000
+Node 15, Per-Node Throughput 2225.359254 bits/sec
+Node 16, del_time = 59.981926
+Node 16, received bytes per node = 38280.000000
+Node 16, Per-Node Throughput 5105.537987 bits/sec
+Node 17, del_time = 53.715302
+Node 17, received bytes per node = 41460.000000
+Node 17, Per-Node Throughput 6174.776742 bits/sec
+Node 18, del_time = 50.000000
+Node 18, received bytes per node = 208880.000000
+Node 18, Per-Node Throughput 33420.800000 bits/sec
+Node 19, del_time = 59.798743
+Node 19, received bytes per node = 336080.000000
+Node 19, Per-Node Throughput 44961.479925 bits/sec
+Node 20, del_time = 59.735345
+Node 20, received bytes per node = 482360.000000
+Node 20, Per-Node Throughput 64599.610533 bits/sec
+Node 21, del_time = 50.036566
+Node 21, received bytes per node = 397560.000000
+Node 21, Per-Node Throughput 63563.115269 bits/sec
+Node 22, del_time = 54.585455
+Node 22, received bytes per node = 48880.000000
+Node 22, Per-Node Throughput 7163.813192 bits/sec
+Node 23, del_time = 59.920517
+Node 23, received bytes per node = 14960.000000
+Node 23, Per-Node Throughput 1997.312530 bits/sec
+Node 24, del_time = 46.932338
+Node 24, received bytes per node = 5420.000000
+Node 24, Per-Node Throughput 923.883227 bits/sec
+Node 25, del_time = 57.469808
+Node 25, received bytes per node = 44580.000000
+Node 25, Per-Node Throughput 6205.693226 bits/sec
+Node 26, del_time = 58.448145
+Node 26, received bytes per node = 95460.000000
+Node 26, Per-Node Throughput 13065.940828 bits/sec
+Node 27, del_time = 59.961868
+Node 27, received bytes per node = 333960.000000
+Node 27, Per-Node Throughput 44556.317186 bits/sec
+Node 28, del_time = 59.718318
+Node 28, received bytes per node = 425120.000000
+Node 28, Per-Node Throughput 56950.030314 bits/sec
+Node 29, del_time = 59.971877
+Node 29, received bytes per node = 90160.000000
+Node 29, Per-Node Throughput 12026.970640 bits/sec
+Node 30, del_time = 56.746095
+Node 30, received bytes per node = 23440.000000
+Node 30, Per-Node Throughput 3304.544541 bits/sec
+Node 31, del_time = 43.922301
+Node 31, received bytes per node = 35100.000000
+Node 31, Per-Node Throughput 6393.107680 bits/sec
+Node 32, del_time = 38.940909
+Node 32, received bytes per node = 8600.000000
+Node 32, Per-Node Throughput 1766.779515 bits/sec
+Node 33, del_time = 43.017822
+Node 33, received bytes per node = 7480.000000
+Node 33, Per-Node Throughput 1391.051363 bits/sec
+Node 34, del_time = 52.013637
+Node 34, received bytes per node = 35040.000000
+Node 34, Per-Node Throughput 5389.355848 bits/sec
+Node 35, del_time = 56.638760
+Node 35, received bytes per node = 34040.000000
+Node 35, Per-Node Throughput 4808.014883 bits/sec
+Node 36, del_time = 42.368534
+Node 36, received bytes per node = 90160.000000
+Node 36, Per-Node Throughput 17023.954708 bits/sec
+Node 37, del_time = 47.330511
+Node 37, received bytes per node = 41400.000000
+Node 37, Per-Node Throughput 6997.600358 bits/sec
+Node 38, del_time = 59.554915
+Node 38, received bytes per node = 39280.000000
+Node 38, Per-Node Throughput 5276.474620 bits/sec
+Node 39, del_time = 19.963378
+Node 39, received bytes per node = 2240.000000
+Node 39, Per-Node Throughput 897.643673 bits/sec
+
+
+
+Node 10, Initial Energy 909.831505, Energy Consumption 146.716000
+Node 10 , Residual Energy (J) = 763.115505
+Node 11, Initial Energy 906.289274, Energy Consumption 148.188000
+Node 11 , Residual Energy (J) = 758.101274
+Node 12, Initial Energy 907.088714, Energy Consumption 147.945000
+Node 12 , Residual Energy (J) = 759.143714
+Node 13, Initial Energy 909.813278, Energy Consumption 146.769000
+Node 13 , Residual Energy (J) = 763.044278
+Node 14, Initial Energy 909.862772, Energy Consumption 145.969000
+Node 14 , Residual Energy (J) = 763.893772
+Node 15, Initial Energy 909.474184, Energy Consumption 144.947000
+Node 15 , Residual Energy (J) = 764.527184
+Node 16, Initial Energy 909.812097, Energy Consumption 145.748000
+Node 16 , Residual Energy (J) = 764.064097
+Node 17, Initial Energy 904.609410, Energy Consumption 145.781000
+Node 17 , Residual Energy (J) = 758.828410
+Node 18, Initial Energy 909.936155, Energy Consumption 146.599000
+Node 18 , Residual Energy (J) = 763.337155
+Node 19, Initial Energy 909.882861, Energy Consumption 148.923000
+Node 19 , Residual Energy (J) = 760.959861
+Node 20, Initial Energy 909.849734, Energy Consumption 147.490000
+Node 20 , Residual Energy (J) = 762.359734
+Node 21, Initial Energy 906.896032, Energy Consumption 146.913000
+Node 21 , Residual Energy (J) = 759.983032
+Node 22, Initial Energy 909.183797, Energy Consumption 145.887000
+Node 22 , Residual Energy (J) = 763.296797
+Node 23, Initial Energy 909.848602, Energy Consumption 145.741000
+Node 23 , Residual Energy (J) = 764.107602
+Node 24, Initial Energy 904.886355, Energy Consumption 145.692000
+Node 24 , Residual Energy (J) = 759.194355
+Node 25, Initial Energy 909.813810, Energy Consumption 145.985000
+Node 25 , Residual Energy (J) = 763.828810
+Node 26, Initial Energy 909.859007, Energy Consumption 145.891000
+Node 26 , Residual Energy (J) = 763.968007
+Node 27, Initial Energy 909.888262, Energy Consumption 146.800000
+Node 27 , Residual Energy (J) = 763.088262
+Node 28, Initial Energy 909.782902, Energy Consumption 146.786000
+Node 28 , Residual Energy (J) = 762.996902
+Node 29, Initial Energy 909.797962, Energy Consumption 146.027000
+Node 29 , Residual Energy (J) = 763.770962
+Node 30, Initial Energy 909.578354, Energy Consumption 145.515000
+Node 30 , Residual Energy (J) = 764.063354
+Node 31, Initial Energy 909.411104, Energy Consumption 144.981000
+Node 31 , Residual Energy (J) = 764.430104
+Node 32, Initial Energy 902.006651, Energy Consumption 145.248000
+Node 32 , Residual Energy (J) = 756.758651
+Node 33, Initial Energy 909.104191, Energy Consumption 145.327000
+Node 33 , Residual Energy (J) = 763.777191
+Node 34, Initial Energy 906.138118, Energy Consumption 145.371000
+Node 34 , Residual Energy (J) = 760.767118
+Node 35, Initial Energy 904.071431, Energy Consumption 145.280000
+Node 35 , Residual Energy (J) = 758.791431
+Node 36, Initial Energy 896.719539, Energy Consumption 144.938000
+Node 36 , Residual Energy (J) = 751.781539
+Node 37, Initial Energy 903.537577, Energy Consumption 145.180000
+Node 37 , Residual Energy (J) = 758.357577
+Node 38, Initial Energy 909.133042, Energy Consumption 144.921000
+Node 38 , Residual Energy (J) = 764.212042
+Node 39, Initial Energy 909.083101, Energy Consumption 144.933000
+Node 39 , Residual Energy (J) = 764.150101
+Node 10, del_time = 59.974640
+Node 10, received bytes per node = 64720.000000
+Node 10, Per-Node Throughput 8632.982218 bits/sec
+Node 11, del_time = 59.889824
+Node 11, received bytes per node = 126200.000000
+Node 11, Per-Node Throughput 16857.621872 bits/sec
+Node 12, del_time = 59.992836
+Node 12, received bytes per node = 162240.000000
+Node 12, Per-Node Throughput 21634.583026 bits/sec
+Node 13, del_time = 59.618753
+Node 13, received bytes per node = 73200.000000
+Node 13, Per-Node Throughput 9822.412745 bits/sec
+Node 14, del_time = 59.901882
+Node 14, received bytes per node = 70020.000000
+Node 14, Per-Node Throughput 9351.292101 bits/sec
+Node 15, del_time = 58.007605
+Node 15, received bytes per node = 52000.000000
+Node 15, Per-Node Throughput 7171.473489 bits/sec
+Node 16, del_time = 59.504026
+Node 16, received bytes per node = 45640.000000
+Node 16, Per-Node Throughput 6136.055380 bits/sec
+Node 17, del_time = 59.447787
+Node 17, received bytes per node = 21260.000000
+Node 17, Per-Node Throughput 2860.997984 bits/sec
+Node 18, del_time = 59.189489
+Node 18, received bytes per node = 161180.000000
+Node 18, Per-Node Throughput 21784.949033 bits/sec
+Node 19, del_time = 59.956224
+Node 19, received bytes per node = 201460.000000
+Node 19, Per-Node Throughput 26880.945732 bits/sec
+Node 20, del_time = 59.986794
+Node 20, received bytes per node = 413460.000000
+Node 20, Per-Node Throughput 55140.136334 bits/sec
+Node 21, del_time = 59.718048
+Node 21, received bytes per node = 204640.000000
+Node 21, Per-Node Throughput 27414.157715 bits/sec
+Node 22, del_time = 59.642957
+Node 22, received bytes per node = 52060.000000
+Node 22, Per-Node Throughput 6982.886523 bits/sec
+Node 23, del_time = 59.972572
+Node 23, received bytes per node = 24440.000000
+Node 23, Per-Node Throughput 3260.157015 bits/sec
+Node 24, del_time = 59.506094
+Node 24, received bytes per node = 3300.000000
+Node 24, Per-Node Throughput 443.652039 bits/sec
+Node 25, del_time = 59.262862
+Node 25, received bytes per node = 75320.000000
+Node 25, Per-Node Throughput 10167.581888 bits/sec
+Node 26, del_time = 58.674155
+Node 26, received bytes per node = 49880.000000
+Node 26, Per-Node Throughput 6800.950137 bits/sec
+Node 27, del_time = 59.384765
+Node 27, received bytes per node = 429360.000000
+Node 27, Per-Node Throughput 57841.098241 bits/sec
+Node 28, del_time = 59.854885
+Node 28, received bytes per node = 413460.000000
+Node 28, Per-Node Throughput 55261.654578 bits/sec
+Node 29, del_time = 59.652985
+Node 29, received bytes per node = 106060.000000
+Node 29, Per-Node Throughput 14223.596632 bits/sec
+Node 30, del_time = 57.366996
+Node 30, received bytes per node = 146340.000000
+Node 30, Per-Node Throughput 20407.552645 bits/sec
+Node 31, del_time = 56.107512
+Node 31, received bytes per node = 64720.000000
+Node 31, Per-Node Throughput 9227.997913 bits/sec
+Node 32, del_time = 38.587846
+Node 32, received bytes per node = 8600.000000
+Node 32, Per-Node Throughput 1782.944798 bits/sec
+Node 33, del_time = 57.881427
+Node 33, received bytes per node = 53060.000000
+Node 33, Per-Node Throughput 7333.613264 bits/sec
+Node 34, del_time = 54.899267
+Node 34, received bytes per node = 80620.000000
+Node 34, Per-Node Throughput 11748.062164 bits/sec
+Node 35, del_time = 40.844139
+Node 35, received bytes per node = 35040.000000
+Node 35, Per-Node Throughput 6863.163405 bits/sec
+Node 36, del_time = 34.410373
+Node 36, received bytes per node = 23380.000000
+Node 36, Per-Node Throughput 5435.570268 bits/sec
+Node 37, del_time = 52.538713
+Node 37, received bytes per node = 30860.000000
+Node 37, Per-Node Throughput 4699.011176 bits/sec
+Node 38, del_time = 14.089565
+Node 38, received bytes per node = 2240.000000
+Node 38, Per-Node Throughput 1271.863228 bits/sec
+Node 39, del_time = 42.999198
+Node 39, received bytes per node = 6480.000000
+Node 39, Per-Node Throughput 1205.603879 bits/sec
+
+
+
+Node 10, Initial Energy 909.878457, Energy Consumption 147.015000
+Node 10 , Residual Energy (J) = 762.863457
+Node 11, Initial Energy 907.007222, Energy Consumption 147.442000
+Node 11 , Residual Energy (J) = 759.565222
+Node 12, Initial Energy 909.746033, Energy Consumption 146.079000
+Node 12 , Residual Energy (J) = 763.667033
+Node 13, Initial Energy 905.858933, Energy Consumption 147.123000
+Node 13 , Residual Energy (J) = 758.735933
+Node 14, Initial Energy 909.403711, Energy Consumption 145.651000
+Node 14 , Residual Energy (J) = 763.752711
+Node 15, Initial Energy 903.873886, Energy Consumption 145.660000
+Node 15 , Residual Energy (J) = 758.213886
+Node 16, Initial Energy 907.907066, Energy Consumption 145.617000
+Node 16 , Residual Energy (J) = 762.290066
+Node 17, Initial Energy 909.883168, Energy Consumption 145.723000
+Node 17 , Residual Energy (J) = 764.160168
+Node 18, Initial Energy 909.940397, Energy Consumption 146.650000
+Node 18 , Residual Energy (J) = 763.290397
+Node 19, Initial Energy 909.939114, Energy Consumption 147.461000
+Node 19 , Residual Energy (J) = 762.478114
+Node 20, Initial Energy 906.897414, Energy Consumption 149.125000
+Node 20 , Residual Energy (J) = 757.772414
+Node 21, Initial Energy 909.939612, Energy Consumption 146.609000
+Node 21 , Residual Energy (J) = 763.330612
+Node 22, Initial Energy 903.777214, Energy Consumption 146.371000
+Node 22 , Residual Energy (J) = 757.406214
+Node 23, Initial Energy 907.929274, Energy Consumption 145.562000
+Node 23 , Residual Energy (J) = 762.367274
+Node 24, Initial Energy 909.915867, Energy Consumption 145.495000
+Node 24 , Residual Energy (J) = 764.420867
+Node 25, Initial Energy 909.423316, Energy Consumption 145.911000
+Node 25 , Residual Energy (J) = 763.512316
+Node 26, Initial Energy 909.787396, Energy Consumption 146.967000
+Node 26 , Residual Energy (J) = 762.820396
+Node 27, Initial Energy 907.066943, Energy Consumption 146.614000
+Node 27 , Residual Energy (J) = 760.452943
+Node 28, Initial Energy 909.955157, Energy Consumption 146.497000
+Node 28 , Residual Energy (J) = 763.458157
+Node 29, Initial Energy 906.376635, Energy Consumption 146.508000
+Node 29 , Residual Energy (J) = 759.868635
+Node 30, Initial Energy 906.938554, Energy Consumption 145.596000
+Node 30 , Residual Energy (J) = 761.342554
+Node 31, Initial Energy 909.100007, Energy Consumption 145.406000
+Node 31 , Residual Energy (J) = 763.694007
+Node 32, Initial Energy 909.505663, Energy Consumption 144.915000
+Node 32 , Residual Energy (J) = 764.590663
+Node 33, Initial Energy 909.094586, Energy Consumption 145.401000
+Node 33 , Residual Energy (J) = 763.693586
+Node 34, Initial Energy 909.755932, Energy Consumption 145.495000
+Node 34 , Residual Energy (J) = 764.260932
+Node 35, Initial Energy 909.104298, Energy Consumption 145.387000
+Node 35 , Residual Energy (J) = 763.717298
+Node 36, Initial Energy 909.149254, Energy Consumption 145.479000
+Node 36 , Residual Energy (J) = 763.670254
+Node 37, Initial Energy 909.731687, Energy Consumption 145.576000
+Node 37 , Residual Energy (J) = 764.155687
+Node 38, Initial Energy 902.706070, Energy Consumption 145.410000
+Node 38 , Residual Energy (J) = 757.296070
+Node 39, Initial Energy 905.720340, Energy Consumption 145.373000
+Node 39 , Residual Energy (J) = 760.347340
+Node 10, del_time = 59.770939
+Node 10, received bytes per node = 113480.000000
+Node 10, Per-Node Throughput 15188.652136 bits/sec
+Node 11, del_time = 59.904812
+Node 11, received bytes per node = 119840.000000
+Node 11, Per-Node Throughput 16004.056617 bits/sec
+Node 12, del_time = 58.323087
+Node 12, received bytes per node = 92280.000000
+Node 12, Per-Node Throughput 12657.766178 bits/sec
+Node 13, del_time = 59.996415
+Node 13, received bytes per node = 197220.000000
+Node 13, Per-Node Throughput 26297.571088 bits/sec
+Node 14, del_time = 58.113808
+Node 14, received bytes per node = 28680.000000
+Node 14, Per-Node Throughput 3948.115038 bits/sec
+Node 15, del_time = 59.984755
+Node 15, received bytes per node = 22320.000000
+Node 15, Per-Node Throughput 2976.756342 bits/sec
+Node 16, del_time = 46.733038
+Node 16, received bytes per node = 25560.000000
+Node 16, Per-Node Throughput 4375.491309 bits/sec
+Node 17, del_time = 57.898436
+Node 17, received bytes per node = 47760.000000
+Node 17, Per-Node Throughput 6599.142009 bits/sec
+Node 18, del_time = 53.345067
+Node 18, received bytes per node = 162240.000000
+Node 18, Per-Node Throughput 24330.647198 bits/sec
+Node 19, del_time = 59.984316
+Node 19, received bytes per node = 618040.000000
+Node 19, Per-Node Throughput 82426.879700 bits/sec
+Node 20, del_time = 59.961197
+Node 20, received bytes per node = 241740.000000
+Node 20, Per-Node Throughput 32252.858373 bits/sec
+Node 21, del_time = 50.068788
+Node 21, received bytes per node = 117720.000000
+Node 21, Per-Node Throughput 18809.322926 bits/sec
+Node 22, del_time = 59.466425
+Node 22, received bytes per node = 31860.000000
+Node 22, Per-Node Throughput 4286.116053 bits/sec
+Node 23, del_time = 53.569805
+Node 23, received bytes per node = 45700.000000
+Node 23, Per-Node Throughput 6824.740225 bits/sec
+Node 24, del_time = 57.320639
+Node 24, received bytes per node = 42460.000000
+Node 24, Per-Node Throughput 5925.963263 bits/sec
+Node 25, del_time = 58.423719
+Node 25, received bytes per node = 45640.000000
+Node 25, Per-Node Throughput 6249.516578 bits/sec
+Node 26, del_time = 59.986366
+Node 26, received bytes per node = 318060.000000
+Node 26, Per-Node Throughput 42417.638532 bits/sec
+Node 27, del_time = 59.370064
+Node 27, received bytes per node = 94400.000000
+Node 27, Per-Node Throughput 12720.215458 bits/sec
+Node 28, del_time = 57.630436
+Node 28, received bytes per node = 362580.000000
+Node 28, Per-Node Throughput 50331.737507 bits/sec
+Node 29, del_time = 59.614791
+Node 29, received bytes per node = 195100.000000
+Node 29, Per-Node Throughput 26181.421996 bits/sec
+Node 30, del_time = 46.082263
+Node 30, received bytes per node = 11840.000000
+Node 30, Per-Node Throughput 2055.454633 bits/sec
+Node 31, del_time = 53.374274
+Node 31, received bytes per node = 44640.000000
+Node 31, Per-Node Throughput 6690.863855 bits/sec
+Node 32, del_time = 46.750293
+Node 32, received bytes per node = 6420.000000
+Node 32, Per-Node Throughput 1098.602742 bits/sec
+Node 33, del_time = 57.768052
+Node 33, received bytes per node = 78500.000000
+Node 33, Per-Node Throughput 10871.060630 bits/sec
+Node 34, del_time = 59.746030
+Node 34, received bytes per node = 93400.000000
+Node 34, Per-Node Throughput 12506.270320 bits/sec
+Node 35, del_time = 57.962740
+Node 35, received bytes per node = 54180.000000
+Node 35, Per-Node Throughput 7477.907375 bits/sec
+Node 36, del_time = 57.146890
+Node 36, received bytes per node = 78500.000000
+Node 36, Per-Node Throughput 10989.224442 bits/sec
+Node 37, del_time = 59.500016
+Node 37, received bytes per node = 167540.000000
+Node 37, Per-Node Throughput 22526.380391 bits/sec
+Node 38, del_time = 50.768530
+Node 38, received bytes per node = 46700.000000
+Node 38, Per-Node Throughput 7358.889479 bits/sec
+Node 39, del_time = 53.475734
+Node 39, received bytes per node = 9600.000000
+Node 39, Per-Node Throughput 1436.165419 bits/sec
+
+
+

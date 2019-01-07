@@ -1,0 +1,927 @@
+
+Running 802.11 Wireless Static now ... 
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 20, Flow = 20, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       418241.28 
+AverageDelay:         1.21037 
+Sent Packets:         3235.00 
+Received Packets:         2978.00	
+Dropped Packets:          224.00 
+PacketDeliveryRatio:      92.06 
+PacketDropRatio:       6.92	
+Total time:   59.99752
+Total_energy:      2931.39100 
+Avg_enr_per_bit:         0.00012 
+Avg_enr_per_byte:         0.00093	
+Avg_enr_per_pckt:         0.98435 
+Total_retransmit:            4762
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 20, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       442354.71 
+AverageDelay:         1.10351 
+Sent Packets:         3423.00 
+Received Packets:         3153.00	
+Dropped Packets:          231.00 
+PacketDeliveryRatio:      92.11 
+PacketDropRatio:       6.75	
+Total time:   59.99131
+Total_energy:      5833.15800 
+Avg_enr_per_bit:         0.00022 
+Avg_enr_per_byte:         0.00176	
+Avg_enr_per_pckt:         1.85003 
+Total_retransmit:            4643
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 20, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       352602.12 
+AverageDelay:         1.52577 
+Sent Packets:         2755.00 
+Received Packets:         2522.00	
+Dropped Packets:          194.00 
+PacketDeliveryRatio:      91.54 
+PacketDropRatio:       7.04	
+Total time:   59.99556
+Total_energy:      8742.93500 
+Avg_enr_per_bit:         0.00041 
+Avg_enr_per_byte:         0.00331	
+Avg_enr_per_pckt:         3.46667 
+Total_retransmit:            4554
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 80, Flow = 20, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       281776.04 
+AverageDelay:         1.36109 
+Sent Packets:         2222.00 
+Received Packets:         2017.00	
+Dropped Packets:          170.00 
+PacketDeliveryRatio:      90.77 
+PacketDropRatio:       7.65	
+Total time:   59.99147
+Total_energy:     11652.70700 
+Avg_enr_per_bit:         0.00069 
+Avg_enr_per_byte:         0.00551	
+Avg_enr_per_pckt:         5.77725 
+Total_retransmit:            4534
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 100, Flow = 20, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       259780.04 
+AverageDelay:         1.74585 
+Sent Packets:         2059.00 
+Received Packets:         1863.00	
+Dropped Packets:          178.00 
+PacketDeliveryRatio:      90.48 
+PacketDropRatio:       8.64	
+Total time:   59.95164
+Total_energy:     14573.70900 
+Avg_enr_per_bit:         0.00094 
+Avg_enr_per_byte:         0.00749	
+Avg_enr_per_pckt:         7.82271 
+Total_retransmit:            4460
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 10, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       280019.74 
+AverageDelay:         1.20291 
+Sent Packets:         2160.00 
+Received Packets:         1990.00	
+Dropped Packets:          131.00 
+PacketDeliveryRatio:      92.13 
+PacketDropRatio:       6.06	
+Total time:   59.97863
+Total_energy:      8752.20800 
+Avg_enr_per_bit:         0.00052 
+Avg_enr_per_byte:         0.00417	
+Avg_enr_per_pckt:         4.39809 
+Total_retransmit:            4642
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 20, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       352602.12 
+AverageDelay:         1.52577 
+Sent Packets:         2755.00 
+Received Packets:         2522.00	
+Dropped Packets:          194.00 
+PacketDeliveryRatio:      91.54 
+PacketDropRatio:       7.04	
+Total time:   59.99556
+Total_energy:      8742.93500 
+Avg_enr_per_bit:         0.00041 
+Avg_enr_per_byte:         0.00331	
+Avg_enr_per_pckt:         3.46667 
+Total_retransmit:            4554
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 30, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       419622.42 
+AverageDelay:         1.47710 
+Sent Packets:         3306.00 
+Received Packets:         3014.00	
+Dropped Packets:          276.00 
+PacketDeliveryRatio:      91.17 
+PacketDropRatio:       8.35	
+Total time:   59.99374
+Total_energy:      8743.61900 
+Avg_enr_per_bit:         0.00035 
+Avg_enr_per_byte:         0.00278	
+Avg_enr_per_pckt:         2.90100 
+Total_retransmit:            4481
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 40, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       401453.14 
+AverageDelay:         1.47011 
+Sent Packets:         3245.00 
+Received Packets:         2889.00	
+Dropped Packets:          351.00 
+PacketDeliveryRatio:      89.03 
+PacketDropRatio:      10.82	
+Total time:   59.98887
+Total_energy:      8741.65100 
+Avg_enr_per_bit:         0.00036 
+Avg_enr_per_byte:         0.00290	
+Avg_enr_per_pckt:         3.02584 
+Total_retransmit:            4509
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 60, Flow = 50, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       395170.44 
+AverageDelay:         1.70587 
+Sent Packets:         3248.00 
+Received Packets:         2858.00	
+Dropped Packets:          410.00 
+PacketDeliveryRatio:      87.99 
+PacketDropRatio:      12.62	
+Total time:   59.99396
+Total_energy:      8735.47100 
+Avg_enr_per_bit:         0.00037 
+Avg_enr_per_byte:         0.00295	
+Avg_enr_per_pckt:         3.05650 
+Total_retransmit:            4411
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 100, Coeverage area Multiplier = 4
+
+
+Throughput:       426882.97 
+AverageDelay:         1.57521 
+Sent Packets:         3333.00 
+Received Packets:         3054.00	
+Dropped Packets:          235.00 
+PacketDeliveryRatio:      91.63 
+PacketDropRatio:       7.05	
+Total time:   59.99284
+Total_energy:      5837.26000 
+Avg_enr_per_bit:         0.00023 
+Avg_enr_per_byte:         0.00182	
+Avg_enr_per_pckt:         1.91135 
+Total_retransmit:            4625
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 200, Coeverage area Multiplier = 4
+
+
+Throughput:       426882.97 
+AverageDelay:         1.57521 
+Sent Packets:         3333.00 
+Received Packets:         3054.00	
+Dropped Packets:          235.00 
+PacketDeliveryRatio:      91.63 
+PacketDropRatio:       7.05	
+Total time:   59.99284
+Total_energy:      5837.26000 
+Avg_enr_per_bit:         0.00023 
+Avg_enr_per_byte:         0.00182	
+Avg_enr_per_pckt:         1.91135 
+Total_retransmit:            4625
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 300, Coeverage area Multiplier = 4
+
+
+Throughput:       426882.97 
+AverageDelay:         1.57521 
+Sent Packets:         3333.00 
+Received Packets:         3054.00	
+Dropped Packets:          235.00 
+PacketDeliveryRatio:      91.63 
+PacketDropRatio:       7.05	
+Total time:   59.99284
+Total_energy:      5837.26000 
+Avg_enr_per_bit:         0.00023 
+Avg_enr_per_byte:         0.00182	
+Avg_enr_per_pckt:         1.91135 
+Total_retransmit:            4625
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 400, Coeverage area Multiplier = 4
+
+
+Throughput:       426882.97 
+AverageDelay:         1.57521 
+Sent Packets:         3333.00 
+Received Packets:         3054.00	
+Dropped Packets:          235.00 
+PacketDeliveryRatio:      91.63 
+PacketDropRatio:       7.05	
+Total time:   59.99284
+Total_energy:      5837.26000 
+Avg_enr_per_bit:         0.00023 
+Avg_enr_per_byte:         0.00182	
+Avg_enr_per_pckt:         1.91135 
+Total_retransmit:            4625
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       426882.97 
+AverageDelay:         1.57521 
+Sent Packets:         3333.00 
+Received Packets:         3054.00	
+Dropped Packets:          235.00 
+PacketDeliveryRatio:      91.63 
+PacketDropRatio:       7.05	
+Total time:   59.99284
+Total_energy:      5837.26000 
+Avg_enr_per_bit:         0.00023 
+Avg_enr_per_byte:         0.00182	
+Avg_enr_per_pckt:         1.91135 
+Total_retransmit:            4625
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 500, Coeverage area Multiplier = 1
+
+
+Throughput:       314347.02 
+AverageDelay:         1.05508 
+Sent Packets:         2550.00 
+Received Packets:         2263.00	
+Dropped Packets:          427.00 
+PacketDeliveryRatio:      88.75 
+PacketDropRatio:      16.75	
+Total time:   59.97906
+Total_energy:      5814.24000 
+Avg_enr_per_bit:         0.00031 
+Avg_enr_per_byte:         0.00247	
+Avg_enr_per_pckt:         2.56926 
+Total_retransmit:            4933
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 500, Coeverage area Multiplier = 2
+
+
+Throughput:       308938.85 
+AverageDelay:         1.23402 
+Sent Packets:         2517.00 
+Received Packets:         2226.00	
+Dropped Packets:          273.00 
+PacketDeliveryRatio:      88.44 
+PacketDropRatio:      10.85	
+Total time:   59.98753
+Total_energy:      5827.34500 
+Avg_enr_per_bit:         0.00031 
+Avg_enr_per_byte:         0.00252	
+Avg_enr_per_pckt:         2.61785 
+Total_retransmit:            4956
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 500, Coeverage area Multiplier = 3
+
+
+Throughput:       457885.16 
+AverageDelay:         1.40790 
+Sent Packets:         3538.00 
+Received Packets:         3280.00	
+Dropped Packets:          254.00 
+PacketDeliveryRatio:      92.71 
+PacketDropRatio:       7.18	
+Total time:   59.99408
+Total_energy:      5830.49000 
+Avg_enr_per_bit:         0.00021 
+Avg_enr_per_byte:         0.00170	
+Avg_enr_per_pckt:         1.77759 
+Total_retransmit:            4727
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 500, Coeverage area Multiplier = 4
+
+
+Throughput:       426882.97 
+AverageDelay:         1.57521 
+Sent Packets:         3333.00 
+Received Packets:         3054.00	
+Dropped Packets:          235.00 
+PacketDeliveryRatio:      91.63 
+PacketDropRatio:       7.05	
+Total time:   59.99284
+Total_energy:      5837.26000 
+Avg_enr_per_bit:         0.00023 
+Avg_enr_per_byte:         0.00182	
+Avg_enr_per_pckt:         1.91135 
+Total_retransmit:            4625
+
+
+
+
+-------------------------------------------------
+
+
+Nodes = 40, Flow = 30, Packets per second = 500, Coeverage area Multiplier = 5
+
+
+Throughput:       468561.33 
+AverageDelay:         1.36220 
+Sent Packets:         3645.00 
+Received Packets:         3350.00	
+Dropped Packets:          271.00 
+PacketDeliveryRatio:      91.91 
+PacketDropRatio:       7.43	
+Total time:   59.99642
+Total_energy:      5839.87000 
+Avg_enr_per_bit:         0.00021 
+Avg_enr_per_byte:         0.00166	
+Avg_enr_per_pckt:         1.74324 
+Total_retransmit:            4545
+
+
+Running 802.15.4 Wireless Mobile now ... 
+
+
+
+
+============================================================
+
+
+Number of Nodes = 20, Flow = 20, Packets per sec = 500, Node speed = 20
+
+
+Throughput:        17794.49 
+AverageDelay:         0.04903 
+Sent Packets:         1109.00 
+Received Packets:         1045.00	
+Dropped Packets:           11.00 
+PacketDeliveryRatio:      94.23 
+PacketDropRatio:       0.99	
+Total time:   16.96346
+Total_energy:         0.85000 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00002	
+Avg_enr_per_pckt:         0.00081 
+Total_retransmit:            1044
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 20, Packets per sec = 500, Node speed = 20
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           60.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.42900 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 20, Packets per sec = 500, Node speed = 20
+
+
+Throughput:        11818.51 
+AverageDelay:         0.04464 
+Sent Packets:          904.00 
+Received Packets:          818.00	
+Dropped Packets:           20.00 
+PacketDeliveryRatio:      90.49 
+PacketDropRatio:       2.21	
+Total time:   19.99304
+Total_energy:         1.00800 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00003	
+Avg_enr_per_pckt:         0.00123 
+Total_retransmit:             819
+
+
+
+
+============================================================
+
+
+Number of Nodes = 80, Flow = 20, Packets per sec = 500, Node speed = 20
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           60.00 
+Received Packets:            0.00	
+Dropped Packets:            3.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       5.00	
+Total time:   15.00000
+Total_energy:         0.88700 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               1
+
+
+
+
+============================================================
+
+
+Number of Nodes = 100, Flow = 20, Packets per sec = 500, Node speed = 20
+
+
+Throughput:         5365.00 
+AverageDelay:         0.05826 
+Sent Packets:          408.00 
+Received Packets:          341.00	
+Dropped Packets:           12.00 
+PacketDeliveryRatio:      83.58 
+PacketDropRatio:       2.94	
+Total time:   18.37091
+Total_energy:         1.55900 
+Avg_enr_per_bit:         0.00002 
+Avg_enr_per_byte:         0.00013	
+Avg_enr_per_pckt:         0.00457 
+Total_retransmit:             340
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 10, Packets per sec = 500, Node speed = 20
+
+
+Throughput:         3223.92 
+AverageDelay:         0.05288 
+Sent Packets:          269.00 
+Received Packets:          221.00	
+Dropped Packets:           24.00 
+PacketDeliveryRatio:      82.16 
+PacketDropRatio:       8.92	
+Total time:   19.85158
+Total_energy:         0.81700 
+Avg_enr_per_bit:         0.00001 
+Avg_enr_per_byte:         0.00010	
+Avg_enr_per_pckt:         0.00370 
+Total_retransmit:             222
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 20, Packets per sec = 500, Node speed = 20
+
+
+Throughput:           50.59 
+AverageDelay:         3.65119 
+Sent Packets:           60.00 
+Received Packets:            1.00	
+Dropped Packets:            2.00 
+PacketDeliveryRatio:       1.67 
+PacketDropRatio:       3.33	
+Total time:   12.65119
+Total_energy:         0.64300 
+Avg_enr_per_bit:         0.00100 
+Avg_enr_per_byte:         0.00804	
+Avg_enr_per_pckt:         0.64300 
+Total_retransmit:               1
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 30, Packets per sec = 500, Node speed = 20
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           90.00 
+Received Packets:            0.00	
+Dropped Packets:            1.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       1.11	
+Total time:    9.00000
+Total_energy:         0.63600 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 40, Packets per sec = 500, Node speed = 20
+
+
+Throughput:        10065.07 
+AverageDelay:         0.03695 
+Sent Packets:          655.00 
+Received Packets:          523.00	
+Dropped Packets:           19.00 
+PacketDeliveryRatio:      79.85 
+PacketDropRatio:       2.90	
+Total time:   15.00000
+Total_energy:         1.10700 
+Avg_enr_per_bit:         0.00001 
+Avg_enr_per_byte:         0.00006	
+Avg_enr_per_pckt:         0.00212 
+Total_retransmit:             523
+
+
+
+
+============================================================
+
+
+Number of Nodes = 60, Flow = 50, Packets per sec = 500, Node speed = 20
+
+
+Throughput:           51.75 
+AverageDelay:         3.36693 
+Sent Packets:          150.00 
+Received Packets:            1.00	
+Dropped Packets:            2.00 
+PacketDeliveryRatio:       0.67 
+PacketDropRatio:       1.33	
+Total time:   12.36693
+Total_energy:         0.62900 
+Avg_enr_per_bit:         0.00098 
+Avg_enr_per_byte:         0.00786	
+Avg_enr_per_pckt:         0.62900 
+Total_retransmit:               1
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 100, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           90.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.42200 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 200, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           90.00 
+Received Packets:            0.00	
+Dropped Packets:            1.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       1.11	
+Total time:    9.00000
+Total_energy:         0.41500 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 300, Node speed = 5
+
+
+Throughput:           57.29 
+AverageDelay:         2.17191 
+Sent Packets:           90.00 
+Received Packets:            1.00	
+Dropped Packets:            2.00 
+PacketDeliveryRatio:       1.11 
+PacketDropRatio:       2.22	
+Total time:   11.17191
+Total_energy:         0.41600 
+Avg_enr_per_bit:         0.00065 
+Avg_enr_per_byte:         0.00520	
+Avg_enr_per_pckt:         0.41600 
+Total_retransmit:               1
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 400, Node speed = 5
+
+
+Throughput:        35029.38 
+AverageDelay:         0.04149 
+Sent Packets:         2526.00 
+Received Packets:         2431.00	
+Dropped Packets:            8.00 
+PacketDeliveryRatio:      96.24 
+PacketDropRatio:       0.32	
+Total time:   19.99236
+Total_energy:         1.80300 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00002	
+Avg_enr_per_pckt:         0.00074 
+Total_retransmit:            2431
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 500, Node speed = 5
+
+
+Throughput:           55.58 
+AverageDelay:         2.51510 
+Sent Packets:           90.00 
+Received Packets:            1.00	
+Dropped Packets:            2.00 
+PacketDeliveryRatio:       1.11 
+PacketDropRatio:       2.22	
+Total time:   11.51510
+Total_energy:         0.41100 
+Avg_enr_per_bit:         0.00064 
+Avg_enr_per_byte:         0.00514	
+Avg_enr_per_pckt:         0.41100 
+Total_retransmit:               2
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 500, Node speed = 5
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           90.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.41500 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 500, Node speed = 10
+
+
+Throughput:           74.67 
+AverageDelay:         0.46859 
+Sent Packets:           90.00 
+Received Packets:            2.00	
+Dropped Packets:            5.00 
+PacketDeliveryRatio:       2.22 
+PacketDropRatio:       5.56	
+Total time:   15.00000
+Total_energy:         0.42000 
+Avg_enr_per_bit:         0.00038 
+Avg_enr_per_byte:         0.00300	
+Avg_enr_per_pckt:         0.21000 
+Total_retransmit:               3
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 500, Node speed = 15
+
+
+Throughput:        25533.54 
+AverageDelay:         0.03994 
+Sent Packets:         1871.00 
+Received Packets:         1770.00	
+Dropped Packets:           22.00 
+PacketDeliveryRatio:      94.60 
+PacketDropRatio:       1.18	
+Total time:   19.99942
+Total_energy:         1.39700 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00002	
+Avg_enr_per_pckt:         0.00079 
+Total_retransmit:            1769
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 500, Node speed = 20
+
+
+Throughput:            0.00 
+AverageDelay:         0.00000 
+Sent Packets:           90.00 
+Received Packets:            0.00	
+Dropped Packets:            0.00 
+PacketDeliveryRatio:       0.00 
+PacketDropRatio:       0.00	
+Total time:    9.00000
+Total_energy:         0.41100 
+Avg_enr_per_bit:         0.00000 
+Avg_enr_per_byte:         0.00000	
+Avg_enr_per_pckt:         0.00000 
+Total_retransmit:               0
+
+
+
+
+============================================================
+
+
+Number of Nodes = 40, Flow = 30, Packets per sec = 500, Node speed = 25
+
+
+Throughput:        11840.00 
+AverageDelay:         0.04567 
+Sent Packets:          723.00 
+Received Packets:          616.00	
+Dropped Packets:           23.00 
+PacketDeliveryRatio:      85.20 
+PacketDropRatio:       3.18	
+Total time:   15.00000
+Total_energy:         0.94100 
+Avg_enr_per_bit:         0.00001 
+Avg_enr_per_byte:         0.00004	
+Avg_enr_per_pckt:         0.00153 
+Total_retransmit:             617
+
+

@@ -1,0 +1,14 @@
+1. 	CONGESTION CONTROL Modifications
+	Changed in tcp/tcp.cc in the function opencwnd() .
+	Added Cases 9 and 10 for congestion control wrt to research papers attached.
+	Case 9 from paper "Implementation_of_New_TCP_Congestion_Con.pdf"
+	Case 10 from paper "Traffic_Modeling_of_LTE_Mobile_Broadband.pdf"
+
+2.	Routing Modifications
+	Added NRE-AODV routing protocol from paper "36_2017 paper  2.pdf" 
+	
+3.
+
+4.
+
+

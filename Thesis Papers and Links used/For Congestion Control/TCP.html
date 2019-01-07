@@ -1,0 +1,834 @@
+
+<!-- saved from url=(0147)http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/06-Extend-NS/TCP.html?fbclid=IwAR2h39qKWheMnGYdmKyUC5IeUErBKvOdj6n9YYxTsj2JT4TfxhNT2NS7eD4 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta http-equiv="expires" content="0">
+
+</head><body text="#000000" link="#00ff00" vlink="#f00000" bgcolor="#ffffff">
+
+<h1>
+<hr>
+Designing a new variant of TCP protocol using NS
+<hr>
+</h1>
+<ul>
+<p>
+</p><li> <font color="darkmagenta"><b>
+     Location of relevant files of NS
+     </b></font>
+<p>
+ </p><ul>
+ <li> Assume that the NS source files are located in
+	the directory
+	<b>NS_DIR</b>
+ <p>
+   (If you have followed the instructions in this page
+    (<a href="http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/06-Extend-NS/GetNS.html"> click here</a>),
+	the directory <b>NS_DIR</b>
+	will be
+	<b>~/cs558/NS</b>)
+
+ </p><p>
+ </p></li><li> These files are relevant for the TCP protocol implementation in NS:
+ <p>
+  </p><ul>
+  <li> <b>NS_DIR</b>/tcp/tcp.h - header file
+  </li><li> <b>NS_DIR</b>/tcp/tcp.cc - TCP protocol
+  </li></ul>
+ <p>
+ </p></li><li> The NS source copy of these files that I used to teach teach this class
+	are located here:
+ <p>
+  </p><ul>
+  <li> <b>NS_DIR</b>/tcp/tcp.h:
+        <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/tcp/tcp.h"> click here </a>
+  </li><li> <b>NS_DIR</b>/tcp.cc:
+        <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/tcp/tcp.cc"> click here </a>
+  </li></ul>
+
+
+ </li></ul>
+
+<p>
+</p><hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     Important variables in the TCP protocol
+     </b></font>
+ <p>
+ </p><ul>
+ <li> The TCP agent in <b>NS</b> is a
+	<b>C++</b> class.
+ <p>
+ </p></li><li> The name of the TCP agent class is <b>TcpAgent</b>
+	and the source code can be found in the
+	files <b>tcp.h</b> and <b>tcp.cc</b>.
+  <p>
+     The header definition is as follows:
+</p><p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>  class TcpAgent : public Agent 
+  {
+     friend class XcpEndsys;
+
+  public:
+     TcpAgent();
+     virtual ~TcpAgent() {free(tss);}
+     virtual void recv(Packet*, Handler*);
+     virtual void timeout(int tno);
+     virtual void timeout_nonrtx(int tno);
+     int command(int argc, const char*const* argv);
+     virtual void sendmsg(int nbytes, const char *flags = 0);   
+
+     void trace(TracedVar* v);
+     virtual void advanceby(int delta);
+
+     ...
+     // Numerous variabls...
+  }
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+
+Click on <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/tcp/tcp.h"> tcp.h</a> and
+	look for the "class TcpAgent" definition
+	to see the full definition.
+ </p><p>
+ </p></li><li> Some important variables that determine the performance of TCP are:
+  <p>
+  </p><ul>
+ <p>
+ </p><li> 
+	<font color="red"><b>cwnd_</b></font>
+	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - current congestion window 
+ </li><li> <b>t_rtt_</b> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  
+	- round trip time estimate
+ </li><li> <b>t_srtt_</b> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  
+	- smoothed round trip time estimate
+	(averaged over a number of periods)
+ </li><li> <b>t_rttvar_</b> &nbsp; &nbsp; - variance in round trip time 
+  </li></ul>
+ <p>
+ </p><hr>
+ <p>
+ </p></li><li> The variable
+	 <font color="blue"><b>cwnd_</b></font>
+	is the TCP congestion window size 
+	(the unit is <b>number of packets</b>)
+ <p>
+ </p></li><li> The other variables are various <b>RTT</b> (round trip time)
+	values
+  <p>
+	The TCP agent measures the RTT of each packet.
+  </p><p>
+	The RTT estimates are used to set the time out value for packets.
+  </p><p>
+  </p></li><li> Some TCP flow control method uses RTT values to
+	adjust  
+	<font color="red"><b>cwnd_</b></font>
+	(e.g., TCP Vegas)
+ </li></ul> 
+<p> 
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     How NS's TCP implementation increments its congestion window
+     </b></font>
+<p>
+ </p><ul>
+ <li> When the TCP agent receives a <b>new ACK</b>,
+	it attemps to "open" the congestion window by
+	invoking the
+	 <font color="red"><b> TcpAgent::opencwnd() </b></font>
+	method
+
+ <p>
+ </p></li><li> (To see the actual code,
+	click on <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/tcp/tcp.cc"> tcp.cc</a> and
+        look inside for the definition of the function "opencwnd()")
+
+ <p>
+ </p></li><li> The structure of the 
+	<font color="red"><b><tt> opencwnd() </tt></b></font>
+	function is as follows:
+
+<p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+  void TcpAgent::opencwnd()
+  {
+     double increment;
+
+     if (cwnd_ &lt; ssthresh_) 
+     {<font color="red">
+	// perform slow start algorithm
+        // There is only one slow start alg. now,
+        // But you can add more...</font>
+     }
+     else
+     {<font color="red">
+	// perform a congestion avoidance algorithm    
+	// based on the value of the variable "wnd_option_"</font>
+     }
+
+     // if maxcwnd_ is set (= nonzero), make sure cwnd_ &lt;= maxcwnd_    
+     if (maxcwnd_ &amp;&amp; (int(cwnd_) &gt; maxcwnd_))
+        cwnd_ = maxcwnd_;
+
+   }
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+ </p></li><li> You can add an implementation of your own TCP congestion
+	control method by inserting your code.
+ <p>
+	You can change the slow start algorithm by inserting code in the
+	"then" part of "if (cwnd_ &lt; ssthresh_)
+ </p><p>
+	You can change the congestion avoidance algorithm 
+	by inserting code in the
+	"else" part of "if (cwnd_ &lt; ssthresh_)
+ </p></li></ul>
+ 
+<p>
+</p><hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     How NS's TCP simulation decrements its congestion window
+     </b></font>
+ <p>
+ </p><ul>
+
+ <li> Depending on the situation
+	(triple duplicate ACK, timeout or
+	other indications - e.g., Early Congestion Notification),
+	TCP can  close the congestion window by
+        invoking the
+         <font color="red"><b> TcpAgent::slowdown(int how) </b></font>
+        method
+ <p>
+ </p></li><li> (To see the actual code,
+        click on <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/tcp/tcp.cc"> tcp.cc</a> and
+        look inside for the definition of the function "slowdown()")
+ <p>
+ </p></li><li> The
+         <font color="blue"><b> how </b></font>
+	parameter is a series of 
+         <font color="red"><b> flags</b></font>
+	that you can set to indicate how fast/slow
+	TCP must slow down.
+ <p>
+ </p></li><li> TCP must adjust
+	<font color="red"><b> Slow Start Threshold (ssthresh)</b></font>
+	and
+	<font color="red"><b> Congestion Window size (cwnd)</b></font>
+	in the slow down
+  <p>
+	(cwnd controls the the congestion window size)
+  </p><p>
+	(ssthresh controls HOW the congestion window size is increased)
+ </p><p>
+ </p></li><li> So a typical call of the
+	<font color="red"><b> TcpAgent::slowdown(how) </b></font>
+	method needs 2 flag parameters.
+
+ <p>
+	For example:
+</p><p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+    slowdown( CLOSE_SSTHRESH_HALF | CLOSE_CWND_RESTART )  // performs a slow start     
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+ <p>
+ </p><li> The flag (bit) CLOSE_SSTHRESH_HALF controls how
+	the  <font color="red"><b> Slow Start Threshold (ssthresh)</b></font>
+	will be reduced
+ <p>
+ </p></li><li> The flag (bit) CLOSE_CWND_RESTART controls how
+	the  <font color="red"><b> Congestion Window size (cwnd) </b></font>
+	will be reduced
+</li></ul>
+<p>
+
+ </p></li><li> The structure of the
+        <font color="red"><b><tt> slowdown() </tt></b></font>
+        function is as follows:
+<p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+  // ****************************************
+  // Reduce Slow Start Threshold (ssthresh)
+  // ****************************************
+
+  if ( how &amp; CLOSE_SSTHRESH_HALF )
+  {
+     ssthresh_ = cwnd_ / 2;
+  }
+  else if ( how &amp; THREE_QUARTER_SSTHRESH )    
+  {
+     ...
+  }
+
+
+  // ****************************************
+  // Reduce Congestion Window (cwnd)
+  // ****************************************
+
+  if ( how &amp; CLOSE_CWND_HALF )
+  {
+     cwnd_ = cwnd_ / 2;
+  }
+  else if ( how &amp; CLOSE_CWND_RESTART )    
+  {
+     cwnd_ = 1;
+  }
+  else if ... 
+    (more variants available, but omitted here)       
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+ <p>
+ </p><li> The value CLOSE_SSTHRESH_HALF (flag) is equal to 0x00000001
+ </li><li> The value THREE_QUARTER_SSTHRESH (flag) is equal to 0x00000080
+ </li><li> These values are defined in <b>tcp.h</b>
+</li></ul>
+<p>
+
+
+ </p></li></ul> 
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     Make your own flavor of TCP congestion control
+     </b></font>
+<p>
+ </p><ul>
+ <li> If you need to change TCP's 
+	<b>increase algorithm</b>,
+	you add the increase algorithm as follows:
+  <p>
+  </p><ol>
+  <li> Pick an unused value of <b>wnd_option_</b>
+	(check the list in <b>opencwnd()</b>
+  <p>
+  </p></li><li> Add a new <b>case</b> option and Write your code to increase
+	TCP's cwnd_ variable
+  <p>
+  </p></li></ol>
+ <p>
+ </p></li><li> To instruct the TCP agent to use your new TCP algorithm:
+<p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+ set tcp [new Agent/TCP/Reno]
+<font color="red">
+ $tcp set windowOption_ 99  ;# Select my new TCP algorithm   </font>
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+ <p>
+ </p><li> The value <b>99</b> is the new case in the "opencwnd()"
+	switch statement
+</li></ul>
+<p>
+ </p><hr>
+ <hr>
+<p>
+  </p></li><li> If you need to change TCP's
+        <b>decrease algorithm</b>,
+        you add the decrease algorithm as follows:
+  <p>
+  </p><ol>
+  <li> Pick an unused value of <b>flag option</b>
+        (check the list in <b>tcp.h</b>)
+  <p>
+  </p></li><li> Add a new <b>if</b> option in <b>slowdown</b>
+	and Write your code to decrease
+        TCP's 
+	<font color="blue"><b>ssthresh_</b></font>
+	and
+	<font color="blue"><b>cwnd_</b></font>
+	 variables
+  <p>
+  </p></li></ol>
+ <p>
+ </p></li></ul>
+
+ <p>
+ </p><hr>
+ <hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     Example: TCP using a constant Congestion Window
+     </b></font>
+<p>
+ </p><ul>
+ <li> We will <font color="red"><b>replace</b></font>
+     the TCP module with  a 
+     <font color="blue"><b>simple-minded TCP window</b></font> scheme
+     using a
+	<font color="darkmagenta"><b>constant congestion window size</b></font>
+  <p>
+	(Don't laugh, this was how TCP worked before 1988)
+ </p><p>
+ </p></li><li> <b>A Simple-minded Implementation:</b>
+<p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+  void TcpAgent::opencwnd()
+  {
+     double increment;
+<font color="red">
+     cwnd_ = 10;           // Add these lines in "tcp.cc"      
+     return;</font>
+
+     <font color="darkred">// These have become "dead code"</font>
+
+     if (cwnd_ &lt; ssthresh_) {
+
+           switch (wnd_option_)
+           {
+   .....
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+ <p>
+ </p><li> The above solution uses a fixed (= 10) window size,
+	we will make the windows size updatable later...
+<p>
+</p><hr>
+<hr>
+<p>
+</p></li><li> <b>Compile a <i>new</i> NS</b>
+<p>
+</p><ul>
+<table bgcolor="khaki" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>
+      cd ~/cs558/NS                    
+
+      make
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+You should see:
+
+</p><p>
+</p><ul>
+<table bgcolor="lightgreen" border="5">
+<tbody><tr> <td>
+
+<font color="blue">
+<b>
+<pre>
+  cs558 (330)&gt; make
+  g++ -c -Wall -DTCP_DELAY_BIND_ALL ...... -o tcp/tcp.o <font color="red">tcp/tcp.cc</font>
+
+  g++  -o <font color="red">ns</font> \
+        common/tclAppInit.o  tools/random.o tools/rng.o tools/ranvar.o     
+        ......
+</pre>
+</b>
+</font>
+
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+
+ </p></li></ul>
+ <p>
+ </p><hr>
+ <hr>
+<p>
+</p></li><li> <b>After</b> successfully compiling a
+      <font color="blue"><b>new NS</b></font>, you can use a
+    <font color="red"><b>Tcl script</b></font> to run a simulation
+    using the <font color="darkmagenta"><b>new fixed window size TCP</b></font>
+ <p>
+ I have attachec an <font color="darkmagenta"><b>NS script</b></font>
+ below...
+ </p><p>
+ </p><hr>
+ <p>
+ </p></li><li> <font color="#00a000"><b> Example Program: </b></font>
+      (Demo above code)
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <sub><sub><sub>
+        <img src="./TCP_files/Example.jpg">
+        </sub></sub></sub>
+   <p>
+   </p><ul>
+   <li> Prog file:
+        <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/06-Extend-NS/Progs/FixedCWND.tcl"> click here </a>
+   </li></ul>
+   <p>
+   <b>NOTE:</b> you need to run this program with the
+    <font color="red"><b>MODIFIED</b></font> <b>NS</b>
+	program inside
+    <font color="blue"><b>/home/cs558000/cs558/NS/bin/ns</b></font>
+  </p><p>
+   This <b>NS</b> can be used to run the NS script "FixedCWND.tcl":
+</p><p>
+  </p><ul>
+     /home/cheung/teaching/web/558/NS/ns &nbsp; &nbsp; FixedCWND.tcl
+  </ul>
+
+  <p>
+
+</p></li></ul>
+<p>
+
+</p><hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     Example: TCP using a constant Congestion Window - take 2
+     </b></font>
+<p>
+ </p><ul>
+ <li> The simple implementation of a "constant congestion window"
+	does not allow the user to choose a different
+	CWND size (it's compiled in)
+ <p>
+ </p></li><li> To make the TCP congestion protocol more flexible,
+	we introduce a variable into the <b>TCPAgent</b> class:
+<p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+   class TcpAgent : public Agent 
+   {
+
+      ... (existing definitions)
+
+       /* ------------------------------------------     
+         Cheung: my new variables
+         ------------------------------------------ */<font color="red">
+           int FixedWindowSize;</font>
+   };
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+</ul>
+<p>
+ </p><p>
+ </p></li><li> We can now write an <b>Improved Constant CWND</b>
+	TCP implementation:
+<p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+  void TcpAgent::opencwnd()
+  {
+     double increment;
+
+     if (cwnd_ &lt; ssthresh_) {
+
+           switch (wnd_option_)
+           {<font color="red">
+              case 98:
+                        cwnd_ = FixedWindowSize;     
+                        break;</font>
+
+              (other cases omitted)
+   .....
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+ </ul>
+ <p>
+ </p><hr>
+ <hr>
+ <p>
+ </p></li><li> We need to give the variable
+	<b>FixedWindowSize</b> some initial value; then
+	TCP's "opencwnd()" will set the <b>cwnd_</b> variable
+	to the (fixed) given window size
+ <p>
+ </p></li><li> The <b>TCL</b> programming language provides a
+	<font color="red"><b> variable binding </b></font>
+	mechanism to associate:
+  <p>
+  </p><ul>
+  <li>  an (instance) variable in C++, with
+  </li><li> an (instance) variable in TCL
+  </li></ul>
+ <p>
+ </p><hr>
+ <hr>
+ <p>
+ </p></li><li> To associate a variable named
+	<b>X</b> in C++  with a variable
+	named
+	<b>Y</b> in TCL, 
+	put the following C++ statement
+	in the <font color="red"><b> constructor </b></font>
+	of the class:
+<p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="red">
+<b>
+<pre>
+    bind( "Y", &amp;X );     
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+</ul>
+ <p>
+ (You put the statement in the 
+  <font color="blue"><b> constructor </b></font>
+  so that the statement will be executed when an
+  object of that class is <b>created</b> !!!)
+  
+</p><p>
+
+ </p></li><li> In our example, we put the following statement in
+	<b>TcpAgent::TcpAgent()</b>
+	(this is the 
+	<font color="blue"><b> constructor </b></font>
+	of the class <b>TcpAgent</b>):
+<p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+   TcpAgent::TcpAgent()
+       ...
+   {
+<font color="red">
+      bind( "FixedWindowSize", &amp;FixedWindowSize);    </font>
+   }
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+</ul>
+<a name="ns-default.tcl"></a>
+<p>
+ </p><hr>
+ <p>
+ </p></li><li> <b>Finally</b>, OTCL wants the variable to be initialized
+	(or else it will complain that it was not defined).
+ <p>
+	To initialize the "bound" variable, we add this <b>set</b>
+	command in the file
+	<b>tcl/lib/ns-default.tcl</b>
+	(a script that is used to initial all bound variables):
+</p><p>
+</p><ul>
+<table bgcolor="yellow" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+   Agent/TCP   set   FixedWindowSize  0    
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+ <p>
+</p><p>
+
+ </p><li> <font color="red"><b> FixedWindowSize</b></font>
+	is the name of the bound variable
+</li></ul>
+<p>
+ </p><hr>
+ <p>
+ </p></li><li> <font color="#00a000"><b> Example Program: </b></font>
+      (Demo above code)
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <sub><sub><sub>
+        <img src="./TCP_files/Example.jpg">
+        </sub></sub></sub>
+   <p>
+   </p><ul>
+   <li> The <b>tcp.cc</b> Prog file:
+        <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/00-newcodes/tcp.cc"> click here </a>
+        <br>
+  	Look for "FixedWindowSize" 
+	<b>tcp.cc</b> for the changes
+   </li><li> The <b>tcp.cc</b> Prog file:
+        <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/00-newcodes/tcp.cc"> click here </a>
+        <br>
+  	Look for "FixedWindowSize" 
+	<b>tcp.cc</b> for the changes
+   </li><li> The <b>ns-default.tcl</b> Prog file:
+        <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/99-tcl/ns-default.tcl"> click here </a>
+	<br>
+  	Look towards the end in <b>ns-default.tcl</b> for the changes
+   <p>
+   </p></li><li> A NS script that sets the "FixedWindowSize" variable:
+        <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/06-Extend-NS/Progs/FixedCWND2.tcl"> click here </a>
+   </li></ul>
+
+  <p>
+
+
+
+ </p></li></ul>
+<p>
+</p><hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     Associating C++ class name with OTcl class name
+     </b></font>
+<p>
+ </p><ul>
+ <li> <font color="red"><b> Agent/TCP </b></font>
+	is the name of the OTCL class that is associated with the C++ class 
+	<b>TcpAgent</b>
+  <p>
+</p><p>
+ </p></li><li> This will be discussed in the next lecture in more detail
+	(when we define a <b>new</b> class in NS)
+ <p>
+ </p></li><li> But to satistfy yur curiocity, there is a special
+	class in <b>OTcl</b> called
+	<font color="red"><b> TclClass</b></font>
+	that create a new identifer in the <b>OTcl</b> class name space.
+
+ <p>
+ </p></li><li> The OTcl class name <font color="red"><b>Agent/TCP </b></font>
+	is introduced in OTcl as follows:
+        (see inside <a href="http://www.mathcs.emory.edu/~cheung/Courses/558/NS/tcp/tcp.cc"> tcp.cc</a>)
+
+<p>
+</p><ul>
+<table bgcolor="lightcyan" border="5">
+<tbody><tr>
+<td>
+<font color="blue">
+<b>
+<pre>
+   static class TcpClass : public TclClass 
+   {
+   public: <font color="red">
+      TcpClass() : TclClass("Agent/TCP") {}</font>
+
+      TclObject* <font color="red">create</font>(int , const char*const*)       
+      {
+         return (<font color="red">new TcpAgent()</font>);
+      }
+   };
+
+   static TclClass class_tcp;    // force constructor to be run once...    
+</pre>
+</b>
+</font>
+</td> </tr>
+</tbody></table>
+</ul>
+ <p>
+ </p></li><li> This name can be used to invoke an associated
+	<font color="red"><b> create()</b></font>
+	method to create a C++ object:
+<p>
+</p></li></ul>
+<hr>
+<hr>
+<p>
+</p></li><li> <font color="darkmagenta"><b>
+     External NS tutorials
+     </b></font>
+<p>
+ </p><ul>
+ <li> NS by Example:
+       <a href="http://nile.wpi.edu/NS/"> click here </a>
+ <p>
+ </p></li><li>  Marc Greis' NS Tutorial:
+       <a href="http://www.isi.edu/nsnam/ns/tutorial/"> click here </a>
+
+ </li></ul>
+</li></ul>
+<p>
+</p><hr>
+<hr>
+<hr>
+<hr>
+<hr>
+</body></html>
