@@ -165,7 +165,8 @@ END {
 
 #For calculations of throughput
 	for(i=0; i<maximumNodeNumber; i++){
-		del_time[i] = end_time_per_node[i] - start_time_per_node[i];
+		#del_time[i] = end_time_per_node[i] - start_time_per_node[i];
+		del_time[i] = rTime;	#Sir bolsilen Full simulation time diya bhag dite
 	}
 	for(i=0; i<maximumNodeNumber; i++){
 		throughput_per_node_bits[i] = (received_bytes_per_node[i] * 8) / (del_time[i]);

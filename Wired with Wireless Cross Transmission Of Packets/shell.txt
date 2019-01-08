@@ -1,0 +1,20 @@
+#!/bin/bash
+
+runTCL=0;
+
+if [[ $runTCL -eq 1 ]]; then
+	rm -rf Wireless2/
+
+	mkdir Wireless2/
+
+	ns wireless2.tcl
+fi
+
+runAwk=1;
+
+traceFileName="Wireless2/wireless2-out.tr";
+awkFileName="awkFile.awk";
+
+if [[ $runAwk -eq 1 ]]; then
+	awk -f $awkFileName $traceFileName
+fi

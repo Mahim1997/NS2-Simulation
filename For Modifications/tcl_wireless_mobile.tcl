@@ -1,6 +1,8 @@
 #-------------------------------Step 1. Set values of parameters-------------------------------#
 
 #1a. Network size
+	set gridArrangedOrRandomArranged [lindex $argv 8];	#1 for Grid, 0 for Random
+
 	set grid_x_dim			500 ;	#[lindex $argv 1]
 	set grid_y_dim          500 ;	#[lindex $argv 1]
 
@@ -15,7 +17,7 @@
 
 	set time_duration       15 ;	#[lindex $argv 5] ;#50
 	set start_time          1
-	set extra_time          5
+	set extra_time          30; 	# was 5
 	set flow_start_gap      0.0
 	set motion_start_gap    0.05
 	set cbr_pckt_rate       [lindex $argv 2];	#Third parameter is number of packets per second	
@@ -54,8 +56,8 @@
 	
 	if {$doWeUseModifiedCongestion == 1} {
 		#Yes we do use modified method ..
-		set newCase_forModification [lindex $argv 8];
-		$tcp_src set windowOption_ $newCase_forModification; #For Congestion Control Case 9 or Case 10 (MODIFIED)
+		set newCase_forModification 9;		#Case 9 was modified in opencwnd()
+		$source_type set windowOption_ $newCase_forModification; #For Congestion Control Case 9 or Case 10 (MODIFIED)
 	}
 
 	set val(chan)						Channel/WirelessChannel 	;# channel type
@@ -67,7 +69,7 @@
 	set val(ll) 						LL 							;# link layer type
 	set val(ant) 						Antenna/OmniAntenna 		;# antenna model
 	set val(ifqlen) 					100							;# max packet in ifq
-	set val(rp) 						DSDV 						;# routing protocol
+	set val(rp) 						AODV						;#DSDV 						;# routing protocol
 	set val(nn)							$num_node					;# number of mobile nodes
 
 
@@ -144,65 +146,145 @@
  
 
 #-------------------------- Step 5. Create Nodes with positioning ---------------------------------#
-puts "start node creation"
-for {set i 0} {$i < $num_node} {incr i} {
-	set node_($i) [$ns_ node]
-	$node_($i) random-motion 0
+puts "Start node creation"
 
-	# Provide initial (X,Y, for now Z=0) co-ordinates for mobilenodes
-	set x_pos [expr int($grid_x_dim*rand())] ; #random settings
-	set y_pos [expr int($grid_y_dim*rand())] ; #random settings
+set num_row [lindex $argv 9] ;
+set num_col [lindex $argv 10];
+puts "INSIDE TCL FILE gridArrangedOrRandomArranged = $gridArrangedOrRandomArranged, num_row = $num_row, and num_col = $num_col";
 
-	while {$x_pos == 0 ||
-			$x_pos == $grid_x_dim} {
-		set x_pos [expr int($grid_x_dim*rand())]
+if { $gridArrangedOrRandomArranged == 1 } {
+	#GRID TOPOPLOGY
+	puts "Grid Topology";
+
+ 
+	set i 0;
+	set counter 0;
+
+
+	set x_start [expr int($grid_x_dim/($num_col*2))];
+	set y_start [expr int($grid_y_dim/($num_row*2))];
+	puts "==--->>>>> INSIDE TCL FILE ... x_start = $x_start and y_start = $y_start";
+
+	while {$i < $num_row } {
+	#in same column
+	    for {set j 0} {$j < $num_col } {incr j} {
+		#in same row
+			set m [expr int( $i*$num_col+$j )];
+			set node_($m) [$ns_ node] ;
+		#	$node_($m) set X_ [expr $i*240];
+		#	$node_($m) set Y_ [expr $k*240+20.0];
+		#CHNG
+			set my_x [expr int($x_start*2)];
+			set my_y [expr int($y_start*2)];
+
+			#puts "$counter. my_x = $my_x, my_y = $my_y";
+
+			set x_pos [expr int($x_start+$j*$my_x)];#grid settings
+			set y_pos [expr int($y_start+$i*$my_y)];#grid settings
+			
+#			set x_pos [expr int($x_start+$j*($grid_x_dim/$num_col))];#grid settings
+#			set y_pos [expr int($y_start+$i*($grid_y_dim/$num_row))];#grid settings
+
+			puts "-->>>$counter) my_x = $my_x, my_y = $my_y,  x_pos = $x_pos, y_pos = $y_pos";
+
+			set nowIndex [expr $i*$num_col + $j];
+			
+			set positions_of_x($counter) $x_pos;
+			set positions_of_y($counter) $y_pos;
+
+			#puts "Updating at positions_of_x ($nowIndex) = $x_pos, and positions_of_y ($i) = $y_pos, counter = $counter";
+			#set counter [expr $counter + 1];
+			incr counter;
+			
+			$node_($m) random-motion 0
+			$node_($m) set X_ $x_pos;
+			$node_($m) set Y_ $y_pos;
+			$node_($m) set Z_ 0.0
+		#	puts "$m"
+			puts -nonewline $topo_file "$m x: [$node_($m) set X_] y: [$node_($m) set Y_] \n"
+	    }
+	    incr i;
+	};
+	
+} else {
+	puts "Random Topology";
+	for {set i 0} {$i < $num_node} {incr i} {
+		set node_($i) [$ns_ node]
+		$node_($i) random-motion 0
+
+		# Provide initial (X,Y, for now Z=0) co-ordinates for mobilenodes
+		set x_pos [expr int($grid_x_dim*rand())] ; #random settings
+		set y_pos [expr int($grid_y_dim*rand())] ; #random settings
+
+		while {$x_pos == 0 ||
+				$x_pos == $grid_x_dim} {
+			set x_pos [expr int($grid_x_dim*rand())]
+		}
+
+		while {$y_pos == 0 ||
+				$y_pos == $grid_y_dim} {
+			set y_pos [expr int($grid_y_dim*rand())]
+		}
+
+		$node_($i) set X_ $x_pos;
+		$node_($i) set Y_ $y_pos;
+		$node_($i) set Z_ 0.0
+
+		puts -nonewline $topo_file "$i x: [$node_($i) set X_] y: [$node_($i) set Y_] \n"
 	}
 
-	while {$y_pos == 0 ||
-			$y_pos == $grid_y_dim} {
-		set y_pos [expr int($grid_y_dim*rand())]
-	}
-
-	$node_($i) set X_ $x_pos;
-	$node_($i) set Y_ $y_pos;
-	$node_($i) set Z_ 0.0
-
-	puts -nonewline $topo_file "$i x: [$node_($i) set X_] y: [$node_($i) set Y_] \n"
 }
+puts "============>>> Topology is created ... Line 235";
 
 for {set i 0} {$i < $val(nn)} { incr i } {
-	$ns_ initial_node_pos $node_($i) 35
-    #35 = size of node in nam
+	$ns_ initial_node_pos $node_($i) 20
 }
 
+#puts "initial_node_pos is done ... Line 241";
 # Making node movements random 
 
-for {set i 0} {$i < [expr $num_node] } {incr i} {
-	set dest_x [expr int($grid_x_dim*rand())]
-	set dest_y [expr int($grid_y_dim*rand())]
+if {$gridArrangedOrRandomArranged == 1} {
+	#Grid movement
+	puts "Grid movement";
+	for {set i 0} {$i < $num_node} {incr i} {
+		set complimentNodeIndex [expr $num_node - $i - 1];
+		set dest_x $positions_of_x($complimentNodeIndex);
+		set dest_y $positions_of_y($complimentNodeIndex);
 
-	while {$dest_x == 0 ||
-			$dest_x == $grid_x_dim} {
-		set dest_x [expr int($grid_x_dim*rand())]
+		#puts "-->>For node $i, complimentNodeIndex = $complimentNodeIndex, dest_x = $dest_x, dest_y = $dest_y";
+		#puts "For node $i, use destination as positions of $complimentNodeIndex";
+		$ns_ at $start_time "$node_($i) setdest $dest_x $dest_y  $node_speed"		
+		#puts "$ns_ at $start_time '$node_($i) setdest $dest_x $dest_y  $node_speed' ";
 	}
+} else {
+		puts "Random movement";
+		for {set i 0} {$i < [expr $num_node] } {incr i} {
+			set dest_x [expr int($grid_x_dim*rand())]
+			set dest_y [expr int($grid_y_dim*rand())]
 
-	while {$dest_y == 0 ||
-			$dest_y == $grid_y_dim} {
-		set dest_y [expr int($grid_y_dim*rand())]
+			while {$dest_x == 0 ||
+					$dest_x == $grid_x_dim} {
+				set dest_x [expr int($grid_x_dim*rand())]
+			}
+
+			while {$dest_y == 0 ||
+					$dest_y == $grid_y_dim} {
+				set dest_y [expr int($grid_y_dim*rand())]
+			}
+			$ns_ at $start_time "$node_($i) setdest $dest_x $dest_y  $node_speed"
+
+		#puts "$i Destination ---> x: [$node_($i) set X_] y: [$node_($i) set Y_]"
 	}
-	$ns_ at $start_time "$node_($i) setdest $dest_x $dest_y  $node_speed"
-
-	#puts "$i Destination ---> x: [$node_($i) set X_] y: [$node_($i) set Y_]"
 }
 
-puts "node creation complete"
+puts "node creation complete ";
 
 ##################################################Step 5 done############################################
 
 
 
 #------------------------------- Step 6. Create flows and associate them with nodes ------------------ #
-
+puts "INSIDE TCL File, num_flow = $num_flow";
 for {set i 0} {$i < $num_flow} {incr i} {
 	set udp_($i) [new $source_type]
 	set null_($i) [new $sink_type]
@@ -215,6 +297,7 @@ for {set i 0} {$i < $num_flow} {incr i} {
 	}
 }
 
+#puts "Line 304 done ";
 
 for {set i 0} {$i < $num_flow} {incr i} {
 	set source_number [expr int($num_node*rand())]
@@ -224,9 +307,13 @@ for {set i 0} {$i < $num_flow} {incr i} {
 	}
 	$ns_ attach-agent $node_($source_number) $udp_($i)
   	$ns_ attach-agent $node_($sink_number) $null_($i)
-	puts -nonewline $topo_file "RANDOM:  Src: $source_number Dest: $sink_number\n"
+
+  	puts "===>>> $i. RANDOM flow:  Src: $source_number Dest: $sink_number"
+	
+	puts -nonewline $topo_file "RANDOM flow:  Src: $source_number Dest: $sink_number\n"
 }
 
+#puts "Line 317 done .";
 
 for {set i 0} {$i < $num_flow } {incr i} {
 	set cbr_($i) [new Application/Traffic/CBR]
@@ -237,11 +324,12 @@ for {set i 0} {$i < $num_flow } {incr i} {
 	$ns_ at $start_time "$cbr_($i) start"
 }
 
+#puts "Line 328 done .";
 # Connecting udp_node & null_node
 for {set i 0} {$i < $num_flow } {incr i} {
      $ns_ connect $udp_($i) $null_($i)
 }
-puts "flow creation complete"
+puts "flow creation complete";
 
 
 ##################################################Step 6 done############################################
@@ -256,6 +344,8 @@ for {set i 0} {$i < $val(nn) } {incr i} {
 $ns_ at [expr $start_time+$time_duration +$extra_time] "finish"
 $ns_ at [expr $start_time+$time_duration +$extra_time] "$ns_ nam-end-wireless [$ns_ now]; puts \"NS Exiting...\"; $ns_ halt"
 
+
+puts "Set timings done ";
 ########################################## Step 7 done ####################################################
 
 

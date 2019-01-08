@@ -1125,9 +1125,9 @@ void TcpAgent::opencwnd()
 	} else {
 		/* linear */
 		double f;
-        /*For my modifications in Case 9 and Case 10*/
+        /*For my modifications in Case 9 */
         double numerator_my_modification , denominator_my_modification;
-        /*For my modifications in Case 9 and Case 10*/
+        /*For my modifications in Case 9 */
         switch (wnd_option_) {
 		case 0:
 			if (++count_ >= cwnd_) {
@@ -1241,12 +1241,6 @@ void TcpAgent::opencwnd()
 
             cwnd_ = cwnd_ + (f/cwnd_);
 
-            break;
-        case 10:
-            /*Another modified congestion control mechanism from the paper 'Traffic_Modeling_of_LTE_Mobile_Broadband.pdf' */
-        //Avoidance phase
-            printf("\nCongestion control using Case 10.\n");
-            cwnd_ = cwnd_ + (1 / cwnd_);
             break;
 		default:
 #ifdef notdef

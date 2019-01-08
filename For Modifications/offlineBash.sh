@@ -1,12 +1,11 @@
 #!/bin/bash
 ####################################For modifications ....
 ##For 802.11 static
-ifModified_congestion=1;	#If this is 1 , then use modification
+ifModified_congestion=0;	#If this is 1 , then use modification
 whichCase_congestion=9;	#For modified congestion control mechanism
 ##For 802.15.4 mobile
 ifModified_congestion_mobile=0;	#For now do not use mobile modification ...
-whichCase_congestion_mobile=10;
-
+grid_or_rand_mobile=0;
 ###############For png files
 description_arr_static=('802.11 Wireless Static');
 description_arr_mobile=('802.15.4 Wireless Mobile');
@@ -283,11 +282,19 @@ runMobileOnce(){
 	description_arr_mobile[description_arr_mobile_index]="$descriptionNow";
 	description_arr_mobile_index=$(($description_arr_mobile_index + 1));
 
-	echo -e "Number of Nodes = $nodeNum, Flow = $flowNum, Packets per sec = $packetsPerSec, Node speed = $nodeSpeed\n\n" ; #>> "Check.txt";
+	row=$6;
+	col=$(($nodeNum/$row));
 
+	echo -e "$indexGiven. Number of Nodes = $nodeNum, Flow = $flowNum, Packets per sec = $packetsPerSec, Node speed = $nodeSpeed, row = $row, col = $col\n\n" ; #>> "Check.txt";
 
+	#grid_or_rand_mobile=1;
+	
+	ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName $ifModified_congestion_mobile $grid_or_rand_mobile $row $col;
 
-	ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName
+	#ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName $ifModified_congestion_mobile $grid_or_rand_mobile;
+
+	echo -e "\n--->>>  INSIDE SHELL SCRIPT, Executed ns .... for $indexGiven\n";
+	#ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName
 	#echo "ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName";
 	#echo; echo;
 }
@@ -322,7 +329,7 @@ varyNodes(){
 		if [[ $staticOrMobile -eq 0 ]]; then
 			runOnce $rowNum $colNum $flowNum $cross_flow $cbr_interval $coverage_coefficient $index_counter $pkts_per_sec;			
 		elif [[ $staticOrMobile -eq 1 ]]; then
-			runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter
+			runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter $rowNum
 		fi
 		
 		index_counter=$((index_counter + 1));	#idx++
@@ -346,7 +353,7 @@ varyFlow(){
 		if [[ $staticOrMobile -eq 0 ]]; then
 			runOnce $rowNum $colNum $flowNum $cross_flow $cbr_interval $coverage_coefficient $index_counter $pkts_per_sec;			
 		elif [[ $staticOrMobile -eq 1 ]]; then
-			runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter
+			runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter $rowNum  
 		fi
 
 		
@@ -371,7 +378,7 @@ varyPacketsPerSec(){
 		if [[ $staticOrMobile -eq 0 ]]; then
 			runOnce $rowNum $colNum $flowNum $cross_flow $cbr_interval $coverage_coefficient $index_counter $pkts_per_sec;			
 		elif [[ $staticOrMobile -eq 1 ]]; then
-			runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter
+			runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter $rowNum 
 		fi
 		
 		index_counter=$((index_counter + 1));	#idx++
@@ -410,7 +417,7 @@ varyNodeSpeed(){
 		get_cbr_interval "$pkts_per_sec" ;
 		cbr_interval=$cbr_interval_from_function;
 		speedOfNodesVaried=${speedOfNodes_arr[$i]};
-		runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter
+		runMobileOnce $(($rowNum * $colNum)) $flowNum $pkts_per_sec $speedOfNodesVaried $index_counter $rowNum 
 
 		index_counter=$((index_counter + 1));	#idx++
 	done
@@ -420,9 +427,9 @@ runWirelessTCP_Static(){
 	staticOrMobile=0;	#Static
 	cross_flow=0;	#For now cross flow is kept at 0 ... all are parallel flows ... 
 
-	echo "Running 802.11 Wireless Static now ... ";
+	echo -e "\n\n ============== Running 802.11 Wireless Static now ... ========================== \n";
 
-	echo -e "Running 802.11 Wireless Static now ... \n\n" >> "Check.txt";
+	echo -e "\n\n========================= Running 802.11 Wireless Static now ... ============= \n\n" >> "Check.txt";
 # echo -e "Hai\nHello\nTesting\n"
 
 	index_counter=1;
@@ -435,8 +442,8 @@ runWirelessTCP_Static(){
 runWirelessTCP_Mobile(){
 	staticOrMobile=1;	#Mobile
 	
-	echo "Running 802.15.4 Wireless Mobile now ... ";
-	echo -e "Running 802.15.4 Wireless Mobile now ... \n\n" >> "Check.txt";
+	echo -e  "\n===================Running 802.15.4 Wireless Mobile now ... =================\n";
+	echo -e "\n\n================ Running 802.15.4 Wireless Mobile now ... ================= \n\n" >> "Check.txt";
  	
  	index_counter=1;
  	varyNodes
@@ -509,7 +516,7 @@ runAwk_Mobile(){
 		idxOfVariation=$((idxOfVariation+1));
 
 		echo -e "\n\n============================================================\n\n" >> "Check.txt";		
-		echo -e "$descriptionToPrint" >> "Check.txt";
+		echo -e "$indexParsing) $descriptionToPrint" >> "Check.txt";
 
 		awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function;
 		#echo "awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function"; 
@@ -542,7 +549,7 @@ runAwk_Static(){
 
 
 		echo -e "\n\n-------------------------------------------------\n\n" >> "Check.txt";
-		echo -e "$descriptionToPrint" >> "Check.txt";
+		echo -e "$indexParsing) $descriptionToPrint" >> "Check.txt";
 #echo "Going to run (NOT RUNNING) awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function";
 		awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function;
 		#echo "awk -v file_throughput="$file1" -v file_delay="$file2" -v file_deliveryRatio="$file3" -v file_dropRatio="$file4" -v file_energyConsumption="$file5" -v valueChanged="$changed_var" -f $awkFileName $trace_file_from_function;";
@@ -687,11 +694,21 @@ plotGraphStatic(){
 	done
 	echo ; echo "Done plotting graphs.."; echo;
 }
- 
+
+removeMobileFolder(){
+	rm -f 'Mobile_Wireless_TCP/Files/*.tr';
+	rm -f 'Mobile_Wireless_TCP/Files/*.nm';
+	rm -f 'Mobile_Wireless_TCP/Files/*.txt';
+
+
+	rm -f 'Mobile_Wireless_TCP/For_Graphs/*.txt';
+	rm -f 'Mobile_Wireless_TCP/For_Graphs/*.png';
+
+}
 
 main(){
-	noRemove=0;	#0 for running all, 1 for running only awk files for testing
-
+	noRemove=0;	#0 for remove, 1 for no remove.
+	clear ;
 	makeAllVariationParameters
 	
 	if [[ $noRemove -eq 0 ]]; then
@@ -705,7 +722,7 @@ main(){
 	echo "" > "Check.txt";
 
 	runStatic=1;
-	runMobile=0;
+	runMobile=1;
 
 	if [[ $runStatic -eq 1 ]]; then
 		indexParsing=1;
@@ -718,6 +735,7 @@ main(){
 		plotGraphStatic;
 	fi
 	if [[ $runMobile -eq 1 ]]; then
+		#removeMobileFolder ;
 		staticOrMobile=1;
 		makeCorrectFolder;	#Changes folder to Mobile Folder (Initially Static er Folder)
 

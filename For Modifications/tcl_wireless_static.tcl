@@ -60,15 +60,6 @@
 	set tcp_sink Agent/TCPSink ;# Agent/TCPSink or Agent/TCPSink/Sack1
 
 
-	set doWeUseModifiedCongestion [lindex $argv 15]; #If this is 1.. then use the next argument for congestion control mechanism modified.
-	
-	if {$doWeUseModifiedCongestion == 1} {
-		#Yes we do use modified method ..
-		set newCase_forModification [lindex $argv 16];
-		$tcp_src set windowOption_ $newCase_forModification; #For Congestion Control Case 9 or Case 10 (MODIFIED)
-	}
-
-
 	set val(chan)						Channel/WirelessChannel 	;# channel type
 	set val(prop) 						Propagation/TwoRayGround 	;# radio-propagation model
 	#set val(prop) Propagation/FreeSpace ;# radio-propagation model
@@ -78,7 +69,7 @@
 	set val(ll) 						LL 							;# link layer type
 	set val(ant) 						Antenna/OmniAntenna 		;# antenna model
 	set val(ifqlen) 					50 							;# max packet in ifq
-	set val(rp) 						AODV 						;# routing protocol eg. DSDV / AODV 
+	set val(rp) 						DSDV 						;# routing protocol
 
 
 	

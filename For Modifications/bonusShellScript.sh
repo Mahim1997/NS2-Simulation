@@ -97,12 +97,13 @@ echo -e "Additonal Parameters Per node throughput (bits/sec) and Residual Energy
 echo -e "\nNodes = 40, Flow = 30, Packets/sec is varied, Cov. area mplier = 4\n\n" >> "Check_Additional.txt";
 
 
+
 removeAndMakeDirectories
 
 runAwk
 
 plotGraph
 
-#./queueVariation.sh
+
 
 
