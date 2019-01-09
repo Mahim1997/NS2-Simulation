@@ -42,6 +42,7 @@
 	fi
 
 
+
 	tclFileName_Mobile="tcl_wireless_mobile.tcl";
 	nodeNum=40;
 	flowNum=30;
@@ -51,6 +52,9 @@
 	ifModified_congestion_mobile=0;
 	row=5;
 	col=8;
+
+	#Number of Nodes = 40, Flow = 30, Packets per sec = 100, Node speed = 5, row = 5, col = 8
+
 
 	runMobile=1;
 	if [[ $runMobile -eq 1 ]]; then

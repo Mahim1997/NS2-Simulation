@@ -3,8 +3,8 @@
 #1a. Network size
 	set gridArrangedOrRandomArranged [lindex $argv 8];	#1 for Grid, 0 for Random
 
-	set grid_x_dim			500 ;	#[lindex $argv 1]
-	set grid_y_dim          500 ;	#[lindex $argv 1]
+	set grid_x_dim			[lindex $argv 11];#1000 ;	#[lindex $argv 1]
+	set grid_y_dim          [lindex $argv 12];#1000 ;	#[lindex $argv 1]
 
 #1b. Number and positioning and speed of nodes [Taken from shell script]
 	set num_node            [lindex $argv 0];	#First parameter is number of nodes..	 
@@ -43,6 +43,8 @@
 	set dist(40m) 1.20174e-07
 	Phy/WirelessPhy set CSThresh_ $dist(40m)
 	Phy/WirelessPhy set RXThresh_ $dist(40m)
+
+
 
 #1e. Protocols and models for different layers
 
@@ -151,50 +153,34 @@ puts "Start node creation"
 set num_row [lindex $argv 9] ;
 set num_col [lindex $argv 10];
 puts "INSIDE TCL FILE gridArrangedOrRandomArranged = $gridArrangedOrRandomArranged, num_row = $num_row, and num_col = $num_col";
-
+set counter 0;
+#set gridArrangedOrRandomArranged 0;
 if { $gridArrangedOrRandomArranged == 1 } {
 	#GRID TOPOPLOGY
 	puts "Grid Topology";
-
- 
 	set i 0;
-	set counter 0;
+	#set x_start [expr int($grid_x_dim/($num_col*2))];
+	#set y_start [expr int($grid_y_dim/($num_row*2))];
+ 	set x_start [lindex $argv 13];
+	set y_start [lindex $argv 14];
 
-
-	set x_start [expr int($grid_x_dim/($num_col*2))];
-	set y_start [expr int($grid_y_dim/($num_row*2))];
-	puts "==--->>>>> INSIDE TCL FILE ... x_start = $x_start and y_start = $y_start";
-
+	puts "==--->>>>> INSIDE TCL FILE line 169, ... x_start = $x_start and y_start = $y_start";
 	while {$i < $num_row } {
 	#in same column
 	    for {set j 0} {$j < $num_col } {incr j} {
 		#in same row
 			set m [expr int( $i*$num_col+$j )];
 			set node_($m) [$ns_ node] ;
-		#	$node_($m) set X_ [expr $i*240];
-		#	$node_($m) set Y_ [expr $k*240+20.0];
-		#CHNG
-			set my_x [expr int($x_start*2)];
-			set my_y [expr int($y_start*2)];
-
-			#puts "$counter. my_x = $my_x, my_y = $my_y";
-
-			set x_pos [expr int($x_start+$j*$my_x)];#grid settings
-			set y_pos [expr int($y_start+$i*$my_y)];#grid settings
 			
-#			set x_pos [expr int($x_start+$j*($grid_x_dim/$num_col))];#grid settings
-#			set y_pos [expr int($y_start+$i*($grid_y_dim/$num_row))];#grid settings
-
-			puts "-->>>$counter) my_x = $my_x, my_y = $my_y,  x_pos = $x_pos, y_pos = $y_pos";
-
-			set nowIndex [expr $i*$num_col + $j];
+			set x_pos [expr int($x_start+$j*($grid_x_dim/$num_col))];#grid settings
+			set y_pos [expr int($y_start+$i*($grid_y_dim/$num_row))];#grid settings
 			
-			set positions_of_x($counter) $x_pos;
+			set positions_of_x($counter) $x_pos;	#ONLY FOR PRINTING
 			set positions_of_y($counter) $y_pos;
 
 			#puts "Updating at positions_of_x ($nowIndex) = $x_pos, and positions_of_y ($i) = $y_pos, counter = $counter";
-			#set counter [expr $counter + 1];
-			incr counter;
+			set counter [expr $counter+1];
+			#incr counter;
 			
 			$node_($m) random-motion 0
 			$node_($m) set X_ $x_pos;
@@ -234,28 +220,72 @@ if { $gridArrangedOrRandomArranged == 1 } {
 	}
 
 }
-puts "============>>> Topology is created ... Line 235";
+puts "============>>> Topology is created ... Line 225 counter = $counter";
+for {set i 0} {$i < [expr $num_node]} {incr i} {
+	if {$gridArrangedOrRandomArranged == 1} {
+		#puts "--->>>Line 228, x_pos($i) = $positions_of_x($i), y_pos($i) = $positions_of_y($i)";
+	}
+}
 
+set sizeNode [lindex $argv 17];
+puts "INSIDE TCL, size of node initially = $sizeNode";
 for {set i 0} {$i < $val(nn)} { incr i } {
-	$ns_ initial_node_pos $node_($i) 20
+	#$ns_ initial_node_pos $node_($i) 10
+	$ns_ initial_node_pos $node_($i) $sizeNode
 }
 
 #puts "initial_node_pos is done ... Line 241";
 # Making node movements random 
 
-if {$gridArrangedOrRandomArranged == 1} {
+set grid_For_Movement 1;
+if {$grid_For_Movement == 1 && $gridArrangedOrRandomArranged==1} {
 	#Grid movement
-	puts "Grid movement";
-	for {set i 0} {$i < $num_node} {incr i} {
-		set complimentNodeIndex [expr $num_node - $i - 1];
-		set dest_x $positions_of_x($complimentNodeIndex);
-		set dest_y $positions_of_y($complimentNodeIndex);
+ 	set x_start [lindex $argv 13];
+	set y_start [lindex $argv 14];
 
-		#puts "-->>For node $i, complimentNodeIndex = $complimentNodeIndex, dest_x = $dest_x, dest_y = $dest_y";
-		#puts "For node $i, use destination as positions of $complimentNodeIndex";
-		$ns_ at $start_time "$node_($i) setdest $dest_x $dest_y  $node_speed"		
-		#puts "$ns_ at $start_time '$node_($i) setdest $dest_x $dest_y  $node_speed' ";
+	set add_to_x [lindex $argv 15];
+	set add_to_y [lindex $argv 16];
+
+	puts "Grid movement";
+	#counter was already set above...
+	if {$counter >= 1} {
+		set nowCounter [expr $counter-1];
 	}
+	puts "INSIDE Grid movement, nowCounter = $nowCounter";
+	
+	for {set i 0} {$i < $num_row} {incr i} {
+		for {set j 0} {$j < $num_col} {incr j} {
+		#We will be using $node_($nowCounter);
+			set dest_x [expr int($x_start+$j*$add_to_x)];#grid settings
+			set dest_y [expr int($y_start+$i*$add_to_y)];#grid settings
+
+			#set dest_x [expr $x_start+$j*$add_to_x];#grid settings
+			#set dest_y [expr $y_start+$i*$add_to_y];#grid settings
+
+			while {$dest_x <= 0 ||
+					$dest_x >= $grid_x_dim} {
+				set dest_x [expr int($grid_x_dim*rand())]
+			}
+
+			while {$dest_y <= 0 ||
+					$dest_y >= $grid_y_dim} {
+				set dest_y [expr int($grid_y_dim*rand())]
+			}
+			
+
+
+			#puts "Line 273, ns_ at $start_time node_($nowCounter) setdest $dest_x $dest_y  $node_speed";
+
+			$ns_ at $start_time "$node_($nowCounter) setdest $dest_x $dest_y  $node_speed"
+			
+			if {$nowCounter > 0} {
+				set nowCounter [expr $nowCounter-1];					
+			}	
+		
+		}
+	}
+
+#$ns_ at $start_time "$node_($i) setdest $dest_x $dest_y  $node_speed"		
 } else {
 		puts "Random movement";
 		for {set i 0} {$i < [expr $num_node] } {incr i} {
@@ -308,7 +338,7 @@ for {set i 0} {$i < $num_flow} {incr i} {
 	$ns_ attach-agent $node_($source_number) $udp_($i)
   	$ns_ attach-agent $node_($sink_number) $null_($i)
 
-  	puts "===>>> $i. RANDOM flow:  Src: $source_number Dest: $sink_number"
+  	#puts "===>>> $i. RANDOM flow:  Src: $source_number Dest: $sink_number"
 	
 	puts -nonewline $topo_file "RANDOM flow:  Src: $source_number Dest: $sink_number\n"
 }

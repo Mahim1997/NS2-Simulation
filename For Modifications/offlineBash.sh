@@ -287,10 +287,38 @@ runMobileOnce(){
 
 	echo -e "$indexGiven. Number of Nodes = $nodeNum, Flow = $flowNum, Packets per sec = $packetsPerSec, Node speed = $nodeSpeed, row = $row, col = $col\n\n" ; #>> "Check.txt";
 
-	#grid_or_rand_mobile=1;
+	grid_or_rand_mobile=0;
 	
-	ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName $ifModified_congestion_mobile $grid_or_rand_mobile $row $col;
+	#x_dim=1000;
+	#y_dim=1000;
+	x_dim=200;
+	y_dim=200;
 
+	num_col=$col;
+	num_row=$row;
+
+	x_start_denom=$(( num_col * 2 ));
+	y_start_denom=$(( num_row * 2 ));
+
+	x_start=$(( x_dim/x_start_denom ));	#set x_start [expr int($grid_x_dim/($num_col*2))];
+	y_start=$(( y_dim/y_start_denom ));	#set y_start [expr int($grid_y_dim/($num_row*2))];
+
+	add_to_x=$(( x_dim/num_col ));				# = ($grid_x_dim/$num_col)
+	add_to_y=$(( y_dim/num_row ));				# = ($grid_y_dim/$num_row)
+
+	sizeNode=$((x_dim/40));
+
+	#echo "ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName \
+	#$ifModified_congestion_mobile $grid_or_rand_mobile \
+	#$row $col $x_dim $y_dim $x_start $y_start $add_to_x $add_to_y;";
+
+	ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName \
+	$ifModified_congestion_mobile $grid_or_rand_mobile \
+	$row $col $x_dim $y_dim $x_start $y_start $add_to_x $add_to_y\
+	$sizeNode;
+
+
+#	ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName $ifModified_congestion_mobile $grid_or_rand_mobile $row $col;
 	#ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName $ifModified_congestion_mobile $grid_or_rand_mobile;
 
 	echo -e "\n--->>>  INSIDE SHELL SCRIPT, Executed ns .... for $indexGiven\n";
@@ -734,6 +762,7 @@ main(){
 	#Plot graphs for static mode
 		plotGraphStatic;
 	fi
+	grid_or_rand_mobile=1;
 	if [[ $runMobile -eq 1 ]]; then
 		#removeMobileFolder ;
 		staticOrMobile=1;
