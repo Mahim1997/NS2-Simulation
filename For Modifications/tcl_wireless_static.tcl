@@ -53,6 +53,7 @@
 	set nowValue [Phy/WirelessPhy set Pt_]              ;#   0.001
 	puts "INSIDE TCL FILE, AFTER CHANGING nowValue of Pt_ = $nowValue of Pt_"
 	
+	
 
 	#e) Protocols and models for different layers
 
@@ -65,7 +66,7 @@
 	#set val(prop) Propagation/FreeSpace ;# radio-propagation model
 	set val(netif) 						Phy/WirelessPhy 			;# network interface type
 	set val(mac) 						Mac/802_11 					;# MAC type
-	set val(ifq) 						Queue/DropTail/PriQueue 	;# interface queue type
+	set val(ifq) 						Queue/DropTail			 	; #Queue/DropTail/PriQueue 	;# interface queue type
 	set val(ll) 						LL 							;# link layer type
 	set val(ant) 						Antenna/OmniAntenna 		;# antenna model
 	set val(ifqlen) 					50 							;# max packet in ifq

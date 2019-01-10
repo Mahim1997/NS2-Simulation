@@ -67,7 +67,7 @@
 	#set val(prop) Propagation/FreeSpace ;# radio-propagation model
 	set val(netif) 						Phy/WirelessPhy/802_15_4 	;# network interface type
 	set val(mac) 						Mac/802_15_4				;# MAC type
-	set val(ifq) 						Queue/DropTail/PriQueue 	;# interface queue type
+	set val(ifq) 						Queue/DropTail				; #Queue/DropTail/PriQueue 	;# interface queue type
 	set val(ll) 						LL 							;# link layer type
 	set val(ant) 						Antenna/OmniAntenna 		;# antenna model
 	set val(ifqlen) 					100							;# max packet in ifq
@@ -238,6 +238,11 @@ for {set i 0} {$i < $val(nn)} { incr i } {
 # Making node movements random 
 
 set grid_For_Movement 1;
+
+################################## FOR NOW MOVING RANDOMLY !!! 
+set grid_For_Movement 0;
+
+
 if {$grid_For_Movement == 1 && $gridArrangedOrRandomArranged==1} {
 	#Grid movement
  	set x_start [lindex $argv 13];

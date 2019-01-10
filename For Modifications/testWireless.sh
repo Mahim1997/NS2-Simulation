@@ -19,7 +19,7 @@
 	y_dim=900;
 
 
-	makeFolder=0;
+	makeFolder=1;
 
 
 	if [[ $makeFolder -eq 1 ]]; then
@@ -28,7 +28,7 @@
 		mkdir Testing/
 	fi
 
-	runStatic=0;
+	runStatic=1;
 
 	if [[ $runStatic -eq 1 ]]; then
 		ns "$tclFileName" $num_row $num_col \
@@ -56,7 +56,7 @@
 	#Number of Nodes = 40, Flow = 30, Packets per sec = 100, Node speed = 5, row = 5, col = 8
 
 
-	runMobile=1;
+	runMobile=0;
 	if [[ $runMobile -eq 1 ]]; then
 		clear ;
 		#ns $tclFileName_Mobile $nodeNum $flowNum $packetsPerSec $nodeSpeed $namFileName $traceFileName $topoFileName $useModifiedCongestion $grid_or_rand;
@@ -77,10 +77,10 @@
 		#folderName="Testing/Metrics Measured/";
 		#mkdir "$folderName";
 
-		file1="Throughput.txt";
-		file2="DeliveryRatio.txt";
-		file3="DropRatio.txt";
-		file4="EnergyConsumption.txt";
+		file1="Testing/Throughput.txt";
+		file2="Testing/DeliveryRatio.txt";
+		file3="Testing/DropRatio.txt";
+		file4="Testing/EnergyConsumption.txt";
 		awkFileName="awk_wireless_static.awk";
 		trace_file_from_function="Testing/TraceFile.tr";
 		changed_var=100;

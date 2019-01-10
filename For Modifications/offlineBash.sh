@@ -285,14 +285,23 @@ runMobileOnce(){
 	row=$6;
 	col=$(($nodeNum/$row));
 
+	#col=10;
+	#row=$((nodeNum/col));
+
 	echo -e "$indexGiven. Number of Nodes = $nodeNum, Flow = $flowNum, Packets per sec = $packetsPerSec, Node speed = $nodeSpeed, row = $row, col = $col\n\n" ; #>> "Check.txt";
 
 	grid_or_rand_mobile=0;
 	
+	if [[ $grid_or_rand_mobile -eq 0 ]]; then
+		x_dim=200;
+		y_dim=200;		
+	else
+		x_dim=1000;
+		y_dim=1000;
+	fi
 	#x_dim=1000;
 	#y_dim=1000;
-	x_dim=200;
-	y_dim=200;
+
 
 	num_col=$col;
 	num_row=$row;
@@ -749,7 +758,7 @@ main(){
 
 	echo "" > "Check.txt";
 
-	runStatic=1;
+	runStatic=0;
 	runMobile=1;
 
 	if [[ $runStatic -eq 1 ]]; then
@@ -788,36 +797,7 @@ main(){
 }
 
 
-#---------------------------------------------Other functions------------------------------------
-
-printCSVFiles_WirelessStatic(){
-	nowCSVFile="NOTHING.csv";
-	echo "Printing csv files for wireless static ... "; echo ;
-	getCSVFolderUsingMode 0;
-	folderCorrect=$csv_folder_returned_from_function;
-	for (( i = 0; i < $maxVariations-1; i++ )); do
-		#echo "variations $i is ${csvFile_arr[$i]}";
-		predecessorName=${csvFile_arr[$i]};
-		for (( j = 0; j < $maxVariations; j++ )); do
-			successorName=${metricsMeasured_arr[$j]};
-			#echo "Succesor Name is $successorName";
-			requiredCSVFile="$folderCorrect$predecessorName$successorName";
-			echo "CSV FILE IS <$requiredCSVFile>";
-		done
-
-		echo;
-	done
-
-}
-printCSVFiles_WirelessMobile(){
-	nowCSVFile="NOTHING.csv";
-	echo ; echo "Now printing csv files for wireless mobile ..." ;
-	for (( i = 0; i < $maxVariations; i++ )); do
-		getCSVFile_UsingCorrectFile 1 "${csvFile_variations[$i]}";
-		nowCSVFile="$csvFile_return_from_function";
-		echo "Current CSV File is <$nowCSVFile>";
-	done
-}
+ 
 #----------------------------------------------------Run things-------------------------------------
 
 
