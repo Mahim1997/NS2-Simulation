@@ -1125,9 +1125,11 @@ void TcpAgent::opencwnd()
 	} else {
 		/* linear */
 		double f;
+//-------------------------------------------- ADDED BY MAHIM MAHBUB -------------------------------------
         /*For my modifications in Case 9 */
         double numerator_my_modification , denominator_my_modification;
         /*For my modifications in Case 9 */
+//-------------------------------------------- ADDED BY MAHIM MAHBUB done -------------------------------------
         switch (wnd_option_) {
 		case 0:
 			if (++count_ >= cwnd_) {
@@ -1225,6 +1227,7 @@ void TcpAgent::opencwnd()
 			}
 			cwnd_ += increment;
                         break;
+//-------------------------------------------- ADDED BY MAHIM MAHBUB -------------------------------------
         case 9:
             /*A modified congestion control mechanism from the paper 'Implementation_of_New_TCP_Congestion_Con.pdf' */
         //Avoidance phase
@@ -1242,6 +1245,7 @@ void TcpAgent::opencwnd()
             cwnd_ = cwnd_ + (f/cwnd_);
 
             break;
+//-------------------------------------------- ADDED BY MAHIM MAHBUB done -------------------------------------
 		default:
 #ifdef notdef
 			/*XXX*/

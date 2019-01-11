@@ -259,7 +259,7 @@ runOnce(){
 	$startTime $time_gap\
 	$sizeOFNODE\
 	$ifModified_congestion\
-	$whichCase_congestion;		#if modified is 1, then use Case 9 or Case 10 that we have modified in tcp.cc
+	$whichCase_congestion;		#if modified is 1, then use Case 9  that we have modified in tcp.cc
 	#echo; echo;
 }
 runMobileOnce(){
@@ -758,7 +758,7 @@ main(){
 
 	echo "" > "Check.txt";
 
-	runStatic=0;
+	runStatic=1;
 	runMobile=1;
 
 	if [[ $runStatic -eq 1 ]]; then
@@ -771,7 +771,7 @@ main(){
 	#Plot graphs for static mode
 		plotGraphStatic;
 	fi
-	grid_or_rand_mobile=1;
+	grid_or_rand_mobile=0;
 	if [[ $runMobile -eq 1 ]]; then
 		#removeMobileFolder ;
 		staticOrMobile=1;

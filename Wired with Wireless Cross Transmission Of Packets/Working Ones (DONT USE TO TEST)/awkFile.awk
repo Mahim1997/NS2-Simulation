@@ -30,6 +30,7 @@ BEGIN {
 		received_flag[i] = 0;
 	}
 
+	printf("\nInside Wireless Awk file\n");
 #For residual energy
 	for(nodeIter=0; nodeIter<max_node; nodeIter++){
 		checked_initial_total_energy_flag[nodeIter]=0;
@@ -60,8 +61,14 @@ BEGIN {
 	transmit_energy_consumption = $20;	receive_energy_consumption = $22; 
 	num_retransmit = $30;
 	
+
+
+
 	sub(/^_*/, "", node);
 	sub(/_*$/, "", node);
+
+
+
 
 	if(node > maximumNodeNumber){
 		maximumNodeNumber = node;

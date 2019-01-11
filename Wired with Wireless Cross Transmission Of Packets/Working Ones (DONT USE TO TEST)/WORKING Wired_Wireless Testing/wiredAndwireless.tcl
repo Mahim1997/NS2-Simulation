@@ -123,8 +123,26 @@
 	$BS(1) set Y_ 100.0
 	$BS(1) set Z_ 0.0
 
-	#configure for mobilenodes
-	$ns_ node-config -wiredRouting OFF -movementTrace ON 
+	#configure for wireless nodes
+	set val(energymodel_11)    			EnergyModel     ;
+	set val(initialenergy_11)  			1000            ;# Initial energy in Joules
+	set val(idlepower_11) 				900e-3			;#Stargate (802.11b) 
+	set val(rxpower_11) 				925e-3			;#Stargate (802.11b)
+	set val(txpower_11) 				1425e-3			;#Stargate (802.11b)
+	set val(sleeppower_11) 				300e-3			;#Stargate (802.11b)
+	set val(transitionpower_11) 		200e-3			;#Stargate (802.11b)	??????????????????????????????/
+	set val(transitiontime_11) 			3				;#Stargate (802.11b)
+
+	$ns_ node-config -wiredRouting OFF -movementTrace ON \
+						-energyModel $val(energymodel_11) \
+						-idlePower $val(idlepower_11) \
+						-rxPower $val(rxpower_11) \
+						-txPower $val(txpower_11) \
+							 -sleepPower $val(sleeppower_11) \
+							 -transitionPower $val(transitionpower_11) \
+						-transitionTime $val(transitiontime_11) \
+						-initialEnergy $val(initialenergy_11)
+
 
 
 	for {set j 0} {$j < $opt(nn)} {incr j} {
