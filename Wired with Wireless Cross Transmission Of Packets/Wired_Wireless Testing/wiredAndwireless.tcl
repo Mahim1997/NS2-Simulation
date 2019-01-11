@@ -80,7 +80,9 @@
 
 	# set up for hierarchical routing
 	$ns_ node-config -addressType hierarchical
-	AddrParams set domain_num_ 2  ;	#Number of domains ... [WE ALWAYS USE 2 , 1 for wired, 1 for wireless and BS]        
+
+####DOMAIN = 2 dile kam kore na kano ????
+	AddrParams set domain_num_ 3  ;	#Number of domains ... [WE ALWAYS USE 2 , 1 for wired, 1 for wireless and BS]        
 	
 	lappend cluster_num $num_wired_nodes 1 $num_bs_nodes   ; #Number of clusters ... wired[num_wired], wireless[1], BS [num_bs]
 	AddrParams set cluster_num_ $cluster_num
@@ -268,7 +270,7 @@ for {set flow_cnt_iter 0} {$flow_cnt_iter < $num_flow_crossXmission} {incr flow_
 	$ns_ attach-agent $W($wiredNodeFoud) $tcp ;
 	$ns_ attach-agent $node_($wirelessNodeFound) $sink ;
 
-	$ns_ connections $tcp $sink ;
+	$ns_ connect $tcp $sink ;
 
 	set cbr [new Application/Traffic/CBR]
 	$cbr set packetSize_ $cbr_size
