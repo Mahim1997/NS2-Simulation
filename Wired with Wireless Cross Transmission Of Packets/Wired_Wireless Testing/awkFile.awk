@@ -190,13 +190,15 @@ END {
 printf("\n\n\nOnly for wireless nodes, printing normal metrics\n\n");
 for(i=0; i<20; i++){
 	if(received_flag[i] == 1){
-		printf("Node %d had received something\n", i);
+		printf("Wireless Node %d had received something\n", i);
 	}
 }
 printf( "Throughput: %15.2f \nAverageDelay: %15.5f \nSent Packets: %15.2f \nReceived Packets: %15.2f\
 	\nDropped Packets: %15.2f \nPacketDeliveryRatio: %10.2f \nPacketDropRatio: %10.2f\
 	\nTotal time: %10.5f\n", rThroughput, rAverageDelay, nSentPackets, nReceivedPackets, nDropPackets, rPacketDeliveryRatio, rPacketDropRatio,rTime) ;
 
-	printf("Total_energy: %15.5f \nAvg_enr_per_bit: %15.5f \nAvg_enr_per_byte: %15.5f\
-	\nAvg_enr_per_pckt: %15.5f \nTotal_retransmit: %15.0f\n", total_energy_consumption, avg_energy_per_bit, avg_energy_per_byte, avg_energy_per_packet, total_retransmit); 
+
+printf( "Throughput: %15.2f \nAverageDelay: %15.5f \nSent Packets: %15.2f \nReceived Packets: %15.2f\
+	\nDropped Packets: %15.2f \nPacketDeliveryRatio: %10.2f \nPacketDropRatio: %10.2f\
+	\nTotal time: %10.5f\n", rThroughput, rAverageDelay, nSentPackets, nReceivedPackets, nDropPackets, rPacketDeliveryRatio, rPacketDropRatio,rTime) >> "WirelessThings.txt"; 
 }

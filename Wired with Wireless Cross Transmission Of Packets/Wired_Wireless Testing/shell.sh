@@ -104,13 +104,6 @@ elif [[ $index -eq 5 ]]; then
 	flow_wired=20;
 	connections_with_base=5;
 	packetsPerSec=200;
-elif [[ $index -eq 5 ]]; then	
-	num_wired=10;	
-	num_wireless=100;
-	flow_wired_to_wireless=40;
-	flow_wired=20;
-	connections_with_base=5;
-	packetsPerSec=200;
 elif [[ $index -eq 6 ]]; then	
 	num_wired=10;	
 	num_wireless=60;
@@ -147,35 +140,35 @@ elif [[ $index -eq 10 ]]; then
 	connections_with_base=5;
 	packetsPerSec=200;
 elif [[ $index -eq 11 ]]; then	
-	num_wired=20;	
+	num_wired=10;	
 	num_wireless=40;
 	flow_wired_to_wireless=40;
 	flow_wired=20;
 	connections_with_base=5;
 	packetsPerSec=100;
 elif [[ $index -eq 12 ]]; then	
-	num_wired=20;	
+	num_wired=10;	
 	num_wireless=40;
 	flow_wired_to_wireless=40;
 	flow_wired=20;
 	connections_with_base=5;
 	packetsPerSec=200;
 elif [[ $index -eq 13 ]]; then	
-	num_wired=20;	
+	num_wired=10;	
 	num_wireless=40;
 	flow_wired_to_wireless=40;
 	flow_wired=20;
 	connections_with_base=5;
 	packetsPerSec=300;
 elif [[ $index -eq 14 ]]; then	
-	num_wired=20;	
+	num_wired=10;	
 	num_wireless=40;
 	flow_wired_to_wireless=40;
 	flow_wired=20;
 	connections_with_base=5;
 	packetsPerSec=400;
 elif [[ $index -eq 15 ]]; then	
-	num_wired=20;	
+	num_wired=10;	
 	num_wireless=40;
 	flow_wired_to_wireless=40;
 	flow_wired=20;
@@ -245,7 +238,7 @@ fi
 
 }
 plotGraphs(){
-	echo "Insid plot graph function .. ";
+	echo "Inside plot graph function .. ";
 if [[ $plotGraphs -eq 1 ]]; then
 	
 
@@ -294,15 +287,66 @@ main(){
 
 	echo "Plotting Graphs";
 
-	removeAndMakeDir ;
+	#removeAndMakeDir ;
 
 #	getParams "1";
 #	runTCL "1";
-	for (( i = 1; i <= 15; i++ )); do
+
+############## For running TCL ###########
+	for (( i = 11; i <= 15; i++ )); do
 		getParams "$i";
-		runTCL "$i" ;
+		#runTCL "$i";
 	done
 
+################ For awk files ##############
+
+	echo -e "Printing Metrics for WiredThings \n\n" > "WiredThings.txt";
+	echo -e "Printing Metrics for WirelessThings \n\n" > "WirelessThings.txt";
+
+
+	echo "For varying packet rate ";
+	echo "For varying num wireless nodes " >> "WirelessThings.txt";
+	echo "For varying num wired nodes " >> "WiredThings.txt";
+
+	for (( i = 1; i <= 5; i++ )); do
+		#Printing metrics for wired nodes ....
+		echo -e "\n---------------------------- Iter = $i -----------------------------\n";
+		echo -e "\n---------------------------- Iter = $i -----------------------------\n" >> "WirelessThings.txt";
+		echo -e "\n---------------------------- Iter = $i -----------------------------\n" >> "WiredThings.txt";
+		
+		getParams "$i";
+
+		traceFile="Files/Trace_""$i"".tr";
+		awkWired="wiredAwk.awk";
+		awkWireless="awkFile.awk";
+
+		queue_folder_iter="Output_Queue/For_iter_$i/";
+		awk -v folderOutput="$queue_folder_iter" -v maxNode="$num_wired" -f "$awkWired" "$traceFile" ;
+		#For wireless
+		awk -f "$awkWireless" "$traceFile" ; 
+
+	done
+	
+	echo "For varying packet rate ";
+	echo "For varying packet rate " >> "WirelessThings.txt";
+	echo "For varying packet rate " >> "WiredThings.txt";
+	for (( i = 11; i <= 15; i++ )); do
+		#Printing metrics for wireless nodes ....
+		echo -e "\n---------------------------- Iter = $i -----------------------------\n";
+		echo -e "\n---------------------------- Iter = $i -----------------------------\n" >> "WirelessThings.txt";
+		echo -e "\n---------------------------- Iter = $i -----------------------------\n" >> "WiredThings.txt";
+		getParams "$i";
+
+		traceFile="Files/Trace_""$i"".tr";
+		awkWired="wiredAwk.awk";
+		awkWireless="awkFile.awk";
+
+		queue_folder_iter="Output_Queue/For_iter_$i/";
+
+		awk -v folderOutput="$queue_folder_iter" -v maxNode="$num_wired" -f "$awkWired" "$traceFile" ;
+		#For wireless
+		awk -f "$awkWireless" "$traceFile" ;
+	done
 	#plotGraphs
 }
 

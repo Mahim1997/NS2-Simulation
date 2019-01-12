@@ -176,14 +176,29 @@ END {
 
 	printf("Start time = %d, End Time = %d\n", startTime, endTime);
 
-	printf("\nDelivery Ratio = %0.2f percent \nDrop Ratio = %0.2f percent\nError ratio = %0.2f percent\n", 
-	deliveryRatio, dropRatio, erroRatio);
+	printf("\nDelivery Ratio = %0.2f percent \nDrop Ratio = %0.2f percent\n", 
+	deliveryRatio, dropRatio);
 
 	printf("Total Throughput = %0.2f bits/sec \n", total_throughput);
 	printf("Total End to End delay = %0.2f sec\n", total_delay);
+
 	#printf("Avg Delay = %0.2f sec\n", (total_delay/total_packets_received));
 
 	printf("\n\n\n");
+
+
+########### ------------------------- Write to file ------------------ ############
+
+	printf("\nTotal Number of packets sent = %d, bytes sent = %0.2f\n", total_packets_sent, total_bytes_sent)>> "WiredThings.txt";
+	printf("Total Number of packets received = %d, bytes received = %0.2f\n", total_packets_received, total_bytes_received)>> "WiredThings.txt";
+	printf("Total Number of packets dropped = %d, bytes dropped = %0.2f\n", total_packets_dropped, total_bytes_dropped)>> "WiredThings.txt";
+	printf("Total Number of error packets = %d, error bytes = %0.2f\n", total_packets_error, total_bytes_error)>> "WiredThings.txt";	
+	printf("\nDelivery Ratio = %0.2f percent \nDrop Ratio = %0.2f percent\n", 
+	deliveryRatio, dropRatio)>> "WiredThings.txt";
+	printf("Total Throughput = %0.2f bits/sec \n", total_throughput)>> "WiredThings.txt";
+	printf("Total End to End delay = %0.2f sec\n", total_delay)>> "WiredThings.txt";
+
+
 }
 
 
