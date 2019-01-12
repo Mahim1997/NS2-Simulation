@@ -1,0 +1,145 @@
+Printing Metrics for WiredThings 
+
+
+For varying num wired nodes 
+
+---------------------------- Iter = 1 -----------------------------
+
+
+Total Number of packets sent = 37550, bytes sent = 38825000.00
+Total Number of packets received = 37548, bytes received = 38822920.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.99 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1137265.92 bits/sec 
+Total End to End delay = 316.15 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 2 -----------------------------
+
+
+Total Number of packets sent = 35490, bytes sent = 36774600.00
+Total Number of packets received = 35488, bytes received = 36772520.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.99 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1162314.81 bits/sec 
+Total End to End delay = 298.46 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 3 -----------------------------
+
+
+Total Number of packets sent = 31072, bytes sent = 32219880.00
+Total Number of packets received = 31070, bytes received = 32217800.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.99 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1105750.52 bits/sec 
+Total End to End delay = 266.82 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 4 -----------------------------
+
+
+Total Number of packets sent = 31199, bytes sent = 32347960.00
+Total Number of packets received = 31197, bytes received = 32345880.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.99 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1214299.72 bits/sec 
+Total End to End delay = 254.57 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 5 -----------------------------
+
+
+Total Number of packets sent = 26534, bytes sent = 27512360.00
+Total Number of packets received = 26533, bytes received = 27511320.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 100.00 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1139776.70 bits/sec 
+Total End to End delay = 219.62 sec
+Avg Delay = 0.01 sec
+For varying packet rate 
+
+---------------------------- Iter = 11 -----------------------------
+
+
+Total Number of packets sent = 38045, bytes sent = 39332800.00
+Total Number of packets received = 38044, bytes received = 39331760.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 100.00 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1243230.64 bits/sec 
+Total End to End delay = 301.93 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 12 -----------------------------
+
+
+Total Number of packets sent = 34070, bytes sent = 35323800.00
+Total Number of packets received = 34068, bytes received = 35321720.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.99 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1116454.14 bits/sec 
+Total End to End delay = 291.41 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 13 -----------------------------
+
+
+Total Number of packets sent = 55621, bytes sent = 57703840.00
+Total Number of packets received = 55619, bytes received = 57701760.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 100.00 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1823843.54 bits/sec 
+Total End to End delay = 372.73 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 14 -----------------------------
+
+
+Total Number of packets sent = 40564, bytes sent = 41985560.00
+Total Number of packets received = 40563, bytes received = 41984520.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 100.00 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1327059.22 bits/sec 
+Total End to End delay = 310.96 sec
+Avg Delay = 0.01 sec
+
+---------------------------- Iter = 15 -----------------------------
+
+
+Total Number of packets sent = 36813, bytes sent = 38089520.00
+Total Number of packets received = 36813, bytes received = 38089520.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 100.00 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 1203957.17 bits/sec 
+Total End to End delay = 299.47 sec
+Avg Delay = 0.01 sec

@@ -1,0 +1,115 @@
+Printing Metrics for WirelessThings 
+
+
+For varying num wireless nodes 
+
+---------------------------- Iter = 1 -----------------------------
+
+Throughput:       661555.35 
+AverageDelay:       162.22649 
+Sent Packets:            0.00 
+Received Packets:        21752.00	
+Dropped Packets:         4186.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  273.07865
+
+---------------------------- Iter = 2 -----------------------------
+
+Throughput:       664862.98 
+AverageDelay:       173.70630 
+Sent Packets:            0.00 
+Received Packets:        20262.00	
+Dropped Packets:         4193.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  253.08649
+
+---------------------------- Iter = 3 -----------------------------
+
+Throughput:       651193.60 
+AverageDelay:       183.84627 
+Sent Packets:            0.00 
+Received Packets:        18282.00	
+Dropped Packets:         3927.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  233.08927
+
+---------------------------- Iter = 4 -----------------------------
+
+Throughput:       646065.84 
+AverageDelay:       193.00762 
+Sent Packets:            0.00 
+Received Packets:        16585.00	
+Dropped Packets:         3782.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  213.08540
+
+---------------------------- Iter = 5 -----------------------------
+
+Throughput:       624871.98 
+AverageDelay:       202.66069 
+Sent Packets:            0.00 
+Received Packets:        14540.00	
+Dropped Packets:         3228.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  193.08403
+For varying packet rate 
+
+---------------------------- Iter = 11 -----------------------------
+
+Throughput:       665318.17 
+AverageDelay:       173.47173 
+Sent Packets:            0.00 
+Received Packets:        20271.00	
+Dropped Packets:         3345.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  253.08601
+
+---------------------------- Iter = 12 -----------------------------
+
+Throughput:       655694.96 
+AverageDelay:       172.68872 
+Sent Packets:            0.00 
+Received Packets:        19984.00	
+Dropped Packets:         4199.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  253.08549
+
+---------------------------- Iter = 13 -----------------------------
+
+Throughput:       662172.19 
+AverageDelay:       173.27360 
+Sent Packets:            0.00 
+Received Packets:        20181.00	
+Dropped Packets:         4356.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  253.08511
+
+---------------------------- Iter = 14 -----------------------------
+
+Throughput:       658768.84 
+AverageDelay:       172.64735 
+Sent Packets:            0.00 
+Received Packets:        20066.00	
+Dropped Packets:         3511.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  253.07378
+
+---------------------------- Iter = 15 -----------------------------
+
+Throughput:       666223.66 
+AverageDelay:       172.98637 
+Sent Packets:            0.00 
+Received Packets:        20298.00	
+Dropped Packets:         3608.00 
+PacketDeliveryRatio:        inf 
+PacketDropRatio:        inf	
+Total time:  253.07921
