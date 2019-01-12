@@ -21,14 +21,18 @@ tclFile="wiredAndwireless.tcl";
 
 clear;
 echo "Running $tclFile ... ";
+traceFile="Trace.tr";
+topoFile="Topo.txt";
+namFile="Nam.txt";
 
-ns "$tclFile" "$num_wired" "$num_wireless" "$flow_wired_to_wireless" "$flow_wired" "$packetsPerSec" "$connections_with_base";
-
+	ns "$tclFile" "$num_wired" "$num_wireless" "$flow_wired_to_wireless" \
+	"$flow_wired" "$packetsPerSec" "$connections_with_base"\
+	"$traceFile" "$namFile" "$topoFile" ;
 echo ;
 echo "Now running nam file ";
 
-namFileName="wired-and-wireless.nam";
+namFile="wired-and-wireless.nam";
 
-nam "$namFileName" & 
+nam "$namFile" & 
 
 

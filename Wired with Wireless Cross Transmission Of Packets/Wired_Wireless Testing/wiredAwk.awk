@@ -181,7 +181,7 @@ END {
 
 	printf("Total Throughput = %0.2f bits/sec \n", total_throughput);
 	printf("Total End to End delay = %0.2f sec\n", total_delay);
-	printf("Avg Delay = %0.2f sec\n", (total_delay/total_packets_received));
+	#printf("Avg Delay = %0.2f sec\n", (total_delay/total_packets_received));
 
 	printf("\n\n\n");
 }

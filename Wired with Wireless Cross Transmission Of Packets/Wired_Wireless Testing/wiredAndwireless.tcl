@@ -18,9 +18,9 @@
 	set opt(ant)        Antenna/OmniAntenna
 	set opt(x)          500   
 	set opt(y)          500   
-	set opt(ifqlen)         50   
-	set opt(tr)          wired-and-wireless.tr
-	set opt(namtr)       wired-and-wireless.nam
+	set opt(ifqlen)     50   
+	set opt(tr)         [lindex $argv 6];#wired-and-wireless.tr
+	set opt(namtr)      [lindex $argv 7];#wired-and-wireless.nam
 	                  
 	set opt(adhocRouting)   DSDV;		#AODV doesn't work for some reason ??                      
 	set opt(cp)             ""                        
@@ -44,9 +44,11 @@
 
 	set num_connections_with_base	[lindex $argv 5];
 
+	set topo_file_name [lindex $argv 8];
+
 ###################################TO ADD MOBILITY###################################
 
-
+	set topofile [open $topo_file_name "w"]
 
 ## Setting The Distance Variables..
 # For model 'TwoRayGround'
@@ -153,6 +155,8 @@
 	$BS(0) set Y_ 20.0
 	$BS(0) set Z_ 0.0
 
+	puts -nonewline $topofile "Base Node. x: [$BS(0) set X_] y: [$BS(0) set Y_] \n"
+
 	#configure for wireless nodes
 	set val(energymodel_11)    			EnergyModel     ;
 	set val(initialenergy_11)  			1000            ;# Initial energy in Joules
@@ -200,6 +204,7 @@
 			set wiredNode2_idx [expr int($num_wired_nodes*rand())];
 		}
 		$ns_ duplex-link $W($wiredNode1_idx) $W($wiredNode2_idx) 5Mb 2ms DropTail ; #Between each nodes ...
+		puts -nonewline $topofile "Wired Connection Random. Duplex link between W($wiredNode1_idx) and W($wiredNode2_idx)  \n";
 	}
 
 #### Now connect with base node ...
@@ -214,7 +219,7 @@
 #### Now set connection with wired(i) node to base station ...
 	for {set i 0} {$i < $num_connections_with_base} {incr i} {
 		$ns_ duplex-link $W($i) $BS(0) 15Mb 10ms DropTail ;
-
+		puts -nonewline $topofile "Connection with Base Station. Duplex link between W($i) and BS(0)\n"
 	}
 
 
@@ -249,7 +254,7 @@
 		$node_($i) set X_ x_pos;
 		$node_($i) set Y_ y_pos;
 		$node_($i) set Z_ z_pos;
-
+		puts -nonewline $topofile "$i x: [$node_($i) set X_] y: [$node_($i) set Y_] \n"
 		set counter_col [expr $counter_col+1];
 	}
 
@@ -269,6 +274,8 @@ for {set flow_cnt_iter 0} {$flow_cnt_iter < $num_flow_crossXmission} {incr flow_
 
 	$ns_ attach-agent $W($wiredNodeFoud) $tcp ;
 	$ns_ attach-agent $node_($wirelessNodeFound) $sink ;
+
+	puts -nonewline $topofile "Random Flow from wired W($wiredNodeFoud) to wireless node node_($wirelessNodeFound).\n"
 
 	$ns_ connect $tcp $sink ;
 
@@ -328,6 +335,16 @@ for {set i 0} {$i < $num_wireless_nodes} {incr i} {
 
 ########################## FINISH 
 
+proc finish {} {
+    puts "finishing"
+    global ns_ trace_file namtrace_file  
+    $ns_ flush-trace
+    close $trace_file
+ 
+    #close $namtrace
+    #exec nam $nam_file_name &
+    exit 0
+}
 
 
 
