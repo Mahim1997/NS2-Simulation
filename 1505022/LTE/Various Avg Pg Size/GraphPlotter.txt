@@ -1,0 +1,33 @@
+set terminal png
+set output "Images Avg Page Size/Throughput.png"
+set xlabel "Avg Page Size (bytes)"
+set autoscale
+set ylabel "Throughput (bps)"
+set title "Throughput  against Avg Page Size"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "thpt.txt" using 1:2 title ""
+
+
+set terminal png
+set output "Images Avg Page Size/EndDelay.png"
+set xlabel ""
+set autoscale
+set ylabel "End-End Delay (s)"
+set title "End-End Delay  against Avg Page Size"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "endDelay.txt" using 1:2 title ""
+
+set terminal png
+set output "Images Avg Page Size/DeliveryRatio.png"
+set xlabel "Avg Page Size (bytes)"
+set autoscale
+set ylabel "Delivery Ratio (%)"
+set title "Delivery Ratio  against Avg Page Size"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "delRatio.txt" using 1:2 title ""

@@ -1,0 +1,11 @@
+set terminal png
+set output "Images/Queue_Throughput_Wired.png"
+set xlabel "Number of wireless nodes"
+set autoscale
+set ylabel "Network Throughput of Wired nodes (bps)"
+set title "Variation of throughput of Wired nodes with queue type"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "Throughput_Wired.txt" using 1:2 title "Default" , \
+"Throughput_Wired_modified.txt" using 1:2 title "Modified"

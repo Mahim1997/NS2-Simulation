@@ -1,0 +1,33 @@
+set terminal png
+set output "Images Number of Subscribers/Throughput.png"
+set xlabel "Images Number of Subscribers "
+set autoscale
+set ylabel "Throughput (bps)"
+set title "Throughput  against Images Number of Subscribers"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "thpt.txt" using 1:2 title ""
+
+
+set terminal png
+set output "Images Number of Subscribers/EndDelay.png"
+set xlabel ""
+set autoscale
+set ylabel "End-End Delay (s)"
+set title "End-End Delay  against Images Number of Subscribers"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "endDelay.txt" using 1:2 title ""
+
+set terminal png
+set output "Images Number of Subscribers/DeliveryRatio.png"
+set xlabel "Images Number of Subscribers "
+set autoscale
+set ylabel "Delivery Ratio (%)"
+set title "Delivery Ratio  against Images Number of Subscribers"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "delRatio.txt" using 1:2 title ""

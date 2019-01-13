@@ -1,0 +1,55 @@
+
+Total Number of packets sent = 3647, bytes sent = 3760880.00
+Total Number of packets received = 3621, bytes received = 3734840.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.31 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 145066977.40 bits/sec 
+Total End to End delay = 8.21 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 7374, bytes sent = 7446261.00
+Total Number of packets received = 7323, bytes received = 7394221.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.30 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 286811710.29 bits/sec 
+Total End to End delay = 16.55 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 9689, bytes sent = 9726119.00
+Total Number of packets received = 9652, bytes received = 9689639.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.62 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 375782239.85 bits/sec 
+Total End to End delay = 22.39 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 14143, bytes sent = 14202709.00
+Total Number of packets received = 14045, bytes received = 14105789.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.32 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 546802238.64 bits/sec 
+Total End to End delay = 31.69 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 17801, bytes sent = 17967857.00
+Total Number of packets received = 17684, bytes received = 17849177.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.34 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 691885552.59 bits/sec 
+Total End to End delay = 39.95 sec
+Avg Delay = 0.00 sec

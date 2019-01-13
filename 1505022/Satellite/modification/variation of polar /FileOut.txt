@@ -1,0 +1,37 @@
+
+
+set title "Throughput against Orbital Inclination"
+set xlabel "Orbital Inclination"
+set ylabel "Throughput (bits/s)"
+set grid
+plot "Throughput.txt" with linespoints title "Throughput against Orbital Inclination"
+set term png
+set output "Throughput.png"
+
+
+set title "Drop Ratio against Orbital Inclination"
+set xlabel "Orbital Inclination"
+set ylabel "Drop Ratio (%)"
+set grid
+plot "Drop_Ratio.txt" with linespoints title "Drop Ratio against Orbital Inclination"
+set term png
+set output "Drop_Ratio.png"
+
+
+set title "Delivery Ratio against Orbital Inclination"
+set xlabel "Orbital Inclination"
+set ylabel "Delivery Ratio (%)"
+set grid
+plot "Delivery_Ratio.txt" with linespoints title "Delivery Ratio against Orbital Inclination"
+set term png
+set output "Delivery_Ratio.png"
+
+
+set title "Error Ratio against Orbital Inclination"
+set xlabel "Orbital Inclination"
+set ylabel "Error Ratio(%)"
+set grid
+plot "Error_Ratio.txt" with linespoints title "Error Ratio against Orbital Inclination"
+set term png
+set output "Error_Ratio.png"
+

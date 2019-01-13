@@ -1,0 +1,11 @@
+set terminal png
+set output "Images/Queue_Delay_Wireless.png"
+set xlabel "Number of packets per second"
+set autoscale
+set ylabel "End-End Delay of wireless nodes (sec)"
+set title "Variation of end-end delay with queue type"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "EndToEndDelay_Wireless.txt" using 1:2 title "Default" , \
+"EndToEndDelay_Wireless_modified.txt" using 1:2 title "Modified"

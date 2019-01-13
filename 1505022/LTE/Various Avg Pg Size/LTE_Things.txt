@@ -1,0 +1,55 @@
+
+Total Number of packets sent = 3647, bytes sent = 3760880.00
+Total Number of packets received = 3621, bytes received = 3734840.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.31 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 145066977.40 bits/sec 
+Total End to End delay = 8.21 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 3647, bytes sent = 3760880.00
+Total Number of packets received = 3621, bytes received = 3734840.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.31 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 145066977.40 bits/sec 
+Total End to End delay = 8.21 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 3647, bytes sent = 3760880.00
+Total Number of packets received = 3621, bytes received = 3734840.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.31 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 145066977.40 bits/sec 
+Total End to End delay = 8.21 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 3647, bytes sent = 3760880.00
+Total Number of packets received = 3621, bytes received = 3734840.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.31 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 145066977.40 bits/sec 
+Total End to End delay = 8.21 sec
+Avg Delay = 0.00 sec
+
+Total Number of packets sent = 3647, bytes sent = 3760880.00
+Total Number of packets received = 3621, bytes received = 3734840.00
+Total Number of packets dropped = 0, bytes dropped = 0.00
+Total Number of error packets = 0, error bytes = 0.00
+
+Delivery Ratio = 99.31 percent 
+Drop Ratio = 0.00 percent
+Total Throughput = 145066977.40 bits/sec 
+Total End to End delay = 8.21 sec
+Avg Delay = 0.00 sec

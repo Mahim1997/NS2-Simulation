@@ -1,0 +1,33 @@
+set terminal png
+set output "Images_AMR/Throughput.png"
+set xlabel "Adaptive Multi-Rate call bit rates (kb/s)"
+set autoscale
+set ylabel "Throughput (bps)"
+set title "Throughput  against AMR"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "thpt.txt" using 1:2 title ""
+
+
+set terminal png
+set output "Images_AMR/Throughput.png"
+set xlabel "Adaptive Multi-Rate call bit rates (kb/s)"
+set autoscale
+set ylabel "Throughput (bps)"
+set title "Throughput  against AMR"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "thpt.txt" using 1:2 title ""
+
+set terminal png
+set output "Images_AMR/Throughput.png"
+set xlabel "Adaptive Multi-Rate call bit rates (kb/s)"
+set autoscale
+set ylabel "Throughput (bps)"
+set title "Throughput  against AMR"
+set key reverse Left outside
+set grid
+set style data linespoints
+plot "thpt.txt" using 1:2 title ""
