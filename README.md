@@ -1,4 +1,4 @@
-# NS2_MyCodes_LATEST
+# Network Models simulation using NS-2 simulator
 <!-- OL -->
 1. Files present:
   <!-- UL -->
