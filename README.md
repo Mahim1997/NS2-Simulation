@@ -1,20 +1,19 @@
 # Network Models simulation using NS-2 simulator
 <!-- OL -->
 1. Files present:
-  <!-- UL -->
-  * TCL Files (for modeling)
-  * Awk scripts (for post-processing)
-  * Shell scripts (for scripting)
-  * Modified .cpp files
+    <!-- UL -->
+    * TCL Files (for modeling)
+    * Awk scripts (for post-processing)
+    * Shell scripts (for scripting)
+    * Modified .cpp files
 
 2. Simulation Modes:
-  <!-- UL -->
-  Wireless 802.11 static network and Wireless 802.15.4 mobile network, cross-networksimulations between wired and static wireless mode, Satellite and LTE networks
-  * Wireless 802.11 static network
-  * Wireless 802.15.4 mobile network
-  * Cross-network simulations between wired and static wireless mode
-  * Satellite mode
-  * LTE network mode
+    <!-- UL -->
+    * Wireless 802.11 static network
+    * Wireless 802.15.4 mobile network
+    * Cross-network simulations between wired and static wireless mode
+    * Satellite mode
+    * LTE network mode
   
 3. Parameters varied:
     <!-- OL -->
