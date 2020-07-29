@@ -41,19 +41,19 @@
   
 
 4. Metrics considered for measurement:
-  <!-- UL -->
+    <!-- UL -->
 
-  * Network Throughput (Average and Instantaneous and Per-Node)
-  * End-to-end Delay
-  * Packet delivery and drop ratios
-  * Energy consumption
-  * Residual Energy per node
-  * Link-Queue variation
+    * Network Throughput (Average and Instantaneous and Per-Node)
+    * End-to-end Delay
+    * Packet delivery and drop ratios
+    * Energy consumption
+    * Residual Energy per node
+    * Link-Queue variation
 
 5. Experimented with modified simulation scenarios: 
-  <!-- UL -->
+    <!-- UL -->
 
-  * Congestion control mechanism
-  * Queue size variation (random drop instead of drop-tail)
-  * Modified RTT calculation mechanism
-  * Modified MAC-Layer protocol
+    * Congestion control mechanism
+    * Queue size variation (random drop instead of drop-tail)
+    * Modified RTT calculation mechanism
+    * Modified MAC-Layer protocol
