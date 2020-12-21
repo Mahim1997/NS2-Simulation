@@ -1,4 +1,4 @@
-# Network Models simulation using NS-2 simulator
+# Network Models simulation using NS-2 Simulator
 <!-- OL -->
 1. Files present:
     <!-- UL -->
